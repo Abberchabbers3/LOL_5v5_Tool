@@ -2,41 +2,71 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 import pandas as pd
+from collections import defaultdict
+
 
 class OpggScraper:
     CURRENT_SEASON = "S2025 S1"
 
-    def __init__(self, server: str, player_name: str, link=None):
+    def __init__(self, server="na", player_name="", link="", player_list=None, auto_scrape=False):
         self.driver = webdriver.Chrome()
-        if link:
-            self.player_name = link.split("=")[-1].replace("+", " ").replace("-", "#")
-            self.driver.get(link)
-        else:
-            self.player_name = player_name.replace(" #", "#").replace(" ", "+").replace("#", "-")
-            self.driver.get('https://' + server + '.op.gg/summoner/userName=' + self.player_name)
-        self.driver.implicitly_wait(1)
-        self.player_ranks = {}
+        self.link_map = dict()
+        self.player_ranks = defaultdict(dict)
+        self.player_game_ranks = defaultdict(dict)
+        if player_name:
+            self.add_player_by_name(server, player_name)
+        elif link:
+            self.add_player_by_link(link)
+        elif player_list:
+            self.add_players(player_list)
+        if auto_scrape:
+            for player in self.link_map:
+                self.scrape(player, self.link_map[player])
+
+    def add_player_by_name(self, server: str, player_name: str):
+        player_name = player_name.replace(" #", "#")
+        link = 'https://' + server + '.op.gg/summoner/userName=' + player_name.replace(" ", "+").replace("#", "-")
+        self.link_map[player_name] = link
+
+    def add_player_by_link(self, link: str):
+        player_name = link.split("/")[-1].replace("+", " ").replace("-", "#")
+        self.link_map[player_name] = link
+
+    def add_players(self, server_player_list):
+        for player in server_player_list:
+            if isinstance(player,str):
+                self.add_player_by_link(player)
+            elif isinstance(player, tuple) or isinstance(player, list):
+                self.add_player_by_name(player[0], player[1])
 
     def __str__(self):
-        print(self.player_name)
-        print(self.player_ranks)
+        output = ""
+        for player in self.link_map:
+            output += player + "\n"
+            output += str(self.player_ranks[player]) + "\n"
+        return output
 
-    def scrape(self):
+    def scrape(self, player, link):
+        self.driver.get(link)
+        self.driver.implicitly_wait(0.5)
         # Update profile if necessary
         # update_button = driver.find_element(By.XPATH, '//button[text()="Update"]')
         # print(update_button, update_button.text)
 
         # Scrape players current ranks
-        self.player_ranks = self.get_current_player_ranks()
+        self.player_ranks[player] = self.get_current_player_ranks()
 
         # Scrape players past ranks
-        self.player_ranks.update(self.get_past_player_ranks())
+        self.player_ranks[player].update(self.get_past_player_ranks())
         print(self)
 
         # Get avg elo of last 20 games
         self.recent_elo()
 
-        self.driver.quit()
+        # TODO create new function to change current link/player
+        # TODO create new function to end connection
+        # TODO Create mass scrape function
+        # TODO Change init to just create driver, then do auto scrape if link or person data entered
 
     def get_current_player_ranks(self):
         ranks = self.driver.find_elements(by=By.XPATH, value="//div[@id='content-container']/div[2]//div[@class='header']")
@@ -61,8 +91,13 @@ class OpggScraper:
     def recent_elo(self):
         pass
 
+    def quit(self):
+        self.driver.quit()
+
+
 if __name__ == '__main__':
     # scraper = OpggScraper("na", "ArCaNeAscension#THICC")  # test for unranked
     # scraper = OpggScraper("na", "soren#wolf")  # test for both ranked
-    scraper = OpggScraper("na", "Oreozx#NA1")  # test for just solo ranked
-    scraper.scrape()
+    # scraper = OpggScraper("na", "Oreozx#NA1")  # test for just solo ranked
+    scraper = OpggScraper(link="https://www.op.gg/summoners/na/SpaceDust-balls", auto_scrape=True)
+    scraper.quit()
