@@ -9,7 +9,10 @@ from selenium.webdriver.support import expected_conditions as EC
 
 class OpggScraper:
     CURRENT_SEASON = "S2025 S1"
-
+    # TODO Add scraping of players highest mastery champs
+    # TODO Add scraping of players most recent champs
+    # TODO Add scraping of role preferences
+    # TODO specialize role preferences into rank per role???
     def __init__(self, server="na", player_name="", link="", player_list=None, auto_scrape=False):
         self.link_map = dict()
         self.player_ranks = defaultdict(dict)
@@ -27,9 +30,11 @@ class OpggScraper:
             self.add_players(player_list)
 
         if auto_scrape:
-            for player in self.link_map:
-                self.scrape(player, self.link_map[player])
-            print(self)
+            self.scrape_all()
+
+    def scrape_all(self):
+        for player in self.link_map:
+            self.scrape(player, self.link_map[player])
 
     def add_player_by_name(self, server: str, player_name: str):
         player_name = player_name.replace(" #", "#")
@@ -66,6 +71,7 @@ class OpggScraper:
 
         # Scrape players current ranks
         player_ranks = self.get_current_player_ranks(self.driver)
+        print(player_ranks)
 
         # Scrape players past ranks
         player_ranks.update(self.get_past_player_ranks(self.driver))
@@ -88,16 +94,15 @@ class OpggScraper:
 
     def get_current_player_ranks(self, driver):
         try:
-            ranks = driver.find_elements(by=By.XPATH, value="//div[@id='content-container']//div[text()='Ranked Solo/Duo']")
-            for idx, i in enumerate(ranks[:1]):  # Maybe change to :2 to include flex?
-                if "Unranked" in i.text:
-                    curr_ranks = i.text.split("\n")
-                    # print(f"Current rank in {curr_ranks[0]} is {curr_ranks[1]}")
-                    return {self.CURRENT_SEASON: curr_ranks[1]}
-                else:
-                    curr_rank = i.find_element(by=By.XPATH, value="..//div[@class='tier']")
-                    # print(f"Current rank in {i.text} is {curr_rank.text}")
-                    return {self.CURRENT_SEASON: curr_rank.text}
+            rank = driver.find_element(by=By.XPATH, value="//span[text()='Ranked Solo/Duo']/..")
+            if "Unranked" in rank.text:
+                curr_ranks = rank.text.split("\n")
+                # print(f"Current rank in {curr_ranks[0]} is {curr_ranks[1]}")
+                return {self.CURRENT_SEASON: curr_ranks[1]}
+            else:
+                curr_rank = rank.find_element(by=By.XPATH, value="..//div[@class='tier']")
+                # print(f"Current rank in {i.text} is {curr_rank.text}")
+                return {self.CURRENT_SEASON: curr_rank.text}
         except selenium.common.exceptions.NoSuchElementException:
             return dict()
 
@@ -126,10 +131,10 @@ class OpggScraper:
 
 if __name__ == '__main__':
     # scraper = OpggScraper("na", "ArCaNeAscension#THICC")  # test for unranked
-    scraper = OpggScraper("na", "soren#wolf", auto_scrape=True)  # test for both ranked
+    # scraper = OpggScraper("na", "soren#wolf", auto_scrape=True)  # test for both ranked
     # scraper = OpggScraper("na", "Oreozx#NA1")  # test for just solo ranked
     # scraper = OpggScraper(link="https://www.op.gg/summoners/na/SpaceDust-balls", auto_scrape=True)
-    # scraper = OpggScraper(link="https://www.op.gg/summoners/na/Nation%20Of%20Nugs-NA1", auto_scrape=True)
+    scraper = OpggScraper(link="https://www.op.gg/summoners/na/Nation%20Of%20Nugs-NA1", auto_scrape=True)
     # p_list = [("na", "ArCaNeAscension#THICC"), ("na", "soren#wolf"), ("na", "Oreozx#NA1"),
     #           "https://www.op.gg/summoners/na/SpaceDust-balls", "https://www.op.gg/summoners/na/Nation%20Of%20Nugs-NA1"]
     # p_list.extend(["https://www.op.gg/summoners/na/Clítorís-42069", "https://www.op.gg/summoners/na/Kelso-69420",
@@ -138,4 +143,5 @@ if __name__ == '__main__':
     # p_list = [("na", "Oreozx#NA1"), "https://www.op.gg/summoners/na/whitehaven-111"]
     # scraper = OpggScraper(link="https://www.op.gg/summoners/na/whitehaven-111", auto_scrape=True)
     # scraper = OpggScraper(player_list=p_list, auto_scrape=True)
+    print(scraper)
     scraper.quit_driver()
