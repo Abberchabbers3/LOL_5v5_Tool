@@ -14,18 +14,18 @@ class OpggScraper:
     CURRENT_SEASON = "S2025 S1"
     # TODO Add scraping of players highest mastery champs
     # TODO Add scraping of players most recent champs
-    # TODO Add scraping of role preferences
-    # TODO specialize role preferences into rank per role???
+
     def __init__(self, server="na", player_name="", link="", player_list=None, auto_scrape=False):
         self.link_map = dict()
         self.player_ranks = defaultdict(dict)
         self.player_game_ranks = defaultdict(list)
         self.player_recent_roles = defaultdict(lambda: dict(top=0, jungle=0, mid=0, adc=0, supp=0))
-        self.driver_options = Options()
-        self.driver_options.add_argument('--blink-settings=imagesEnabled=false')
-        self.driver_options.add_argument('--disable-javascript')
-        self.driver = webdriver.Chrome(options=self.driver_options)
-        self.prev_button = 'TOTAL'
+        self.player_mastery = defaultdict(list)
+        self.player_champs = defaultdict(lambda: dict(top=[], jungle=[], mid=[], adc=[], supp=[]))
+        driver_options = Options()
+        driver_options.add_argument('--blink-settings=imagesEnabled=false')
+        driver_options.add_argument('--disable-javascript')
+        self.driver = webdriver.Chrome(options=driver_options)
 
         if player_name:
             self.add_player_by_name(server, player_name)
@@ -64,6 +64,8 @@ class OpggScraper:
             output += str(self.player_ranks[player]) + "\n"
             output += str(self.player_game_ranks[player]) + "\n"
             output += str(self.player_recent_roles[player]) + "\n"
+            output += str(self.player_mastery[player]) + "\n"
+            output += str(self.player_champs[player]) + "\n"
         return output
 
     def scrape(self, player, link):
@@ -81,9 +83,13 @@ class OpggScraper:
         # Scrape players past ranks
         self.player_ranks[player].update(self.get_past_player_ranks(self.driver))
 
+        #Scrape champ mastery
+        self.player_mastery[player] = self.update_player_mastery(self.driver)
+
         # Get avg elo of last 20 norm games
         self.player_game_ranks[player] = self.recent_elo(self.driver, "NORMAL", player)
         recent_game_roles = self.update_recent_roles(self.driver, "NORMAL",1, player)
+        recent_champs = self.get_recent_champs(self.driver, "NORMAL")
 
         #Get avg elo of last 20 ranked games
         self.player_game_ranks[player].extend(self.recent_elo(self.driver, "SOLORANKED", player))
@@ -98,6 +104,15 @@ class OpggScraper:
             while 'Available' not in time_since_update:
                 driver.implicitly_wait(0.1)
                 time_since_update = driver.find_element(by=By.CLASS_NAME, value="last-update").text
+
+    def update_player_mastery(self, driver):
+        try:
+            mastery = driver.find_elements(by=By.XPATH, value="//div[text() = 'Mastery']/..//strong[@class='champion-name']")
+            mastery = [m.get_attribute('textContent') for m in mastery]
+            return mastery
+        except selenium.common.exceptions.NoSuchElementException:
+            return []
+
 
     def get_current_player_ranks(self, driver):
         try:
@@ -125,7 +140,7 @@ class OpggScraper:
         except selenium.common.exceptions.NoSuchElementException:
             return dict()
 
-    def change_game_mode(self, driver, game_mode, player):
+    def change_game_mode(self, driver, game_mode):
         game_mode = game_mode.upper()
         start_url = driver.current_url
         if game_mode in start_url:
@@ -164,7 +179,7 @@ class OpggScraper:
     #     return True
 
     def update_recent_roles(self, driver, game_mode, mode_weight, curr_player_name):
-        if not self.change_game_mode(driver,game_mode, curr_player_name):
+        if not self.change_game_mode(driver,game_mode):
             return []
         try:
             all_players = driver.find_elements(by=By.XPATH, value="//div[@class='summoner-tooltip']//span")
@@ -184,7 +199,7 @@ class OpggScraper:
             return self.update_recent_roles(driver,game_mode,mode_weight,curr_player_name)
 
     def recent_elo(self, driver, game_mode, player):
-        if not self.change_game_mode(driver, game_mode, player):
+        if not self.change_game_mode(driver, game_mode):
             return []
         try:
             elo_list = driver.find_elements(by=By.CLASS_NAME, value="avg-tier")
@@ -193,6 +208,14 @@ class OpggScraper:
             return []
         except selenium.common.exceptions.StaleElementReferenceException:
             return self.recent_elo(driver, game_mode, player)
+
+    def get_recent_champs(self, driver, game_mode):
+        if not self.change_game_mode(driver, game_mode):
+            return []
+        try:
+            champs = driver.find_elements(by=By.XPATH, value="//div[@class='inner']//div[@class='info']")
+        except selenium.common.exceptions.NoSuchElementException:
+            return []
 
     def quit_driver(self):
         self.driver.quit()
