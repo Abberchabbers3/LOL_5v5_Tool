@@ -71,7 +71,6 @@ class OpggScraper:
 
         # Scrape players current ranks
         player_ranks = self.get_current_player_ranks(self.driver)
-        print(player_ranks)
 
         # Scrape players past ranks
         player_ranks.update(self.get_past_player_ranks(self.driver))
@@ -119,6 +118,7 @@ class OpggScraper:
             return dict()
 
     def recent_elo(self, driver):
+        # TODO click normal and/or ranked and get those games
         try:
             elo_list = driver.find_elements(by=By.CLASS_NAME, value="avg-tier")
             return [e.text for e in elo_list]
