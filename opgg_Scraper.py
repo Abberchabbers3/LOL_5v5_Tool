@@ -213,7 +213,7 @@ class OpggScraper:
         if not self.change_game_mode(driver, game_mode):
             return []
         try:
-            champs = driver.find_elements(by=By.XPATH, value="//div[@class='inner']//div[@class='info']")
+            champs = driver.find_elements(by=By.XPATH, value="//div[@class='inner']//div[@class='info']//")
         except selenium.common.exceptions.NoSuchElementException:
             return []
 
