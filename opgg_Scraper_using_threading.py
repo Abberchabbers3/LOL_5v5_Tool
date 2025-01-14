@@ -3,6 +3,8 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from collections import defaultdict
+import threading
+from concurrent.futures import ThreadPoolExecutor
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
@@ -14,10 +16,10 @@ class OpggScraper:
         self.link_map = dict()
         self.player_ranks = defaultdict(dict)
         self.player_game_ranks = defaultdict(list)
+        self.thread_lock = threading.Lock()
         self.driver_options = Options()
         self.driver_options.add_argument('--blink-settings=imagesEnabled=false')
         self.driver_options.add_argument('--disable-javascript')
-        self.driver = webdriver.Chrome(options=self.driver_options)
 
         if player_name:
             self.add_player_by_name(server, player_name)
@@ -27,13 +29,15 @@ class OpggScraper:
             self.add_players(player_list)
 
         if auto_scrape:
-            for player in self.link_map:
-                self.scrape(player, self.link_map[player])
+            with ThreadPoolExecutor() as executor:
+                futures = [executor.submit(self.scrape, player, self.link_map[player]) for player in self.link_map]
+                for future in futures:
+                    future.result()
             print(self)
 
     def add_player_by_name(self, server: str, player_name: str):
         player_name = player_name.replace(" #", "#")
-        link = 'https://www.op.gg/summoners/' + server + '/' + player_name.replace(" ", "%20").replace("#", "-")
+        link = 'https://' + server + '.op.gg/summoner/userName=' + player_name.replace(" ", "%20").replace("#", "-")
         self.link_map[player_name] = link
 
     def add_player_by_link(self, link: str):
@@ -56,25 +60,29 @@ class OpggScraper:
         return output
 
     def scrape(self, player, link):
-        self.driver.get(link)
-        WebDriverWait(self.driver, 5).until(
+        driver = webdriver.Chrome(options=self.driver_options)
+        driver.get(link)
+        WebDriverWait(driver, 5).until(
             EC.presence_of_element_located((By.XPATH, "//button//span[text()='Update']"))
         )
 
         # Update profile if necessary
-        self.update_profile(self.driver)
+        self.update_profile(driver)
 
         # Scrape players current ranks
-        player_ranks = self.get_current_player_ranks(self.driver)
+        player_ranks = self.get_current_player_ranks(driver)
 
         # Scrape players past ranks
-        player_ranks.update(self.get_past_player_ranks(self.driver))
+        player_ranks.update(self.get_past_player_ranks(driver))
 
         # Get avg elo of last 20 games
-        game_ranks = self.recent_elo(self.driver)
+        game_ranks = self.recent_elo(driver)
 
-        self.player_ranks[player] = player_ranks
-        self.player_game_ranks[player] = game_ranks
+        driver.quit()
+        # Lock needed to update shared dicts
+        with self.thread_lock:
+            self.player_ranks[player] = player_ranks
+            self.player_game_ranks[player] = game_ranks
 
     def update_profile(self, driver):
         update_button = driver.find_element(By.XPATH, '//button//span[text()="Update"]')
@@ -88,7 +96,7 @@ class OpggScraper:
 
     def get_current_player_ranks(self, driver):
         try:
-            ranks = driver.find_elements(by=By.XPATH, value="//div[@id='content-container']//div[text()='Ranked Solo/Duo']")
+            ranks = driver.find_elements(by=By.XPATH, value="//div[@id='content-container']/div[2]//div[@class='header']")
             for idx, i in enumerate(ranks[:1]):  # Maybe change to :2 to include flex?
                 if "Unranked" in i.text:
                     curr_ranks = i.text.split("\n")
@@ -103,7 +111,7 @@ class OpggScraper:
 
     def get_past_player_ranks(self, driver):
         try:
-            rank_list = driver.find_element(by=By.XPATH, value="//div[@id='content-container']//table[1]")
+            rank_list = driver.find_element(by=By.XPATH, value="//div[@id='content-container']/div[2]//table[1]")
 
             seasons = rank_list.find_elements(by=By.XPATH, value=".//b[@class='season']")
             past_ranks = rank_list.find_elements(by=By.XPATH, value=".//div[@class='rank-item']")
@@ -120,22 +128,15 @@ class OpggScraper:
         except selenium.common.exceptions.NoSuchElementException:
             return []
 
-    def quit_driver(self):
-        self.driver.quit()
-
 
 if __name__ == '__main__':
     # scraper = OpggScraper("na", "ArCaNeAscension#THICC")  # test for unranked
-    scraper = OpggScraper("na", "soren#wolf", auto_scrape=True)  # test for both ranked
+    # scraper = OpggScraper("na", "soren#wolf")  # test for both ranked
     # scraper = OpggScraper("na", "Oreozx#NA1")  # test for just solo ranked
     # scraper = OpggScraper(link="https://www.op.gg/summoners/na/SpaceDust-balls", auto_scrape=True)
     # scraper = OpggScraper(link="https://www.op.gg/summoners/na/Nation%20Of%20Nugs-NA1", auto_scrape=True)
-    # p_list = [("na", "ArCaNeAscension#THICC"), ("na", "soren#wolf"), ("na", "Oreozx#NA1"),
-    #           "https://www.op.gg/summoners/na/SpaceDust-balls", "https://www.op.gg/summoners/na/Nation%20Of%20Nugs-NA1"]
-    # p_list.extend(["https://www.op.gg/summoners/na/Clítorís-42069", "https://www.op.gg/summoners/na/Kelso-69420",
-    #                "https://www.op.gg/summoners/na/Hexos926-ADC", "https://www.op.gg/summoners/na/ApolloZSL-NA1",
-    #                "https://www.op.gg/summoners/na/CpapaSlice-NA1"])
+    p_list = [("na", "ArCaNeAscension#THICC"), ("na", "soren#wolf"), ("na", "Oreozx#NA1"), "https://www.op.gg/summoners/na/SpaceDust-balls", "https://www.op.gg/summoners/na/Nation%20Of%20Nugs-NA1"]
+    p_list.extend(["https://www.op.gg/summoners/na/Clítorís-42069", "https://www.op.gg/summoners/na/Kelso-69420", "https://www.op.gg/summoners/na/Hexos926-ADC", "https://www.op.gg/summoners/na/ApolloZSL-NA1", "https://www.op.gg/summoners/na/CpapaSlice-NA1"])
     # p_list = [("na", "Oreozx#NA1"), "https://www.op.gg/summoners/na/whitehaven-111"]
     # scraper = OpggScraper(link="https://www.op.gg/summoners/na/whitehaven-111", auto_scrape=True)
-    # scraper = OpggScraper(player_list=p_list, auto_scrape=True)
-    scraper.quit_driver()
+    scraper = OpggScraper(player_list=p_list, auto_scrape=True)
