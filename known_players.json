@@ -1,0 +1,339 @@
+{
+    "IversusSkaidon#NA1": {
+        "rank_score": 8.35,
+        "champs": {
+            "top": {
+                "Rengar": 1
+            },
+            "jungle": {
+                "Rengar": 14,
+                "Shaco": 1,
+                "Udyr": 1
+            },
+            "mid": {},
+            "adc": {
+                "Twitch": 3,
+                "Kai'Sa": 1
+            },
+            "supp": {}
+        },
+        "mastery": [
+            "Rengar",
+            "Shaco",
+            "Twitch",
+            "Udyr"
+        ],
+        "added_date": "2025-01-15T02:15:31.185224"
+    },
+    "OreoSnorter69#6969": {
+        "rank_score": 7.45,
+        "champs": {
+            "top": {
+                "Gnar": 2,
+                "Yorick": 3,
+                "Sion": 5,
+                "Nasus": 2,
+                "Trundle": 1,
+                "Kled": 2,
+                "Milio": 1
+            },
+            "jungle": {
+                "Sion": 3
+            },
+            "mid": {
+                "Yorick": 1
+            },
+            "adc": {
+                "Lucian": 1
+            },
+            "supp": {
+                "Milio": 1,
+                "Pyke": 2,
+                "Sion": 2,
+                "Taric": 1,
+                "Yorick": 1
+            }
+        },
+        "mastery": [
+            "Yorick",
+            "Kled",
+            "Milio",
+            "Sion"
+        ],
+        "added_date": "2025-01-15T02:19:09.821798"
+    },
+    "ArCaNeAscension#THICC": {
+        "rank_score": 13.78882,
+        "champs": {
+            "top": {
+                "Warwick": 1
+            },
+            "jungle": {
+                "Udyr": 1
+            },
+            "mid": {
+                "Aurelion Sol": 1,
+                "Lux": 2,
+                "Aurora": 1,
+                "Kai'Sa": 2,
+                "Jhin": 1
+            },
+            "adc": {
+                "Kai'Sa": 5,
+                "Jhin": 1,
+                "Vayne": 1,
+                "Swain": 1,
+                "Miss Fortune": 1,
+                "Ezreal": 1,
+                "Aurelion Sol": 1,
+                "Zoe": 1
+            },
+            "supp": {
+                "Zoe": 3,
+                "Kai'Sa": 1
+            }
+        },
+        "mastery": [
+            "Ezreal",
+            "Kai'Sa",
+            "Yasuo",
+            "Lux"
+        ],
+        "added_date": "2025-01-15T02:19:09.830311"
+    },
+    "soren#wolf": {
+        "rank_score": 20.20965,
+        "champs": {
+            "top": {},
+            "jungle": {
+                "Kindred": 23,
+                "Shyvana": 10
+            },
+            "mid": {},
+            "adc": {},
+            "supp": {
+                "Kindred": 1
+            }
+        },
+        "mastery": [
+            "Kindred",
+            "Shyvana",
+            "Kha'Zix",
+            "Lillia"
+        ],
+        "added_date": "2025-01-15T02:19:09.839843"
+    },
+    "SkillShotBait#555": {
+        "rank_score": 7.26083,
+        "champs": {
+            "top": {},
+            "jungle": {
+                "Mordekaiser": 2,
+                "Briar": 1,
+                "Nunu & Willump": 1
+            },
+            "mid": {},
+            "adc": {
+                "Hwei": 2
+            },
+            "supp": {
+                "Rakan": 1,
+                "Janna": 1,
+                "Soraka": 1,
+                "Tahm Kench": 5,
+                "Brand": 2,
+                "Neeko": 1,
+                "Karma": 1,
+                "Pyke": 1,
+                "Hwei": 1
+            }
+        },
+        "mastery": [
+            "Jhin",
+            "Mordekaiser",
+            "Caitlyn",
+            "Galio"
+        ],
+        "added_date": "2025-01-15T02:19:09.846355"
+    },
+    "Tactical Wizard#4242": {
+        "rank_score": 8.56697,
+        "champs": {
+            "top": {
+                "Thresh": 1
+            },
+            "jungle": {
+                "Kayn": 2,
+                "Thresh": 3,
+                "Mordekaiser": 1,
+                "Talon": 3,
+                "Ryze": 1,
+                "Lucian": 1
+            },
+            "mid": {
+                "Naafiri": 1,
+                "Thresh": 10,
+                "Mordekaiser": 1,
+                "Talon": 5,
+                "Ryze": 3,
+                "Lucian": 3
+            },
+            "adc": {
+                "Lucian": 1,
+                "Thresh": 1
+            },
+            "supp": {
+                "Thresh": 1,
+                "Naafiri": 1,
+                "Lucian": 1
+            }
+        },
+        "mastery": [
+            "Thresh",
+            "Pyke",
+            "Rengar",
+            "Aurelion Sol"
+        ],
+        "added_date": "2025-01-15T02:19:09.853878"
+    },
+    "S0ftLock#bear": {
+        "rank_score": 11.35906,
+        "champs": {
+            "top": {
+                "Volibear": 28,
+                "Shen": 2,
+                "Jayce": 2,
+                "Nautilus": 1,
+                "Lux": 1
+            },
+            "jungle": {},
+            "mid": {
+                "Aatrox": 1,
+                "Volibear": 1
+            },
+            "adc": {
+                "Lux": 1,
+                "Volibear": 1
+            },
+            "supp": {
+                "Aatrox": 1,
+                "Nautilus": 1
+            }
+        },
+        "mastery": [
+            "Volibear",
+            "Tryndamere",
+            "Gwen",
+            "Shen"
+        ],
+        "added_date": "2025-01-15T02:19:09.861390"
+    },
+    "The Holy Rat#NA1": {
+        "rank_score": 5.44,
+        "champs": {
+            "top": {
+                "Ornn": 2,
+                "Mordekaiser": 1
+            },
+            "jungle": {
+                "Rek'Sai": 1,
+                "Skarner": 4,
+                "Mordekaiser": 1,
+                "Nunu & Willump": 1,
+                "Dr. Mundo": 1
+            },
+            "mid": {
+                "Galio": 1,
+                "Naafiri": 1,
+                "Nunu & Willump": 6
+            },
+            "adc": {},
+            "supp": {
+                "Blitzcrank": 1
+            }
+        },
+        "mastery": [
+            "Skarner",
+            "Kayn",
+            "Kha'Zix",
+            "Akshan"
+        ],
+        "added_date": "2025-01-15T02:19:09.867910"
+    },
+    "Peanut Butter#AFnL": {
+        "rank_score": 6.68112,
+        "champs": {
+            "top": {
+                "Darius": 2,
+                "Tahm Kench": 1,
+                "Garen": 1,
+                "Yone": 1,
+                "Lux": 1
+            },
+            "jungle": {},
+            "mid": {
+                "Mordekaiser": 1,
+                "Yone": 1,
+                "Pantheon": 1,
+                "Morgana": 2
+            },
+            "adc": {
+                "Neeko": 1,
+                "Nautilus": 1,
+                "Maokai": 2,
+                "Ashe": 1,
+                "Lux": 1
+            },
+            "supp": {
+                "Lux": 2,
+                "Tahm Kench": 3,
+                "Morgana": 4,
+                "Nautilus": 3,
+                "Neeko": 1,
+                "Pantheon": 1,
+                "Maokai": 2,
+                "Ashe": 1,
+                "Mordekaiser": 1,
+                "Darius": 2,
+                "Yone": 2,
+                "Garen": 1
+            }
+        },
+        "mastery": [
+            "Yone",
+            "Lux",
+            "Morgana",
+            "Nautilus"
+        ],
+        "added_date": "2025-01-15T02:19:09.877424"
+    },
+    "ToppingSiren6#7998": {
+        "rank_score": 7.56788,
+        "champs": {
+            "top": {
+                "Swain": 1,
+                "Varus": 1
+            },
+            "jungle": {},
+            "mid": {
+                "Yone": 8,
+                "Swain": 16,
+                "Zed": 6,
+                "Varus": 1
+            },
+            "adc": {
+                "Zed": 1
+            },
+            "supp": {
+                "Yone": 1
+            }
+        },
+        "mastery": [
+            "Zed",
+            "Syndra",
+            "Yone",
+            "Aurelion Sol"
+        ],
+        "added_date": "2025-01-15T02:19:09.887955"
+    }
+}
