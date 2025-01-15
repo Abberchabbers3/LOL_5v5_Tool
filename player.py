@@ -1,5 +1,16 @@
+import random
+from itertools import groupby
+
 import Rank_handler
 from collections import Counter
+def shuffle_ties(role_chance):
+    result = []
+    for key, group in groupby(role_chance, key=lambda x: x[1]):
+        group = list(group)  # Convert the group to a list
+        if len(group) > 1:  # Shuffle if there's a tie
+            random.shuffle(group)
+        result.extend(group)
+    return result
 
 
 class Player:
@@ -14,6 +25,7 @@ class Player:
         total = max(1, sum([self.champs[role].total() for role in self.champs]))
         sorted_roles = sorted(self.champs, key=lambda role: self.champs[role].total(), reverse=True)
         self.role_chance = [(role, round(self.champs[role].total() / total, 2)) for role in sorted_roles]
+        self.role_chance = shuffle_ties(self.role_chance)
         self.preferred_roles = [role for role in sorted_roles if self.champs[role].total() > self.minimum_game_threshold]
 
     def __str__(self):
@@ -24,6 +36,10 @@ class Player:
         output += f"Preferred Roles: {self.preferred_roles}\n"
         output += f"Role_chances (testing only): {self.role_chance}\n"
         return output
+
+    def update_roles(self):
+        # TODO update how rank/role is handled; need to update match_maker too
+        pass
 
 
 if __name__ == '__main__':

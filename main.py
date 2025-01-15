@@ -38,16 +38,17 @@ def create_players_from_link_doc(link_doc):
 
 @app.route("/")
 def index():
-    return render_template("index.html", players=players, roles=dropdown_roles, ranks=dropdown_ranks)
+    return render_template("index.html", players=players, roles=dropdown_roles,
+                           ranks=dropdown_ranks, divisions = divisions)
 
 if __name__ == '__main__':
     players = create_players_from_link_doc("links.txt")
     # TODO implement simple Flask hosting
-    dropdown_roles = ["Top", "Jungle", "Mid", "ADC", "Support"]
+    players = sorted(players, key=lambda p: p.name)
+    dropdown_roles = ["supp", "top", "jungle", "mid", "adc"]
     dropdown_ranks = rank_to_points.keys()
+    divisions = ["N/A","1", "2", "3", "4"]
     app.run(debug=True)
-    # TODO Display all players on Flask, add dropdowns for changes
-
     # TODO Update player information based on dropdown changes
 
     # TODO (after testing) Save changes to known_players_json (set overwrite_time to False)
