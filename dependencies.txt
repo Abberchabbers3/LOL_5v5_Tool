@@ -1,3 +1,4 @@
 selenium
-pandas
-chromedriver_autoinstaller
+flask
+?: pandas
+?: chromedriver_autoinstaller

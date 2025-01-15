@@ -30,14 +30,19 @@ class StorageTool:
             with open(self.file_name, 'w') as file:
                 json.dump({}, file)
 
-    def add_player(self, player):
+    def add_player(self, player, overwrite_time=True):
         data = self._load_data()
+        if player.name in data and not overwrite_time:
+            date = data[player.name].get("added_date")
+        else:
+            date = datetime.now().isoformat()
+
         # Add the player data
         data[player.name] = {
             "rank_score": player.rank_score,
             "champs": {role: dict(player.champs[role]) for role in player.champs},
             "mastery": player.mastery,
-            "added_date": datetime.now().isoformat()
+            "added_date": date
         }
         self._save_data(data)
 

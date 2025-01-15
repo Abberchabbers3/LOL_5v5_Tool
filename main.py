@@ -1,12 +1,15 @@
 from opgg_Scraper import OpggScraper, convert_to_name
-from Rank_handler import RankHandler
+from Rank_handler import RankHandler, rank_to_points
 from player import Player
 from storage_tool import StorageTool
+from match_maker import MatchMaker
+from flask import Flask, render_template, request, redirect, url_for
 
+app = Flask(__name__)
 
-if __name__ == '__main__':
+def create_players_from_link_doc(link_doc):
     p_list = []
-    with open("links.txt") as player_file:
+    with open(link_doc) as player_file:
         for line in player_file:
             p_list.append(line.replace('\n', ''))
     # p_list = ["https://www.op.gg/summoners/na/IversusSkaidon-NA1"]
@@ -27,9 +30,27 @@ if __name__ == '__main__':
         rank_handler = RankHandler(scraper.player_ranks, scraper.player_game_ranks)
         # print(rank_handler)
         for player in rank_handler.player_scores:
-            p = Player(player, rank_handler.player_scores[player], scraper.player_champs[player], scraper.player_mastery[player])
+            p = Player(player, rank_handler.player_scores[player], scraper.player_champs[player],
+                       scraper.player_mastery[player])
             storage.add_player(p)
             players.append(p)
+    return players
 
-    for p in players:
-        print(p)
+@app.route("/")
+def index():
+    return render_template("index.html", players=players, roles=dropdown_roles, ranks=dropdown_ranks)
+
+if __name__ == '__main__':
+    players = create_players_from_link_doc("links.txt")
+    # TODO implement simple Flask hosting
+    dropdown_roles = ["Top", "Jungle", "Mid", "ADC", "Support"]
+    dropdown_ranks = rank_to_points.keys()
+    app.run(debug=True)
+    # TODO Display all players on Flask, add dropdowns for changes
+
+    # TODO Update player information based on dropdown changes
+
+    # TODO (after testing) Save changes to known_players_json (set overwrite_time to False)
+
+    match_algo = MatchMaker(players)
+    print(match_algo)
