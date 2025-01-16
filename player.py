@@ -27,6 +27,8 @@ class Player:
         self.role_chance = [(role, round(self.champs[role].total() / total, 2)) for role in sorted_roles]
         self.role_chance = shuffle_ties(self.role_chance)
         self.preferred_roles = [role for role in sorted_roles if self.champs[role].total() > self.minimum_game_threshold]
+        self.preferred_roles.append("flex")
+        # TODO make dict that links each role to a rank_score
 
     def __str__(self):
         output = ""

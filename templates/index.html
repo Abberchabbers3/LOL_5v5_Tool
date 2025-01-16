@@ -14,26 +14,24 @@
                 <th>Primary</th>
                 <th>Rank</th>
                 <th>Division</th>
-                <th>Secondary</th>
-                <th>Rank</th>
-                <th>Division</th>
-                <th>Action</th>
             </tr>
             {% for player in players %}
+            {% set player_index = loop.index0 %}
             <tr>
                 <td>{{ player.name }}</td>
+                {% for role_name in player.preferred_roles %}
                 <td>
-                    <select name="primary_role">
+                    <select name="role{{player_index}}{{loop.index0}}">
                         {% for role in roles %}
                         <option value="{{ role }}"
-                                {% if role == player.role_chance[0][0] %} selected {% endif %}>
+                                {% if role == role_name %} selected {% endif %}>
                             {{ role | capitalize }}
                         </option>
                         {% endfor %}
                     </select>
                 </td>
                 <td>
-                    <select name="prank">
+                    <select name="rank{{player_index}}{{loop.index0}}">
                         {% for rank in ranks %}
                         <option value="{{ rank }}" {% if rank in player.rank_str %} selected {% endif %}>
                             {{ rank }}
@@ -42,7 +40,7 @@
                     </select>
                 </td>
                 <td>
-                    <select name="pdivision">
+                    <select name="division{{player_index}}{{loop.index0}}">
                         {% for division in divisions %}
                         <option value="{{ division }}" {% if division in player.rank_str %} selected {% endif %}>
                             {{ division }}
@@ -50,40 +48,11 @@
                         {% endfor %}
                     </select>
                 </td>
-                <td>
-                    <select name="secondary_role">
-                        {% for role in roles %}
-                        <option value="{{ role }}"
-                                {% if role == player.role_chance[1][0] %} selected {% endif %}>
-                            {{ role | capitalize }}
-                        </option>
-                        {% endfor %}
-                    </select>
-                </td>
-                <td>
-                    <select name="srank">
-                        {% for rank in ranks %}
-                        <option value="{{ rank }}" {% if rank in player.rank_str %} selected {% endif %}>
-                            {{ rank }}
-                        </option>
-                        {% endfor %}
-                    </select>
-                </td>
-                <td>
-                    <select name="sdivision">
-                        {% for division in divisions %}
-                        <option value="{{ division }}" {% if division in player.rank_str %} selected {% endif %}>
-                            {{ division }}
-                        </option>
-                        {% endfor %}
-                    </select>
-                </td>
-                <td>
-                    <button type="submit" name="name" value="{{ player.name }}">Update</button>
-                </td>
+                {% endfor %}
             </tr>
             {% endfor %}
         </table>
+        <button type="submit">Update All Players</button>
     </form>
 </body>
 </html>

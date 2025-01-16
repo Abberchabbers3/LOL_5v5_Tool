@@ -36,18 +36,47 @@ def create_players_from_link_doc(link_doc):
             players.append(p)
     return players
 
+
 @app.route("/")
 def index():
     return render_template("index.html", players=players, roles=dropdown_roles,
-                           ranks=dropdown_ranks, divisions = divisions)
+                           ranks=dropdown_ranks, divisions=divisions)
+
+
+@app.route("/update_player", methods=["POST"])
+def update_player():
+    for i, player in enumerate(players):
+        # Fetch data for the current player
+        role_ranks = []
+        for k, _ in enumerate(player.preferred_roles):
+            new_role = request.form.get(f"role{i}{k}")
+            new_rank = request.form.get(f"rank{i}{k}")
+            new_division = request.form.get(f"division{i}{k}")
+            role_ranks.append((f"{new_role}", f"{new_rank}{" "+new_division if new_division != "N/A" else ""}"))
+            if new_role == "flex":
+                break
+
+        # Update player's attributes
+        if "flex" not in [role_rank[0] for role_rank in role_ranks] and len(role_ranks) < 5:
+            role_ranks.append(("flex", role_ranks[-1][1]))
+
+        player.preferred_roles = [role_rank[0] for role_rank in role_ranks]
+        # TODO need to rework player to allow different ranks per roll, update player score and role str
+        # player.preferred_roles[0] = new_role  # Assuming only one role can be updated
+        # player.rank_str = [new_rank, new_division]
+
+        print(f"Updated Player[{index}]: {player.name}, {role_ranks}")
+
+    return redirect(url_for("index"))
+
 
 if __name__ == '__main__':
     players = create_players_from_link_doc("links.txt")
     # TODO implement simple Flask hosting
     players = sorted(players, key=lambda p: p.name)
-    dropdown_roles = ["supp", "top", "jungle", "mid", "adc"]
+    dropdown_roles = ["supp", "top", "jungle", "mid", "adc", "flex"]
     dropdown_ranks = rank_to_points.keys()
-    divisions = ["N/A","1", "2", "3", "4"]
+    divisions = ["N/A", "1", "2", "3", "4"]
     app.run(debug=True)
     # TODO Update player information based on dropdown changes
 
