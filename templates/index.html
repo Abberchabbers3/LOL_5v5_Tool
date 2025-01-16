@@ -33,7 +33,7 @@
                 <td>
                     <select name="rank{{player_index}}{{loop.index0}}">
                         {% for rank in ranks %}
-                        <option value="{{ rank }}" {% if rank in player.rank_str %} selected {% endif %}>
+                        <option value="{{ rank }}" {% if rank in player.rank_str_by_role[role_name] %} selected {% endif %}>
                             {{ rank }}
                         </option>
                         {% endfor %}
@@ -42,7 +42,7 @@
                 <td>
                     <select name="division{{player_index}}{{loop.index0}}">
                         {% for division in divisions %}
-                        <option value="{{ division }}" {% if division in player.rank_str %} selected {% endif %}>
+                        <option value="{{ division }}" {% if division in player.rank_str_by_role[role_name] %} selected {% endif %}>
                             {{ division }}
                         </option>
                         {% endfor %}

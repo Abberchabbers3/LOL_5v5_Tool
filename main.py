@@ -60,12 +60,8 @@ def update_player():
         if "flex" not in [role_rank[0] for role_rank in role_ranks] and len(role_ranks) < 5:
             role_ranks.append(("flex", role_ranks[-1][1]))
 
-        player.preferred_roles = [role_rank[0] for role_rank in role_ranks]
-        # TODO need to rework player to allow different ranks per roll, update player score and role str
-        # player.preferred_roles[0] = new_role  # Assuming only one role can be updated
-        # player.rank_str = [new_rank, new_division]
-
-        print(f"Updated Player[{index}]: {player.name}, {role_ranks}")
+        player.update_roles(role_ranks)
+        # TODO Update player stats in known_players.json - Include role_ranks and preferred roles
 
     return redirect(url_for("index"))
 

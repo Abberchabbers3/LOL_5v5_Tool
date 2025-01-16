@@ -26,9 +26,12 @@ class Player:
         sorted_roles = sorted(self.champs, key=lambda role: self.champs[role].total(), reverse=True)
         self.role_chance = [(role, round(self.champs[role].total() / total, 2)) for role in sorted_roles]
         self.role_chance = shuffle_ties(self.role_chance)
-        self.preferred_roles = [role for role in sorted_roles if self.champs[role].total() > self.minimum_game_threshold]
+        self.preferred_roles = [role for role in sorted_roles if self.champs[role].total() > total * 0.1]
         self.preferred_roles.append("flex")
-        # TODO make dict that links each role to a rank_score
+        self.role_ranks = dict(top=rank_score, jungle=rank_score, mid=rank_score,
+                               adc=rank_score, supp=rank_score, flex=rank_score)
+        self.rank_str_by_role = {role: Rank_handler.score_to_str(rank) for role, rank in self.role_ranks.items()}
+        self.elo = 0
 
     def __str__(self):
         output = ""
@@ -39,9 +42,15 @@ class Player:
         output += f"Role_chances (testing only): {self.role_chance}\n"
         return output
 
-    def update_roles(self):
-        # TODO update how rank/role is handled; need to update match_maker too
-        pass
+    def update_roles(self, role_ranks):
+        self.preferred_roles = [role_rank[0] for role_rank in role_ranks]
+        self.rank_str_by_role.update({role_rank[0]: role_rank[1] for role_rank in role_ranks})
+        for role, rank_str in self.rank_str_by_role.items():
+            rank = Rank_handler.rank_to_num(rank_str)
+            if round(self.role_ranks[role]) != rank:
+                self.role_ranks[role] = rank
+        self.rank_score = self.role_ranks[self.preferred_roles[0]]
+        self.rank_str = self.rank_str_by_role[self.preferred_roles[0]]
 
 
 if __name__ == '__main__':

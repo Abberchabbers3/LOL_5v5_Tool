@@ -12,6 +12,13 @@ def score_to_str(score):
     return f"{points_to_rank[tier]} {division}" if division else points_to_rank[tier]
 
 
+def rank_to_num(rank: str):
+    rank = rank.split(" ")
+    if len(rank) > 1:
+        return rank_to_points[rank[0]] + (4-int(rank[1]))
+    return rank_to_points[rank[0]]
+
+
 class RankHandler:
 
     def __init__(self, player_ranks, player_game_ranks):
@@ -63,12 +70,6 @@ class RankHandler:
         split_diff = (current_year - season_year) * 3 + (current_split - season_split)
         # Weight decays exponentially with the split difference
         return max(0.05, 1.0 - 0.2 * split_diff)
-
-    def rank_to_num(self, rank: str):
-        rank = rank.split(" ")
-        if len(rank) > 1:
-            return rank_to_points[rank[0]] + (4-int(rank[1]))
-        return rank_to_points[rank[0]]
 
     def __str__(self):
         output = ""
