@@ -44,14 +44,14 @@ class RankHandler:
             if rank == 'Unranked':
                 continue
             weight = self.season_to_weight(season)
-            total_score += self.rank_to_num(rank) * weight
+            total_score += rank_to_num(rank) * weight
             total_weight += weight
         return total_score / total_weight if total_weight > 0 else -1
 
     def game_list_to_avg(self, player):
         total_score = 0
         for rank in self.player_game_ranks[player]:
-            total_score += self.rank_to_num(rank)
+            total_score += rank_to_num(rank)
         return total_score/len(self.player_game_ranks[player]) if len(self.player_game_ranks[player]) > 0 else -1
 
     def season_to_weight(self, season: str):

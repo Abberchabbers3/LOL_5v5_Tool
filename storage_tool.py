@@ -42,6 +42,8 @@ class StorageTool:
             "rank_score": player.rank_score,
             "champs": {role: dict(player.champs[role]) for role in player.champs},
             "mastery": player.mastery,
+            "role_ranks": player.role_ranks,
+            "preferred_roles": player.preferred_roles,
             "added_date": date
         }
         self._save_data(data)
@@ -59,8 +61,12 @@ class StorageTool:
             print(f"Data for {name} is too old, re-scraping")
             return None
         print(f"Data for {name} was found, data is {format_time_difference(datetime.now() - added_date)} old")
+        rank_scores = None
+        if player_data["role_ranks"]:
+            rank_scores = player_data["role_ranks"]
         player_object = Player(name, player_data['rank_score'],
-                               {r: Counter(data) for r, data in player_data['champs'].items()}, player_data['mastery'])
+                               {r: Counter(data) for r, data in player_data['champs'].items()}, player_data['mastery'], rank_scores)
+        player_object.set_preferred_roles(player_data['preferred_roles'])
         return player_object
 
     def _load_data(self):

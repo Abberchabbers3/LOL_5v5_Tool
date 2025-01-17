@@ -66,6 +66,12 @@ def update_player():
     return redirect(url_for("index"))
 
 
+@app.route("/make_teams", methods=["POST"])
+def make_team():
+    match_algo = MatchMaker(players)
+    print(match_algo)
+    return render_template("make_teams.html", match_data=str(match_algo))
+
 if __name__ == '__main__':
     players = create_players_from_link_doc("links.txt")
     # TODO implement simple Flask hosting
@@ -73,10 +79,8 @@ if __name__ == '__main__':
     dropdown_roles = ["supp", "top", "jungle", "mid", "adc", "flex"]
     dropdown_ranks = rank_to_points.keys()
     divisions = ["N/A", "1", "2", "3", "4"]
+
     app.run(debug=True)
-    # TODO Update player information based on dropdown changes
 
     # TODO (after testing) Save changes to known_players_json (set overwrite_time to False)
 
-    match_algo = MatchMaker(players)
-    print(match_algo)

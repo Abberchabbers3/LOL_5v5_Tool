@@ -13,7 +13,8 @@ class MatchMaker:
             output += f"{player}"
         output += f"Match roles: \n"
         for role, players in self.assignments.items():
-            output += f"{role}:\t{[f"{p.name}({p.rank_str})" for p in players]}, Lane diff: "
+            output += f"{role}:\t{[f"{p.name}({p.rank_str}){"(auto)" if role != p.preferred_roles[0] and p.preferred_roles[0] != "flex" else ""}"
+                                   for p in players]}, Lane diff: "
             if role in ["adc","supp"]:
                 output += f"{self.lane_diffs["bot"]}\n"
             else:
@@ -24,20 +25,22 @@ class MatchMaker:
     def greedy_start(self):
         low_to_high = sorted(self.players, key=lambda p: p.rank_score)
         for player in low_to_high:
+            # TODO Make this better; also maybe allow players to change role chance?
             for role, chance in player.role_chance:
                 if len(self.assignments[role]) < 2:  # Check if role is available
                     self.assignments[role].append(player)
                     break
-        print([(p.name, p.rank_score) for p in low_to_high])
+            # Idea for algorithm: for each player randomly assign a role based on self.role_chance; if full, kick highest mastery and/or oldest
+            # player out, then role for their new role; repeat until somewhat balanced?
 
     def calc_lane_diffs(self):
         lane_diffs = dict(top=0,jungle=0,mid=0,bot=0)
         for lane in lane_diffs:
             if lane != "bot":
-                lane_diffs[lane] = round(self.assignments[lane][1].rank_score - self.assignments[lane][0].rank_score,2)
+                lane_diffs[lane] = round(self.assignments[lane][1].role_ranks[lane] - self.assignments[lane][0].role_ranks[lane],2)
             else:
-                team2 = (self.assignments["adc"][1].rank_score + self.assignments["adc"][1].rank_score)/2
-                team1 = (self.assignments["adc"][0].rank_score + self.assignments["adc"][0].rank_score)/2
+                team2 = (self.assignments["adc"][1].role_ranks["adc"] + self.assignments["supp"][1].role_ranks["supp"])/2
+                team1 = (self.assignments["adc"][0].role_ranks["adc"] + self.assignments["supp"][0].role_ranks["supp"])/2
                 lane_diffs["bot"] = round(team2 - team1,2)
         return lane_diffs
 
