@@ -71,6 +71,12 @@ def update_player():
     return redirect(url_for("index"))
 
 
+def index_to_location(player_index):
+    roles = ["top", "jungle", "mid", "adc", "supp"]
+    role = roles[player_index // 2]
+    return role, player_index % 2
+
+
 @app.route('/swap_players', methods=['POST'])
 def swap_players():
     data = request.get_json()
@@ -79,28 +85,37 @@ def swap_players():
 
     player_indexes = data['players']
     try:
-        # swap players here
-        print(player_indexes)
-
-
-        return jsonify({"success": True}), 200
+        player_1 = index_to_location(player_indexes[0])
+        player_2 = index_to_location(player_indexes[1])
+        temp = match_algo.assignments[player_1[0]][player_1[1]]
+        match_algo.assignments[player_1[0]][player_1[1]] = match_algo.assignments[player_2[0]][player_2[1]]
+        match_algo.assignments[player_2[0]][player_2[1]] = temp
+        match_algo.lane_diffs = match_algo.calc_lane_diffs()
+        match_algo.best_match_diff = match_algo.calc_match_diff()
+        return jsonify({"success": "yay"}), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
 
 @app.route("/make_teams", methods=["POST"])
 def make_team():
+    global match_algo
     match_algo = MatchMaker(players)
-    # print(match_algo)
-    return render_template("make_teams.html", match_data=match_algo)
+    return redirect(url_for("display_teams"))
+
+
+@app.route("/display_teams")
+def display_teams():
+    return render_template("display_teams.html", match_data=match_algo)
+
 
 if __name__ == '__main__':
     players = create_players_from_link_doc("links.txt")
     players = sorted(players, key=lambda p: p.name)
-    dropdown_roles = ["supp", "top", "jungle", "mid", "adc", "flex"]
+    dropdown_roles = ["top", "jungle", "mid", "adc", "supp", "flex"]
     dropdown_ranks = rank_to_points.keys()
     divisions = ["N/A", "1", "2", "3", "4"]
-
+    match_algo = MatchMaker(players)
     app.run(debug=True)
 
 

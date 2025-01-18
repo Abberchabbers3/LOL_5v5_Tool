@@ -169,7 +169,7 @@ class OpggScraper:
         WebDriverWait(driver, 5).until(
             EC.url_contains(game_mode)
         )
-        #TODO Its possible for literally nothing to change during this time but the selected button; however this does not mean the rest has loaded
+        # TODO Its possible for literally nothing to change during this time but the selected button; however this does not mean the rest has loaded
         time.sleep(1)
         return True
 

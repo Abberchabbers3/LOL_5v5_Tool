@@ -12,7 +12,7 @@
         .player-grid {
             display: grid;
             grid-template-columns: 1fr auto 1fr;
-            gap: 10px;
+            grid-gap: 0 10px;
             align-items: center;
         }
         .player-card {
@@ -100,7 +100,6 @@
                 })
                 .then(response => {
                     if (response.ok) {
-                        alert('Players swapped successfully!');
                         location.reload();
                     } else {
                         return response.json().then(data => {

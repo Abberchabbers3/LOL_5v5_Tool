@@ -22,7 +22,6 @@ class Player:
         total = max(1, sum([self.champs[role].total() for role in self.champs]))
         sorted_roles = sorted(self.champs, key=lambda role: self.champs[role].total(), reverse=True)
         self.preferred_roles = [role for role in sorted_roles if self.champs[role].total() > total * 0.1]
-        # TODO look into bug if all 5 roles are selected / filled out?
         self.preferred_roles.append("flex")
         if role_ranks:
             self.role_ranks = role_ranks
@@ -66,7 +65,7 @@ class Player:
                                       for role in ["supp", "top", "jungle", "mid", "adc"] if role not in self.preferred_roles})
         for role, rank_str in self.rank_str_by_role.items():
             rank = Rank_handler.rank_to_num(rank_str)
-            if round(self.role_ranks[role]) != rank:
+            if int(self.role_ranks[role]) != rank:
                 self.role_ranks[role] = rank
         self.rank_score = self.role_ranks[self.preferred_roles[0]]
         self.rank_str = self.rank_str_by_role[self.preferred_roles[0]]
@@ -108,8 +107,6 @@ class Player:
                     self.role_chances[role] += 1
                     total -= 1
 
-
-
     # def shuffle_ties(self):
     #     result = []
     #     for key, group in groupby(self.preferred_roles, key=lambda x: self.role_chances['role']):
@@ -118,9 +115,6 @@ class Player:
     #             random.shuffle(group)
     #         result.extend(group)
     #     return result
-
-
-
 
 
 if __name__ == '__main__':
