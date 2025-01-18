@@ -1,15 +1,16 @@
 {
     "OreoSnorter69#6969": {
-        "rank_score": 7.42407,
+        "rank_score": 7.24259,
         "champs": {
             "top": {
-                "Yorick": 7,
-                "Sion": 4,
+                "Yorick": 8,
+                "Sion": 3,
                 "Gnar": 2,
                 "Nasus": 1,
                 "Nautilus": 1
             },
             "jungle": {
+                "Yorick": 1,
                 "Sion": 3
             },
             "mid": {
@@ -23,7 +24,6 @@
                 "Milio": 1,
                 "Pyke": 2,
                 "Sion": 2,
-                "Taric": 1,
                 "Yorick": 1
             }
         },
@@ -34,12 +34,19 @@
             "Sion"
         ],
         "role_ranks": {
-            "top": 7.42407,
-            "jungle": 7.42407,
-            "mid": 7.42407,
-            "adc": 7.42407,
-            "supp": 7.42407,
-            "flex": 7.42407
+            "top": 7.24259,
+            "jungle": 7.24259,
+            "mid": 7.24259,
+            "adc": 7.24259,
+            "supp": 7.24259,
+            "flex": 7.24259
+        },
+        "role_chances": {
+            "top": 53,
+            "supp": 24,
+            "jungle": 14,
+            "mid": 3,
+            "adc": 3
         },
         "preferred_roles": [
             "top",
@@ -47,10 +54,10 @@
             "jungle",
             "flex"
         ],
-        "added_date": "2025-01-16T14:50:08.473689"
+        "added_date": "2025-01-16T23:34:55.712788"
     },
     "ArCaNeAscension#THICC": {
-        "rank_score": 13.78882,
+        "rank_score": 13.83257,
         "champs": {
             "top": {
                 "Warwick": 1
@@ -87,12 +94,19 @@
             "Lux"
         ],
         "role_ranks": {
-            "top": 13.78882,
-            "jungle": 13.78882,
-            "mid": 13.78882,
-            "adc": 13.78882,
-            "supp": 13.78882,
-            "flex": 13.78882
+            "top": 13.83257,
+            "jungle": 13.83257,
+            "mid": 13.83257,
+            "adc": 13.83257,
+            "supp": 13.83257,
+            "flex": 13.83257
+        },
+        "role_chances": {
+            "adc": 48,
+            "mid": 28,
+            "supp": 16,
+            "top": 4,
+            "jungle": 4
         },
         "preferred_roles": [
             "adc",
@@ -100,10 +114,10 @@
             "supp",
             "flex"
         ],
-        "added_date": "2025-01-16T14:50:08.482723"
+        "added_date": "2025-01-16T23:34:55.721302"
     },
     "soren#wolf": {
-        "rank_score": 20.65882,
+        "rank_score": 20.50662,
         "champs": {
             "top": {},
             "jungle": {
@@ -121,18 +135,25 @@
             "Lillia"
         ],
         "role_ranks": {
-            "top": 20.65882,
-            "jungle": 20.65882,
-            "mid": 20.65882,
-            "adc": 20.65882,
-            "supp": 20.65882,
-            "flex": 20.65882
+            "top": 20.50662,
+            "jungle": 20.50662,
+            "mid": 20.50662,
+            "adc": 20.50662,
+            "supp": 20.50662,
+            "flex": 20.50662
+        },
+        "role_chances": {
+            "jungle": 100,
+            "top": 0,
+            "mid": 0,
+            "adc": 0,
+            "supp": 0
         },
         "preferred_roles": [
             "jungle",
             "flex"
         ],
-        "added_date": "2025-01-16T14:50:08.488728"
+        "added_date": "2025-01-16T23:34:55.728310"
     },
     "SkillShotBait#555": {
         "rank_score": 7.17333,
@@ -173,27 +194,35 @@
             "supp": 7.17333,
             "flex": 7.17333
         },
+        "role_chances": {
+            "supp": 64,
+            "jungle": 24,
+            "adc": 10,
+            "top": 0,
+            "mid": 0
+        },
         "preferred_roles": [
             "supp",
             "jungle",
             "flex"
         ],
-        "added_date": "2025-01-16T14:50:08.494728"
+        "added_date": "2025-01-16T23:34:55.735841"
     },
     "Tactical Wizard#4242": {
-        "rank_score": 8.90231,
+        "rank_score": 8.85501,
         "champs": {
             "top": {},
             "jungle": {
                 "Kayn": 1,
-                "Thresh": 6,
-                "Talon": 4,
-                "Ryze": 1,
-                "Lucian": 3
+                "Thresh": 7,
+                "Naafiri": 1,
+                "Ryze": 2,
+                "Talon": 1,
+                "Lucian": 2
             },
             "mid": {
                 "Naafiri": 1,
-                "Thresh": 6,
+                "Thresh": 5,
                 "Mordekaiser": 1,
                 "Talon": 4,
                 "Ryze": 2,
@@ -205,10 +234,10 @@
             },
             "supp": {
                 "Thresh": 3,
-                "Naafiri": 1,
                 "Mordekaiser": 1,
                 "Kayn": 1,
-                "Ryze": 1
+                "Talon": 3,
+                "Lucian": 1
             }
         },
         "mastery": [
@@ -218,12 +247,19 @@
             "Aurelion Sol"
         ],
         "role_ranks": {
-            "top": 8.90231,
-            "jungle": 8.90231,
-            "mid": 8.90231,
-            "adc": 8.90231,
-            "supp": 8.90231,
-            "flex": 8.90231
+            "top": 8.85501,
+            "jungle": 8.85501,
+            "mid": 8.85501,
+            "adc": 8.85501,
+            "supp": 8.85501,
+            "flex": 8.85501
+        },
+        "role_chances": {
+            "mid": 37,
+            "jungle": 34,
+            "supp": 22,
+            "adc": 4,
+            "top": 0
         },
         "preferred_roles": [
             "mid",
@@ -231,7 +267,7 @@
             "supp",
             "flex"
         ],
-        "added_date": "2025-01-16T14:50:08.500721"
+        "added_date": "2025-01-16T23:34:55.742723"
     },
     "IversusSkaidon#NA1": {
         "rank_score": 8.52105,
@@ -264,12 +300,19 @@
             "supp": 8.52105,
             "flex": 8.52105
         },
+        "role_chances": {
+            "jungle": 47,
+            "adc": 47,
+            "supp": 4,
+            "top": 0,
+            "mid": 0
+        },
         "preferred_roles": [
             "jungle",
             "adc",
             "flex"
         ],
-        "added_date": "2025-01-16T14:50:08.507735"
+        "added_date": "2025-01-16T23:34:55.758968"
     },
     "S0ftLock#bear": {
         "rank_score": 11.45805,
@@ -305,11 +348,18 @@
             "supp": 11.45805,
             "flex": 11.45805
         },
+        "role_chances": {
+            "top": 85,
+            "mid": 5,
+            "supp": 5,
+            "adc": 2,
+            "jungle": 0
+        },
         "preferred_roles": [
             "top",
             "flex"
         ],
-        "added_date": "2025-01-16T14:50:08.513813"
+        "added_date": "2025-01-16T23:34:55.772810"
     },
     "The Holy Rat#NA1": {
         "rank_score": 5.43615,
@@ -347,16 +397,23 @@
             "supp": 5.43615,
             "flex": 5.43615
         },
+        "role_chances": {
+            "jungle": 42,
+            "mid": 42,
+            "top": 15,
+            "adc": 0,
+            "supp": 0
+        },
         "preferred_roles": [
             "jungle",
             "mid",
             "top",
             "flex"
         ],
-        "added_date": "2025-01-16T14:50:08.519726"
+        "added_date": "2025-01-16T23:34:55.778816"
     },
     "Peanut Butter#AFnL": {
-        "rank_score": 6.64328,
+        "rank_score": 6.65274,
         "champs": {
             "top": {
                 "Darius": 5,
@@ -367,23 +424,24 @@
             "jungle": {},
             "mid": {
                 "Yone": 2,
-                "Darius": 2,
+                "Darius": 1,
                 "Mordekaiser": 1,
-                "Tahm Kench": 1,
-                "Garen": 1
+                "Garen": 1,
+                "Neeko": 1,
+                "Pantheon": 1
             },
             "adc": {
-                "Nautilus": 2,
-                "Pantheon": 1,
-                "Morgana": 2,
-                "Yone": 1
+                "Darius": 1,
+                "Morgana": 1,
+                "Yone": 1,
+                "Nautilus": 1
             },
             "supp": {
                 "Lux": 2,
-                "Tahm Kench": 2,
-                "Morgana": 4,
-                "Nautilus": 2,
-                "Neeko": 2,
+                "Tahm Kench": 3,
+                "Morgana": 5,
+                "Nautilus": 3,
+                "Neeko": 1,
                 "Pantheon": 1,
                 "Darius": 3,
                 "Yone": 2,
@@ -397,24 +455,30 @@
             "Nautilus"
         ],
         "role_ranks": {
-            "top": 6.64328,
-            "jungle": 6.64328,
-            "mid": 6.64328,
-            "adc": 6.64328,
-            "supp": 6.64328,
-            "flex": 6.64328
+            "top": 6.65274,
+            "jungle": 6.65274,
+            "mid": 6.65274,
+            "adc": 6.65274,
+            "supp": 6.65274,
+            "flex": 6.65274
+        },
+        "role_chances": {
+            "supp": 52,
+            "top": 20,
+            "mid": 17,
+            "adc": 10,
+            "jungle": 0
         },
         "preferred_roles": [
             "supp",
             "top",
             "mid",
-            "adc",
             "flex"
         ],
-        "added_date": "2025-01-16T14:50:08.527689"
+        "added_date": "2025-01-16T23:34:55.786906"
     },
     "ToppingSiren6#7998": {
-        "rank_score": 7.5948,
+        "rank_score": 7.5638,
         "champs": {
             "top": {
                 "Swain": 1,
@@ -441,17 +505,24 @@
             "Aurelion Sol"
         ],
         "role_ranks": {
-            "top": 7.5948,
-            "jungle": 7.5948,
-            "mid": 7.5948,
-            "adc": 7.5948,
-            "supp": 7.5948,
-            "flex": 7.5948
+            "top": 7.5638,
+            "jungle": 7.5638,
+            "mid": 7.5638,
+            "adc": 7.5638,
+            "supp": 7.5638,
+            "flex": 7.5638
+        },
+        "role_chances": {
+            "mid": 88,
+            "top": 5,
+            "adc": 2,
+            "supp": 2,
+            "jungle": 0
         },
         "preferred_roles": [
             "mid",
             "flex"
         ],
-        "added_date": "2025-01-16T14:50:08.534692"
+        "added_date": "2025-01-16T23:34:55.795188"
     }
 }

@@ -26,15 +26,17 @@ class MatchMaker:
         low_to_high = sorted(self.players, key=lambda p: p.rank_score)
         for player in low_to_high:
             # TODO Make this better; also maybe allow players to change role chance?
-            for role, chance in player.role_chance:
+            # Need to rework this
+            for role, chance in player.role_chances.items():
                 if len(self.assignments[role]) < 2:  # Check if role is available
                     self.assignments[role].append(player)
                     break
-            # Idea for algorithm: for each player randomly assign a role based on self.role_chance; if full, kick highest mastery and/or oldest
+            # Idea for algorithm: for each player randomly assign a role based on self.role_chance; if full
+            # keep two closest together (by rank) players and kick the other
             # player out, then role for their new role; repeat until somewhat balanced?
 
     def calc_lane_diffs(self):
-        lane_diffs = dict(top=0,jungle=0,mid=0,bot=0)
+        lane_diffs = dict(top=0, jungle=0, mid=0, adc=0, supp=0, bot=0)
         for lane in lane_diffs:
             if lane != "bot":
                 lane_diffs[lane] = round(self.assignments[lane][1].role_ranks[lane] - self.assignments[lane][0].role_ranks[lane],2)
@@ -45,7 +47,7 @@ class MatchMaker:
         return lane_diffs
 
     def calc_match_diff(self):
-        return sum(self.lane_diffs[lane] for lane in self.lane_diffs)
+        return sum(self.lane_diffs[lane] for lane in self.lane_diffs if lane != "bot")
 
 
 if __name__ == '__main__':

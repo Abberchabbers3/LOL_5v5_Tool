@@ -20,6 +20,7 @@
             <tr>
                 <td>{{ player.name }}</td>
                 {% for role_name in player.preferred_roles %}
+                {% set role_index = loop.index0 %}
                 <td>
                     <select name="role{{player_index}}{{loop.index0}}">
                         {% for role in roles %}
@@ -47,6 +48,21 @@
                         </option>
                         {% endfor %}
                     </select>
+                </td>
+                <td>
+                    {% if role_name == "flex" %}
+                        {% set ns = namespace(total=0) %}
+                        {% for other_role in player.preferred_roles[:-1] %}
+                            {% set ns.total = ns.total + player.role_chances[other_role] %}
+                        {% endfor %}
+                        <input type="number" name="chance{{ player_index }}{{ role_index }}"
+                               value="{{ 100 - ns.total }}"
+                               min="0" readonly style="width: 50px;"/>
+                    {% else %}
+                        <input type="number" name="chance{{ player_index }}{{ role_index }}"
+                               value="{{ player.role_chances[role_name] }}"
+                               min="0" max = "90" step = "1" style="width: 50px;"/>
+                    {% endif %}
                 </td>
                 {% endfor %}
             </tr>
