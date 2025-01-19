@@ -8,19 +8,27 @@
         body {
             font-family: Arial, sans-serif;
             margin: 20px;
+            background-color: #2c2f33;
+            color: #ffffff;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #f1f1f1;
         }
         .player-grid {
             display: grid;
             grid-template-columns: 1fr auto 1fr;
-            grid-gap: 0 10px;
             align-items: center;
+            gap: 10px;
         }
         .player-card {
-            border: 1px solid #ccc;
+            background-color: #36393f;
+            border: 1px solid #444;
             border-radius: 8px;
             padding: 10px;
             text-align: center;
-            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
         }
         .rank-diff {
             text-align: center;
@@ -32,24 +40,18 @@
             align-items: center;
             gap: 5px;
             min-width: 100px;
+            background-color: #444;
+            color: white;
         }
         .rank-diff.positive {
             background-color: #28a745;
-            color: white;
-            flex-direction: row-reverse;
         }
         .rank-diff.negative {
             background-color: #dc3545;
-            color: white;
-            flex-direction: row;
         }
         .rank-diff span.arrow {
             font-size: 14px;
             font-weight: bold;
-        }
-        .spacer {
-            grid-column: span 1;
-            height: 0;
         }
         .total-diff {
             margin-top: 20px;
@@ -57,25 +59,33 @@
             text-align: center;
             font-weight: bold;
             font-size: 18px;
-            border: 1px solid #ccc;
             border-radius: 8px;
-            background-color: #f8f9fa;
-            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            background-color: #444;
+            color: white;
         }
         button.swap-button {
             margin-top: 10px;
             padding: 5px 10px;
-            background-color: #007BFF;
+            background-color: #7289da;
             color: white;
             border: none;
             border-radius: 4px;
             cursor: pointer;
         }
         button.swap-button:hover {
-            background-color: #0056b3;
+            background-color: #5a6fb2;
         }
         button.swap-button.active {
-            background-color: #28a745;
+            background-color: #43b581;
+        }
+        a {
+            color: #7289da;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .spacer {
         }
     </style>
     <script>
@@ -153,8 +163,8 @@
             {% endfor %}
 
             {% if role == 'adc' %}
-                <!-- Insert the bot lane diff here -->
                 <div class="spacer"></div>
+                <!-- Insert the bot lane diff here -->
                 <div class="rank-diff {{ 'positive' if match_data.lane_diffs['bot'] > 0 else 'negative' }}">
                     <span class="arrow">{{ '→' if match_data.lane_diffs['bot'] > 0 else '←' }}</span>
                     Avg Bot Diff: {{ match_data.lane_diffs['bot'] }}

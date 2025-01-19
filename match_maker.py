@@ -1,8 +1,13 @@
 import random
-from collections import deque
+from collections import deque, Counter
+
+from player import Player
+
 
 class MatchMaker:
+    # TODO currently match_maker assumes exactly 10 players, fix this and let it create multiple teams
     def __init__(self, player_list):
+        self.pair_cache = dict()
         self.players = player_list
         self.assignments = dict(top=[], jungle=[], mid=[], adc=[], supp=[])
         # self.greedy_start()
@@ -12,7 +17,6 @@ class MatchMaker:
         self.balance_teams()
         self.lane_diffs = self.calc_lane_diffs()
         self.best_match_diff = self.calc_match_diff()
-        print(self)
 
     def __str__(self):
         output = ""
@@ -22,10 +26,8 @@ class MatchMaker:
         for role, players in self.assignments.items():
             output += f"{role}:\t{[f"{p.name}({p.rank_str}){"(auto)" if role not in p.preferred_roles and p.preferred_roles[0] != "flex" else ""}"
                                    for p in players]}, Lane diff: "
-            # if role in ["adc", "supp"]:
-            #     output += f"{self.lane_diffs["bot"]}\n"
-            # else:
             output += f"{self.lane_diffs[role]}\n"
+        output += f"Bot diff: {self.lane_diffs["bot"]}\n"
         output += f"Total Match Diff: {self.best_match_diff}"
         return output
 
@@ -42,20 +44,23 @@ class MatchMaker:
             # player out, then roll for their new role; repeat until somewhat balanced?
 
     def balance_roles(self):
-        queue = deque([p for p in self.players])
+        loser_count = Counter()
+        # Random shuffle players for fairness as final tie-break is who was placed first
+        queue = deque(random.sample([p for p in self.players], len(self.players)))
         while queue:
             player = queue.popleft()
             role_choices = list(player.role_chances.keys())
             role_weights = list(player.role_chances.values())
             role = random.choices(role_choices, role_weights, k=1)[0]
-            print(player.name, role)
-            if len(self.assignments[role]) > 1:
-                player_group = self.get_best_pair(role, self.assignments[role][0], self.assignments[role][1], player)
+            if len(self.assignments[role]) >= 2:
+                player_group = self.get_best_pair(role, [self.assignments[role][0], self.assignments[role][1], player])
                 self.assignments[role] = list(player_group[:2])
-                # TODO modify loser?
+                # TODO modify loser? based on loser count?
+                loser_count[player_group[2].name] += 1
                 queue.append(player_group[2])
             else:
                 self.assignments[role].append(player)
+        print(loser_count.most_common())
 
     def balance_teams(self):
         """
@@ -77,7 +82,6 @@ class MatchMaker:
             swap_sequences.append(new_list)
         best_swaps = []
         best_sum = self.best_match_diff
-        print(swap_sequences)
         for gen in swap_sequences:
             for swap_list in gen:
                 swap_value = sum([-1*self.lane_diffs[lane] if lane in swap_list else self.lane_diffs[lane]
@@ -86,18 +90,12 @@ class MatchMaker:
                 bot_swap_value = sum([-1*self.lane_diffs[lane] if lane in swap_list else self.lane_diffs[lane]
                                   for lane in ['adc', 'supp']]) / 2
                 swap_value += bot_swap_value
-                print(swap_value, swap_list)
                 # want to find if target + swap_value closest to 0
                 if abs(swap_value) < abs(best_sum):
-                    print(f"{best_sum} worse than {swap_value}", swap_list)
                     best_sum = swap_value
                     best_swaps = swap_list
         for swap in best_swaps:
-            print(f"swapped: {swap}")
             self.assignments[swap] = self.assignments[swap][::-1]
-
-
-
 
     def calc_lane_diffs(self):
         lane_diffs = dict(top=0, jungle=0, mid=0, adc=0, supp=0, bot=0)
@@ -113,19 +111,45 @@ class MatchMaker:
     def calc_match_diff(self):
         return round(sum(self.lane_diffs[lane] for lane in self.lane_diffs if lane != "adc" and lane != "supp"), 2)
 
-    def get_best_pair(self, role, player1, player2, player3):
-        # TODO prioritize non-off roles
-        # TODO prioritize closeness in rank
-        # TODO ties broken by person with higher chance score
-        # TODO further ties broken by ???
-        return player1, player2, player3
+    def get_best_pair(self, role: str, players: list[Player]) -> list[Player]:
+        # Players will be cached only if get_best_pair ends in a deterministic outcome, i.e. based on score
+        if tuple(sorted(players, key=lambda x: x.name)) in self.pair_cache:
+            return self.pair_cache[tuple(sorted(players, key=lambda x: x.name))]
+        shuffled = random.sample(players, len(players))
+        # Find the player who has the role at lowest priority, if ties sort by scores
+        for i in range(5):
+            roles = []
+            for idx, player in enumerate(shuffled):
+                if i >= len(player.preferred_roles):
+                    return shuffled[:idx] + shuffled[idx + 1:] + [shuffled[idx]]
+                roles.append(player.preferred_roles[i])
+            roles = [player.preferred_roles[i] for player in shuffled]
+            if role in roles:
+                for idx, player_role in enumerate(roles):
+                    if role != player_role:
+                        return shuffled[:idx] + shuffled[idx+1:] + [shuffled[idx]]
+        score_map = {player: dict() for player in players}
+        for player in score_map:
+            for other_player in [p for p in players if p != player]:
+                score_map[player][other_player] = abs(player.role_ranks[role] - other_player.role_ranks[role])
+        # find best
+        best_pairs = []
+        for player, others in score_map.items():
+            best = 1000
+            best_player = None
+            for other_player, score in others.items():
+                if score < best:
+                    best = score
+                    best_player = other_player
+            best_pairs.append((best, player, best_player))
+        best_pairs.sort(key=lambda x: x[0])
+        best_players = Counter()
+        for pair in best_pairs:
+            best_players[pair[1]] += 1
+            best_players[pair[2]] += 1
+        self.pair_cache[tuple(sorted(players, key=lambda x: x.name))] = [counts[0] for counts in best_players.most_common()]
+        return [counts[0] for counts in best_players.most_common()]
 
 
 if __name__ == '__main__':
-    role_chances = {
-        "top": 53,
-        "supp": 24,
-        "jungle": 14,
-        "mid": 3,
-        "adc": 3
-    }
+    pass

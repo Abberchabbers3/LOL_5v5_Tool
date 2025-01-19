@@ -8,7 +8,7 @@ from collections import Counter
 class Player:
     minimum_game_threshold = 5
 
-    def __init__(self, name, rank_score, champs_played, mastery, role_ranks=None, role_chances=None):
+    def __init__(self, name, rank_score, champs_played, mastery, role_ranks=None, role_chances=None, preferred_roles=None):
         """
         :param name: Name of the player
         :param rank_score: rank_score, typically calculated by rank handler, int from 0-36
@@ -21,8 +21,11 @@ class Player:
         self.mastery = mastery
         total = max(1, sum([self.champs[role].total() for role in self.champs]))
         sorted_roles = sorted(self.champs, key=lambda role: self.champs[role].total(), reverse=True)
-        self.preferred_roles = [role for role in sorted_roles if self.champs[role].total() > total * 0.1]
-        self.preferred_roles.append("flex")
+        if preferred_roles:
+            self.preferred_roles = preferred_roles
+        else:
+            self.preferred_roles = [role for role in sorted_roles if self.champs[role].total() > total * 0.1]
+            self.preferred_roles.append("flex")
         if role_ranks:
             self.role_ranks = role_ranks
             self.rank_str_by_role = {role: Rank_handler.score_to_str(rank) for role, rank in self.role_ranks.items()}
@@ -70,9 +73,6 @@ class Player:
         self.rank_score = self.role_ranks[self.preferred_roles[0]]
         self.rank_str = self.rank_str_by_role[self.preferred_roles[0]]
         self.validate_chances()
-
-    def set_preferred_roles(self, pref_roles):
-        self.preferred_roles = pref_roles
 
     def validate_chances(self, max_chance=90):
         """

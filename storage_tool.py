@@ -64,8 +64,7 @@ class StorageTool:
         print(f"Data for {name} was found, data is {format_time_difference(datetime.now() - added_date)} old")
         player_object = Player(name, player_data['rank_score'],
                                {r: Counter(data) for r, data in player_data['champs'].items()}, player_data['mastery'],
-                               player_data["role_ranks"], player_data["role_chances"])
-        player_object.set_preferred_roles(player_data['preferred_roles'])
+                               player_data["role_ranks"], role_chances=player_data["role_chances"], preferred_roles=player_data["preferred_roles"])
         return player_object
 
     def _load_data(self):

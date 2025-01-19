@@ -15,7 +15,6 @@ def create_players_from_link_doc(link_doc):
     # p_list = ["https://www.op.gg/summoners/na/IversusSkaidon-NA1"]
     players = []
     to_scrape = []
-    storage = StorageTool()
     for player in p_list:
         player_data = storage.get_player(convert_to_name(player))
         if player_data:
@@ -39,8 +38,9 @@ def create_players_from_link_doc(link_doc):
 
 @app.route("/")
 def index():
+    max_roles = max(len(player.preferred_roles) for player in match_algo.players)
     return render_template("index.html", players=players, roles=dropdown_roles,
-                           ranks=dropdown_ranks, divisions=divisions)
+                           ranks=dropdown_ranks, divisions=divisions, max_roles=max_roles)
 
 
 @app.route("/update_player", methods=["POST"])
@@ -49,11 +49,15 @@ def update_player():
         total_chance = 100
         # Fetch data for the current player
         role_ranks = []
+        roles = []
         for k, _ in enumerate(player.preferred_roles):
             new_role = request.form.get(f"role{i}{k}")
             new_rank = request.form.get(f"rank{i}{k}")
             new_division = request.form.get(f"division{i}{k}")
+            if new_role in roles:
+                continue
             if new_role != "flex":
+                roles.append(new_role)
                 new_chance = int(request.form.get(f"chance{i}{k}"))
                 total_chance -= new_chance
             else:
@@ -66,8 +70,7 @@ def update_player():
             role_ranks.append(("flex", role_ranks[-1][1], total_chance))
 
         player.update_roles(role_ranks)
-        # TODO (after testing) Save changes to known_players_json (set overwrite_time to False?)
-
+        storage.add_player(player, overwrite_time=False)
     return redirect(url_for("index"))
 
 
@@ -79,6 +82,7 @@ def index_to_location(player_index):
 
 @app.route('/swap_players', methods=['POST'])
 def swap_players():
+    # TODO fix bug that allows players to set a role multiple times, just ignore it if its repeated
     data = request.get_json()
     if not data or 'players' not in data or len(data['players']) != 2:
         return jsonify({"error": "Invalid input"}), 400
@@ -106,10 +110,12 @@ def make_team():
 
 @app.route("/display_teams")
 def display_teams():
+    # TODO currently, display teams only accepts 1 team, allow it to display multiple
     return render_template("display_teams.html", match_data=match_algo)
 
 
 if __name__ == '__main__':
+    storage = StorageTool()
     players = create_players_from_link_doc("links.txt")
     players = sorted(players, key=lambda p: p.name)
     dropdown_roles = ["top", "jungle", "mid", "adc", "supp", "flex"]
