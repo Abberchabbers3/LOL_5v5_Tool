@@ -6,7 +6,7 @@ from collections import Counter
 
 
 class Player:
-    minimum_game_threshold = 5
+    minimum_game_percentage_threshold = 0.1
 
     def __init__(self, name, rank_score, champs_played, mastery, role_ranks=None, role_chances=None, preferred_roles=None):
         """
@@ -24,7 +24,7 @@ class Player:
         if preferred_roles:
             self.preferred_roles = preferred_roles
         else:
-            self.preferred_roles = [role for role in sorted_roles if self.champs[role].total() > total * 0.1]
+            self.preferred_roles = [role for role in sorted_roles if self.champs[role].total() > total * self.minimum_game_percentage_threshold]
             self.preferred_roles.append("flex")
         if role_ranks:
             self.role_ranks = role_ranks
