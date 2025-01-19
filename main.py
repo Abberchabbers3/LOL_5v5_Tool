@@ -53,7 +53,9 @@ def update_player():
         for k, _ in enumerate(player.preferred_roles):
             new_role = request.form.get(f"role{i}{k}")
             new_rank = request.form.get(f"rank{i}{k}")
-            new_division = request.form.get(f"division{i}{k}")
+            new_division = ""
+            if new_rank not in ["Master", "Grandmaster", "Challenger"]:
+                new_division = request.form.get(f"division{i}{k}")
             if new_role in roles:
                 continue
             if new_role != "flex":
@@ -62,7 +64,7 @@ def update_player():
                 total_chance -= new_chance
             else:
                 new_chance = total_chance
-            role_ranks.append((f"{new_role}", f"{new_rank}{" "+new_division if new_division != "N/A" else ""}", new_chance))
+            role_ranks.append((f"{new_role}", f"{new_rank}{" "+new_division if new_division else new_division}", new_chance))
             if new_role == "flex":
                 break
         # Update player's attributes
