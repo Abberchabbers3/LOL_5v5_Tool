@@ -82,7 +82,6 @@ def index_to_location(player_index):
 
 @app.route('/swap_players', methods=['POST'])
 def swap_players():
-    # TODO fix bug that allows players to set a role multiple times, just ignore it if its repeated
     data = request.get_json()
     if not data or 'players' not in data or len(data['players']) != 2:
         return jsonify({"error": "Invalid input"}), 400
