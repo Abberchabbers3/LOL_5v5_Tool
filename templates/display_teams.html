@@ -139,7 +139,7 @@
                 {% if loop.index % 2 == 1 %}
                     <div class="player-card">
                         <p>{{ player.name }}</p>
-                        <p>{{ player.role_ranks[role] }}</p>
+                        <p>{{ player.display_champs(role) }}</p>
                         <button
                             class="swap-button"
                             data-index="{{ ns.index }}"
@@ -152,7 +152,7 @@
                     </div>
                     <div class="player-card">
                         <p>{{ player.name }}</p>
-                        <p>{{ player.role_ranks[role] }}</p>
+                        <p>{{ player.display_champs(role) }}</p>
                         <button
                             class="swap-button"
                             data-index="{{ ns.index }}"

@@ -7,20 +7,23 @@ from flask import Flask, render_template, request, redirect, url_for, jsonify
 
 app = Flask(__name__)
 
-def create_players_from_link_doc(link_doc):
+def create_players_from_link_doc(link_doc, force_reset=False):
     p_list = []
     with open(link_doc) as player_file:
         for line in player_file:
             p_list.append(line.replace('\n', ''))
-    # p_list = ["https://www.op.gg/summoners/na/IversusSkaidon-NA1"]
     players = []
     to_scrape = []
-    for player in p_list:
-        player_data = storage.get_player(convert_to_name(player))
-        if player_data:
-            players.append(player_data)
-        else:
-            to_scrape.append(player)
+    if force_reset:
+        to_scrape = [p for p in p_list]
+        # TODO maybe print players here
+    else:
+        for player in p_list:
+            player_data = storage.get_player(convert_to_name(player))
+            if player_data:
+                players.append(player_data)
+            else:
+                to_scrape.append(player)
 
     if to_scrape:
         scraper = OpggScraper(player_list=to_scrape, auto_scrape=True)
@@ -55,6 +58,7 @@ def update_player():
             new_rank = request.form.get(f"rank{i}{k}")
             new_division = ""
             if new_rank not in ["Master", "Grandmaster", "Challenger"]:
+                # TODO make sure its not N/A?
                 new_division = request.form.get(f"division{i}{k}")
             if new_role in roles:
                 continue
@@ -112,12 +116,14 @@ def make_team():
 @app.route("/display_teams")
 def display_teams():
     # TODO currently, display teams only accepts 1 team, allow it to display multiple
+    # TODO add peoples op.ggs as links
     return render_template("display_teams.html", match_data=match_algo)
 
 
 if __name__ == '__main__':
     storage = StorageTool()
-    players = create_players_from_link_doc("links.txt")
+    # TODO instead of scraping have players enetr info to google sheet and take from there?
+    players = create_players_from_link_doc("links.txt", force_reset=False)
     players = sorted(players, key=lambda p: p.name)
     dropdown_roles = ["top", "jungle", "mid", "adc", "supp", "flex"]
     dropdown_ranks = rank_to_points.keys()

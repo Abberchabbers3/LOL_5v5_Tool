@@ -10,7 +10,6 @@ class MatchMaker:
         self.pair_cache = dict()
         self.players = player_list
         self.assignments = dict(top=[], jungle=[], mid=[], adc=[], supp=[])
-        # self.greedy_start()
         self.balance_roles()
         self.lane_diffs = self.calc_lane_diffs()
         self.best_match_diff = self.calc_match_diff()
@@ -30,18 +29,6 @@ class MatchMaker:
         output += f"Bot diff: {self.lane_diffs["bot"]}\n"
         output += f"Total Match Diff: {self.best_match_diff}"
         return output
-
-    def greedy_start(self):
-        low_to_high = sorted(self.players, key=lambda p: p.rank_score)
-        for player in low_to_high:
-            # Need to rework this
-            for role, chance in player.role_chances.items():
-                if len(self.assignments[role]) < 2:  # Check if role is available
-                    self.assignments[role].append(player)
-                    break
-            # Idea for algorithm: for each player randomly assign a role based on self.role_chance; if full
-            # keep two closest together (by rank) players and kick the other
-            # player out, then roll for their new role; repeat until somewhat balanced?
 
     def balance_roles(self):
         loser_count = Counter()

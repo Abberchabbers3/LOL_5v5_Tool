@@ -107,6 +107,15 @@ class Player:
                     self.role_chances[role] += 1
                     total -= 1
 
+    def display_champs(self, role):
+        mastered = set()
+        for champ in self.mastery:
+            if champ in self.champs[role]:
+                mastered.add(champ)
+        recent_played = {champ[0] for champ in self.champs[role].most_common(3)}
+        recent_played.update(mastered)
+        return ", ".join(recent_played)
+
     # def shuffle_ties(self):
     #     result = []
     #     for key, group in groupby(self.preferred_roles, key=lambda x: self.role_chances['role']):
