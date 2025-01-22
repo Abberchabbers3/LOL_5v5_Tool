@@ -680,15 +680,15 @@
             "flex": 5.03668
         },
         "role_chances": {
-            "top": 52,
-            "adc": 32,
-            "mid": 5.333333333333333,
-            "jungle": 5.333333333333333,
-            "supp": 5.333333333333333
+            "top": 30,
+            "adc": 40,
+            "mid": 10.0,
+            "jungle": 10.0,
+            "supp": 10.0
         },
         "preferred_roles": [
-            "top",
             "adc",
+            "top",
             "flex"
         ],
         "added_date": "2025-01-19T21:06:30.708905"

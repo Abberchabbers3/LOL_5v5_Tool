@@ -136,10 +136,14 @@
         {% set ns = namespace(index=0) %}
         {% for role, player_list in match_data.assignments.items() %}
             {% for player in player_list %}
-                {% if loop.index % 2 == 1 %}
+                {% if loop.index0 == 0 %}
                     <div class="player-card">
-                        <p>{{ player.name }}</p>
-                        <p>{{ player.display_champs(role) }}</p>
+                         <p>
+                            <a href="{{ player.link }}" target="_blank">
+                                {{ player.name }}
+                            </a>
+                        </p>
+                        <p>{{ player.display_champs(role) or '&nbsp;'|safe }}</p>
                         <button
                             class="swap-button"
                             data-index="{{ ns.index }}"
@@ -151,8 +155,12 @@
                         Rank Diff: {{ match_data.lane_diffs[role] }}
                     </div>
                     <div class="player-card">
-                        <p>{{ player.name }}</p>
-                        <p>{{ player.display_champs(role) }}</p>
+                        <p>
+                            <a href="{{ player.link }}" target="_blank">
+                                {{ player.name }}
+                            </a>
+                        </p>
+                        <p>{{ player.display_champs(role) or '&nbsp;'|safe }}</p>
                         <button
                             class="swap-button"
                             data-index="{{ ns.index }}"

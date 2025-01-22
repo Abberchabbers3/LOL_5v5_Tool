@@ -10,13 +10,6 @@ from selenium.webdriver.support import expected_conditions as EC
 from collections import Counter
 
 
-def convert_to_name(player_data):
-    if isinstance(player_data, tuple):
-        return player_data[0]
-    elif isinstance(player_data, str):
-        return player_data.split("/")[-1].replace("%20", " ").replace("-", "#")
-
-
 class OpggScraper:
     CURRENT_SEASON = "S2025 S1"
 

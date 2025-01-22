@@ -1,6 +1,6 @@
-from opgg_Scraper import OpggScraper, convert_to_name
+from opgg_Scraper import OpggScraper
 from Rank_handler import RankHandler, rank_to_points
-from player import Player
+from player import Player, convert_to_name
 from storage_tool import StorageTool
 from match_maker import MatchMaker
 from flask import Flask, render_template, request, redirect, url_for, jsonify
@@ -15,8 +15,9 @@ def create_players_from_link_doc(link_doc, force_reset=False):
     players = []
     to_scrape = []
     if force_reset:
-        to_scrape = [p for p in p_list]
-        # TODO maybe print players here
+        for p in p_list:
+            to_scrape.append(p)
+            print(f"Force resetting info for: {convert_to_name(p)}")
     else:
         for player in p_list:
             player_data = storage.get_player(convert_to_name(player))
@@ -58,8 +59,10 @@ def update_player():
             new_rank = request.form.get(f"rank{i}{k}")
             new_division = ""
             if new_rank not in ["Master", "Grandmaster", "Challenger"]:
-                # TODO make sure its not N/A?
+                # TODO make more robust solution to this bug?
                 new_division = request.form.get(f"division{i}{k}")
+                if new_division == "N/A":
+                    new_division = "4"
             if new_role in roles:
                 continue
             if new_role != "flex":
@@ -74,7 +77,8 @@ def update_player():
         # Update player's attributes
         if "flex" not in [role_rank[0] for role_rank in role_ranks] and len(role_ranks) < 5:
             role_ranks.append(("flex", role_ranks[-1][1], total_chance))
-
+        # sort by new_chance, keep flex at the end
+        role_ranks = sorted(role_ranks[:-1], key=lambda x: x[2], reverse=True) + [role_ranks[-1]]
         player.update_roles(role_ranks)
         storage.add_player(player, overwrite_time=False)
     return redirect(url_for("index"))
@@ -101,7 +105,7 @@ def swap_players():
         match_algo.assignments[player_2[0]][player_2[1]] = temp
         match_algo.lane_diffs = match_algo.calc_lane_diffs()
         match_algo.best_match_diff = match_algo.calc_match_diff()
-        return jsonify({"success": "yay"}), 200
+        return jsonify({"success": "Players swapped"}), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
@@ -116,13 +120,12 @@ def make_team():
 @app.route("/display_teams")
 def display_teams():
     # TODO currently, display teams only accepts 1 team, allow it to display multiple
-    # TODO add peoples op.ggs as links
     return render_template("display_teams.html", match_data=match_algo)
 
 
 if __name__ == '__main__':
     storage = StorageTool()
-    # TODO instead of scraping have players enetr info to google sheet and take from there?
+    # TODO instead of scraping have players enter info to google sheet and take from there?
     players = create_players_from_link_doc("links.txt", force_reset=False)
     players = sorted(players, key=lambda p: p.name)
     dropdown_roles = ["top", "jungle", "mid", "adc", "supp", "flex"]

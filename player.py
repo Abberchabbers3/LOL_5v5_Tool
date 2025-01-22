@@ -4,9 +4,21 @@ from itertools import groupby
 import Rank_handler
 from collections import Counter
 
+def convert_to_name(player_data):
+    if isinstance(player_data, tuple):
+        return player_data[0]
+    elif isinstance(player_data, str):
+        return player_data.split("/")[-1].replace("%20", " ").replace("-", "#")
+
+
+def name_to_link(name: str, server="na"):
+    player_name = name.replace(" #", "#")
+    link = 'https://www.op.gg/summoners/' + server + '/' + player_name.replace(" ", "%20").replace("#", "-")
+    return link
 
 class Player:
-    minimum_game_percentage_threshold = 0.1
+    # Minimum percentage of someone's game for it to be considered as a preferred_role
+    minimum_game_percentage_threshold = 0.25
 
     def __init__(self, name, rank_score, champs_played, mastery, role_ranks=None, role_chances=None, preferred_roles=None):
         """
@@ -17,6 +29,7 @@ class Player:
         :param role_ranks: dict of each role (and flex) and the associated rank; *passing in a value for this will cause the init to ignore rank_score*
         """
         self.name = name
+        self.link = name_to_link(self.name)
         self.champs = champs_played
         self.mastery = mastery
         total = max(1, sum([self.champs[role].total() for role in self.champs]))
@@ -114,6 +127,8 @@ class Player:
                 mastered.add(champ)
         recent_played = {champ[0] for champ in self.champs[role].most_common(3)}
         recent_played.update(mastered)
+        if not recent_played:
+            return ""
         return ", ".join(recent_played)
 
     # def shuffle_ties(self):
