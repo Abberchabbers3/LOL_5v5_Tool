@@ -9,7 +9,16 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
+"""
+This version of the scraper is depreciated; new functionality has been added to the original this version does not have
+This version was functional, but slower in all instances due to the time it take to create and close a selenium  driver
+"""
+
 class OpggScraper:
+    """
+    This version of the scraper is depreciated; new functionality has been added to the original this version does not have
+    This version was functional, but slower in all instances due to the time it take to create and close a selenium  driver
+    """
     CURRENT_SEASON = "S2025 S1"
 
     def __init__(self, server="na", player_name="", link="", player_list=None, auto_scrape=False):
