@@ -1,0 +1,521 @@
+{
+    "OreoSnorter69#6969": {
+        "rank_score": 6.98782,
+        "champs": {
+            "top": {
+                "Sion": 2,
+                "Kled": 1,
+                "Lucian": 4,
+                "Nautilus": 1
+            },
+            "jungle": {
+                "Sion": 3,
+                "Yorick": 1
+            },
+            "mid": {},
+            "adc": {
+                "Lucian": 7,
+                "Aphelios": 1
+            },
+            "supp": {
+                "Nautilus": 1,
+                "Milio": 1,
+                "Pyke": 1,
+                "Rakan": 2,
+                "Lucian": 1
+            }
+        },
+        "mastery": [
+            "Yorick",
+            "Kled",
+            "Milio",
+            "Sion"
+        ],
+        "role_ranks": {
+            "top": 6.98782,
+            "jungle": 6.98782,
+            "mid": 6.98782,
+            "adc": 6.98782,
+            "supp": 6.98782,
+            "flex": 6.98782
+        },
+        "role_chances": {
+            "top": 30,
+            "adc": 30,
+            "supp": 13.333333333333334,
+            "jungle": 13.333333333333334,
+            "mid": 13.333333333333334
+        },
+        "preferred_roles": [
+            "top",
+            "adc",
+            "flex"
+        ],
+        "added_date": "2025-01-21T23:08:29.950629"
+    },
+    "ArCaNeAscension#THICC": {
+        "rank_score": 13.19819,
+        "champs": {
+            "top": {
+                "Warwick": 1
+            },
+            "jungle": {},
+            "mid": {
+                "Malzahar": 1,
+                "Syndra": 1,
+                "Hwei": 2,
+                "Lux": 3,
+                "Aurelion Sol": 1,
+                "Kai'Sa": 1
+            },
+            "adc": {
+                "Kai'Sa": 5,
+                "Jhin": 1,
+                "Vayne": 1,
+                "Swain": 1,
+                "Miss Fortune": 1,
+                "Ezreal": 1,
+                "Malzahar": 1,
+                "Lux": 1
+            },
+            "supp": {
+                "Zoe": 2,
+                "Syndra": 1
+            }
+        },
+        "mastery": [
+            "Ezreal",
+            "Kai'Sa",
+            "Lux",
+            "Yasuo"
+        ],
+        "role_ranks": {
+            "top": 13.19819,
+            "jungle": 13.19819,
+            "mid": 13.19819,
+            "adc": 13.19819,
+            "supp": 13.19819,
+            "flex": 13.19819
+        },
+        "role_chances": {
+            "adc": 48,
+            "mid": 36,
+            "supp": 5.333333333333333,
+            "top": 5.333333333333333,
+            "jungle": 5.333333333333333
+        },
+        "preferred_roles": [
+            "adc",
+            "mid",
+            "flex"
+        ],
+        "added_date": "2025-01-21T23:08:29.958635"
+    },
+    "soren#wolf": {
+        "rank_score": 20.94632,
+        "champs": {
+            "top": {},
+            "jungle": {
+                "Graves": 2,
+                "Kindred": 24,
+                "Shyvana": 10
+            },
+            "mid": {},
+            "adc": {
+                "Xayah": 2
+            },
+            "supp": {}
+        },
+        "mastery": [
+            "Kindred",
+            "Shyvana",
+            "Kha'Zix",
+            "Xayah"
+        ],
+        "role_ranks": {
+            "top": 20.94632,
+            "jungle": 20.94632,
+            "mid": 20.94632,
+            "adc": 20.94632,
+            "supp": 20.94632,
+            "flex": 20.94632
+        },
+        "role_chances": {
+            "jungle": 90,
+            "adc": 2.5,
+            "top": 2.5,
+            "mid": 2.5,
+            "supp": 2.5
+        },
+        "preferred_roles": [
+            "jungle",
+            "flex"
+        ],
+        "added_date": "2025-01-21T23:08:29.965643"
+    },
+    "sukkieee#suk": {
+        "rank_score": 6.40979,
+        "champs": {
+            "top": {},
+            "jungle": {
+                "Lillia": 2
+            },
+            "mid": {
+                "Ahri": 1
+            },
+            "adc": {
+                "Jinx": 1,
+                "Swain": 1,
+                "Caitlyn": 1
+            },
+            "supp": {
+                "Renata Glasc": 5,
+                "Swain": 2,
+                "Lux": 1,
+                "Thresh": 1,
+                "Soraka": 1,
+                "Nami": 2,
+                "Yuumi": 1,
+                "Seraphine": 1
+            }
+        },
+        "mastery": [
+            "Miss Fortune",
+            "Lux",
+            "Seraphine",
+            "Ahri"
+        ],
+        "role_ranks": {
+            "top": 6.40979,
+            "jungle": 6.40979,
+            "mid": 6.40979,
+            "adc": 6.40979,
+            "supp": 6.40979,
+            "flex": 6.40979
+        },
+        "role_chances": {
+            "supp": 70,
+            "adc": 7.5,
+            "jungle": 7.5,
+            "mid": 7.5,
+            "top": 7.5
+        },
+        "preferred_roles": [
+            "supp",
+            "flex"
+        ],
+        "added_date": "2025-01-21T23:08:29.972649"
+    },
+    "Tomothy#suk": {
+        "rank_score": 4.66818,
+        "champs": {
+            "top": {},
+            "jungle": {
+                "Diana": 2,
+                "Fiddlesticks": 1,
+                "Nunu & Willump": 1
+            },
+            "mid": {
+                "Zyra": 1,
+                "Veigar": 1
+            },
+            "adc": {},
+            "supp": {
+                "Rakan": 2,
+                "Xerath": 2,
+                "Leona": 1,
+                "Morgana": 1,
+                "Braum": 1
+            }
+        },
+        "mastery": [
+            "Xerath",
+            "Jinx",
+            "Lux",
+            "Diana"
+        ],
+        "role_ranks": {
+            "top": 4.66818,
+            "jungle": 4.66818,
+            "mid": 4.66818,
+            "adc": 4.66818,
+            "supp": 4.66818,
+            "flex": 4.66818
+        },
+        "role_chances": {
+            "supp": 53,
+            "jungle": 30,
+            "mid": 5.666666666666667,
+            "top": 5.666666666666667,
+            "adc": 5.666666666666667
+        },
+        "preferred_roles": [
+            "supp",
+            "jungle",
+            "flex"
+        ],
+        "added_date": "2025-01-21T23:08:29.978655"
+    },
+    "The Holy Rat#NA1": {
+        "rank_score": 4.965,
+        "champs": {
+            "top": {
+                "Ornn": 2,
+                "Mordekaiser": 1
+            },
+            "jungle": {
+                "Rek'Sai": 1,
+                "Skarner": 3,
+                "Mordekaiser": 1,
+                "Nunu & Willump": 1,
+                "Dr. Mundo": 1
+            },
+            "mid": {
+                "Galio": 2,
+                "Nunu & Willump": 7,
+                "Naafiri": 1
+            },
+            "adc": {},
+            "supp": {}
+        },
+        "mastery": [
+            "Skarner",
+            "Kayn",
+            "Nunu & Willump",
+            "Kha'Zix"
+        ],
+        "role_ranks": {
+            "top": 4.965,
+            "jungle": 4.965,
+            "mid": 4.965,
+            "adc": 4.965,
+            "supp": 4.965,
+            "flex": 4.965
+        },
+        "role_chances": {
+            "mid": 50,
+            "jungle": 34,
+            "top": 5.333333333333333,
+            "adc": 5.333333333333333,
+            "supp": 5.333333333333333
+        },
+        "preferred_roles": [
+            "mid",
+            "jungle",
+            "flex"
+        ],
+        "added_date": "2025-01-21T23:08:29.986661"
+    },
+    "chonkity#balls": {
+        "rank_score": 4.61497,
+        "champs": {
+            "top": {
+                "Nidalee": 2,
+                "Dr. Mundo": 2,
+                "Riven": 2,
+                "Darius": 1,
+                "Tahm Kench": 1,
+                "Graves": 1,
+                "Naafiri": 1,
+                "Ekko": 1,
+                "Aurora": 1,
+                "Jinx": 2,
+                "Qiyana": 1,
+                "Zeri": 1,
+                "Xayah": 2
+            },
+            "jungle": {
+                "Graves": 1,
+                "Qiyana": 1,
+                "Ekko": 1
+            },
+            "mid": {
+                "Naafiri": 1,
+                "Ekko": 1,
+                "Aurora": 1,
+                "Katarina": 1,
+                "Darius": 1
+            },
+            "adc": {
+                "Jinx": 2,
+                "Zeri": 1,
+                "Xayah": 3,
+                "Caitlyn": 2
+            },
+            "supp": {}
+        },
+        "mastery": [
+            "Riven",
+            "Zeri",
+            "Kai'Sa",
+            "Samira"
+        ],
+        "role_ranks": {
+            "top": 4.61497,
+            "jungle": 4.61497,
+            "mid": 4.61497,
+            "adc": 4.61497,
+            "supp": 4.61497,
+            "flex": 4.61497
+        },
+        "role_chances": {
+            "top": 52,
+            "adc": 12.0,
+            "mid": 12.0,
+            "jungle": 12.0,
+            "supp": 12.0
+        },
+        "preferred_roles": [
+            "top",
+            "flex"
+        ],
+        "added_date": "2025-01-21T23:08:29.992667"
+    },
+    "IversusSkaidon#NA1": {
+        "rank_score": 8.43333,
+        "champs": {
+            "top": {
+                "Akshan": 1,
+                "Kennen": 1,
+                "Karma": 1
+            },
+            "jungle": {
+                "Shaco": 1,
+                "Kayn": 2,
+                "Akshan": 1
+            },
+            "mid": {
+                "Malzahar": 1
+            },
+            "adc": {
+                "Malzahar": 1,
+                "Ashe": 3,
+                "Twitch": 5
+            },
+            "supp": {
+                "Zyra": 1,
+                "Morgana": 1,
+                "Karma": 2
+            }
+        },
+        "mastery": [
+            "Rengar",
+            "Shaco",
+            "Twitch",
+            "Udyr"
+        ],
+        "role_ranks": {
+            "top": 8.43333,
+            "jungle": 8.43333,
+            "mid": 8.43333,
+            "adc": 8.43333,
+            "supp": 8.43333,
+            "flex": 8.43333
+        },
+        "role_chances": {
+            "adc": 42,
+            "jungle": 14.5,
+            "supp": 14.5,
+            "top": 14.5,
+            "mid": 14.5
+        },
+        "preferred_roles": [
+            "adc",
+            "flex"
+        ],
+        "added_date": "2025-01-21T23:08:30.000674"
+    },
+    "Tactical Wizard#4242": {
+        "rank_score": 8.7415,
+        "champs": {
+            "top": {
+                "Naafiri": 1,
+                "Mordekaiser": 1
+            },
+            "jungle": {
+                "Kayn": 1,
+                "Thresh": 5,
+                "Lucian": 3
+            },
+            "mid": {
+                "Naafiri": 1,
+                "Thresh": 5,
+                "Mordekaiser": 1,
+                "Talon": 5,
+                "Ryze": 2,
+                "Lucian": 2,
+                "Kayn": 1
+            },
+            "adc": {
+                "Lucian": 1,
+                "Thresh": 1
+            },
+            "supp": {
+                "Thresh": 5,
+                "Talon": 3,
+                "Ryze": 2
+            }
+        },
+        "mastery": [
+            "Thresh",
+            "Pyke",
+            "Rengar",
+            "Aurelion Sol"
+        ],
+        "role_ranks": {
+            "top": 8.7415,
+            "jungle": 8.7415,
+            "mid": 8.7415,
+            "adc": 8.7415,
+            "supp": 8.7415,
+            "flex": 8.7415
+        },
+        "role_chances": {
+            "mid": 42,
+            "supp": 14.5,
+            "jungle": 14.5,
+            "top": 14.5,
+            "adc": 14.5
+        },
+        "preferred_roles": [
+            "mid",
+            "flex"
+        ],
+        "added_date": "2025-01-21T23:08:30.007681"
+    },
+    "skillshotbait#555": {
+        "rank_score": 6.965,
+        "champs": {
+            "top": {},
+            "jungle": {},
+            "mid": {},
+            "adc": {},
+            "supp": {}
+        },
+        "mastery": [
+            "Jhin",
+            "Mordekaiser",
+            "Caitlyn",
+            "Galio"
+        ],
+        "role_ranks": {
+            "top": 6.965,
+            "jungle": 6.965,
+            "mid": 6.965,
+            "adc": 6.965,
+            "supp": 6.965,
+            "flex": 6.965
+        },
+        "role_chances": {
+            "top": 20.0,
+            "jungle": 20.0,
+            "mid": 20.0,
+            "adc": 20.0,
+            "supp": 20.0
+        },
+        "preferred_roles": [
+            "flex"
+        ],
+        "added_date": "2025-01-21T23:08:30.016689"
+    }
+}
