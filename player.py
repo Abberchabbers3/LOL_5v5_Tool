@@ -1,10 +1,15 @@
 import random
 from itertools import groupby
-
 import Rank_handler
 from collections import Counter
 
+
 def convert_to_name(player_data):
+    """
+    Converts an op.gg link into a player name
+    :param player_data: valid op.gg link with player name
+    :return: str player_name
+    """
     if isinstance(player_data, tuple):
         return player_data[0]
     elif isinstance(player_data, str):
@@ -12,9 +17,16 @@ def convert_to_name(player_data):
 
 
 def name_to_link(name: str, server="na"):
+    """
+    Parses a player name into a valid op.gg link
+    :param name: str name to parse in form name#tag
+    :param server: server of player, default 'na'
+    :return: str created link
+    """
     player_name = name.replace(" #", "#")
     link = 'https://www.op.gg/summoners/' + server + '/' + player_name.replace(" ", "%20").replace("#", "-")
     return link
+
 
 class Player:
     # Minimum percentage of someone's game for it to be considered as a preferred_role
@@ -34,16 +46,21 @@ class Player:
         self.mastery = mastery
         total = max(1, sum([self.champs[role].total() for role in self.champs]))
         sorted_roles = sorted(self.champs, key=lambda role: self.champs[role].total(), reverse=True)
+        # loads roles from storage or by minimum game threshold, i.e. as long as 25% of a players games are a role
+        # it is assumed to be preferred
         if preferred_roles:
             self.preferred_roles = preferred_roles
         else:
             self.preferred_roles = [role for role in sorted_roles if self.champs[role].total() > total * self.minimum_game_percentage_threshold]
             self.preferred_roles.append("flex")
+        # loads dict representing rank for each role; allows players to decide what they feel their rank is
         if role_ranks:
             self.role_ranks = role_ranks
             self.rank_str_by_role = {role: Rank_handler.score_to_str(rank) for role, rank in self.role_ranks.items()}
             self.rank_score = self.role_ranks[self.preferred_roles[0]]
             self.rank_str = self.rank_str_by_role[self.preferred_roles[0]]
+        # if this data is not stored simply populate calculated rank into all roles as League does not store
+        # individual role ranks
         else:
             self.rank_score = rank_score
             self.rank_str = Rank_handler.score_to_str(rank_score)
@@ -51,14 +68,19 @@ class Player:
                                adc=rank_score, supp=rank_score, flex=rank_score)
             self.rank_str_by_role = dict(top=self.rank_str, jungle=self.rank_str, mid=self.rank_str,
                                adc=self.rank_str, supp=self.rank_str, flex=self.rank_str)
+        # Load stored role chances
         if role_chances:
             self.role_chances = role_chances
+        # or calculate based on how many times they play each role in their last 40 games
         else:
             self.role_chances = {role: round((100 * self.champs[role].total() / total) - 0.5) for role in sorted_roles}
         self.validate_chances()
         self.elo = 0
 
     def __str__(self):
+        """
+        :return: Str value representing a player object
+        """
         output = ""
         output += f"{self.name}: "
         output += f"{self.rank_str} ({self.rank_score})\n"
@@ -68,6 +90,12 @@ class Player:
         return output
 
     def update_roles(self, role_ranks):
+        """
+        Updates a players roles and ranks based on player enetered information
+        :param role_ranks: a list of tuples of the form (new_role, new_rank, new_chance) for each role;
+        # Should always contain either all five roles or end in 'flex'
+        :return:
+        """
         pref_roles = []
         self.role_chances = {role: 0 for role in self.role_chances}
         for role, rank, chance in role_ranks:
@@ -121,6 +149,13 @@ class Player:
                     total -= 1
 
     def display_champs(self, role):
+        """
+        Displays the champions a player plays in the order:
+        most recent,
+        highest mastery if ever played in that role over the past 40 games
+        :param role: str role must be a key in self.champs
+        :return:
+        """
         mastered = set()
         for champ in self.mastery:
             if champ in self.champs[role]:
@@ -131,17 +166,9 @@ class Player:
             return ""
         return ", ".join(recent_played)
 
-    # def shuffle_ties(self):
-    #     result = []
-    #     for key, group in groupby(self.preferred_roles, key=lambda x: self.role_chances['role']):
-    #         group = list(group)  # Convert the group to a list
-    #         if len(group) > 1:  # Shuffle if there's a tie
-    #             random.shuffle(group)
-    #         result.extend(group)
-    #     return result
-
 
 if __name__ == '__main__':
+    # Simple test displaying a player with no stored information
     p = Player("test_man", 20, {'top': Counter({'Warwick': 1}), 'jungle': Counter({'Udyr': 1}), 'mid': Counter({'Lux': 2, "Kai'Sa": 2, 'Aurelion Sol': 1, 'Aurora': 1, 'Jhin': 1}), 'adc': Counter({"Kai'Sa": 5, 'Jhin': 1, 'Vayne': 1, 'Swain': 1, 'Miss Fortune': 1, 'Ezreal': 1, 'Aurelion Sol': 1, 'Zoe': 1}), 'supp': Counter({'Zoe': 3, "Kai'Sa": 1})},['Ezreal', "Kai'Sa", 'Yasuo', 'Lux'])
     print(p)
 

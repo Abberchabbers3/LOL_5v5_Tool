@@ -4,10 +4,18 @@ from player import Player, convert_to_name
 from storage_tool import StorageTool
 from match_maker import MatchMaker
 from flask import Flask, render_template, request, redirect, url_for, jsonify
+import os, signal
 
 app = Flask(__name__)
 
-def create_players_from_link_doc(link_doc, force_reset=False):
+
+def create_players_from_link_doc(link_doc, force_reset=False) -> list[Player]:
+    """
+    Creates Player objects for each valid op.gg link found in link_doc
+    :param link_doc: The document to scrape op.gg links
+    :param force_reset: Forces scraping regardless of date
+    :return: The list of created player objects list[Player]
+    """
     p_list = []
     with open(link_doc) as player_file:
         for line in player_file:
@@ -42,6 +50,10 @@ def create_players_from_link_doc(link_doc, force_reset=False):
 
 @app.route("/")
 def index():
+    """
+    The main page of the website, displays player data and allows for manipulation of data through index.html
+    :return: renders html template
+    """
     max_roles = max(len(player.preferred_roles) for player in match_algo.players)
     return render_template("index.html", players=players, roles=dropdown_roles,
                            ranks=dropdown_ranks, divisions=divisions, max_roles=max_roles)
@@ -49,6 +61,10 @@ def index():
 
 @app.route("/update_player", methods=["POST"])
 def update_player():
+    """
+    A function which reads the dropdown options on index.html and edits corresponding global player data
+    :return: redirects to index
+    """
     for i, player in enumerate(players):
         total_chance = 100
         # Fetch data for the current player
@@ -85,6 +101,11 @@ def update_player():
 
 
 def index_to_location(player_index):
+    """
+    Converts location of dropdown within the grid found on display players from and int to role, index tuple
+    :param player_index: The int of the  dropdown menu 0-9
+    :return: Corresponding role i.e. 0-1 is top, 4-5 is mid, and 0 or 1 for left or right team
+    """
     roles = ["top", "jungle", "mid", "adc", "supp"]
     role = roles[player_index // 2]
     return role, player_index % 2
@@ -92,6 +113,10 @@ def index_to_location(player_index):
 
 @app.route('/swap_players', methods=['POST'])
 def swap_players():
+    """
+    Receives button info from display_teams.html; makes appropriate swaps
+    :return: Returns an error if failed and success message if succeed
+    """
     data = request.get_json()
     if not data or 'players' not in data or len(data['players']) != 2:
         return jsonify({"error": "Invalid input"}), 400
@@ -112,6 +137,10 @@ def swap_players():
 
 @app.route("/make_teams", methods=["POST"])
 def make_team():
+    """
+    Result of pressing the make_team button, done here to not recreate teams each reload of display_teams
+    :return: Redirects to display_teams
+    """
     global match_algo
     match_algo = MatchMaker(players)
     return redirect(url_for("display_teams"))
@@ -119,11 +148,26 @@ def make_team():
 
 @app.route("/display_teams")
 def display_teams():
+    """
+    Displays created team
+    :return: Renders display_teams.html
+    """
     # TODO currently, display teams only accepts 1 team, allow it to display multiple
     return render_template("display_teams.html", match_data=match_algo)
 
 
+@app.route('/stopServer', methods=['GET'])
+def stop_server():
+    """
+    Instantly kills the app
+    :return: Kills the app
+    """
+    os.kill(os.getpid(), signal.SIGINT)
+    return jsonify({ "success": True, "message": "Server is shutting down..." })
+
+
 if __name__ == '__main__':
+    # Initiate storage tool, scrape players, initialize the match algorithm, and start the app
     storage = StorageTool()
     # TODO instead of scraping have players enter info to google sheet and take from there?
     players = create_players_from_link_doc("links.txt", force_reset=False)

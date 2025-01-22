@@ -7,6 +7,10 @@ from player import Player
 class MatchMaker:
     # TODO currently match_maker assumes exactly 10 players, fix this and let it create multiple teams
     def __init__(self, player_list):
+        """
+        Creates a set of 'balanced' teams from given set of players
+        :param player_list: List of player objects (currently accepts exactly 10 only)
+        """
         self.pair_cache = dict()
         self.players = player_list
         self.assignments = dict(top=[], jungle=[], mid=[], adc=[], supp=[])
@@ -18,6 +22,10 @@ class MatchMaker:
         self.best_match_diff = self.calc_match_diff()
 
     def __str__(self):
+        """
+        Displays match_algorithm in string format
+        :return:
+        """
         output = ""
         # for player in self.players:
         #     output += f"{player}"
@@ -31,6 +39,10 @@ class MatchMaker:
         return output
 
     def balance_roles(self):
+        """
+        Determines roles for each player using a semi-randomized customizable algorithm
+        :return:
+        """
         loser_count = Counter()
         # Random shuffle players for fairness as final tie-break is who was placed first
         queue = deque(random.sample([p for p in self.players], len(self.players)))
@@ -85,6 +97,10 @@ class MatchMaker:
             self.assignments[swap] = self.assignments[swap][::-1]
 
     def calc_lane_diffs(self):
+        """
+        Calculates the difference in scores for each lane, combines bot lane for more accurate measure of impact
+        :return: The calculated differences in the form of a dictionary
+        """
         lane_diffs = dict(top=0, jungle=0, mid=0, adc=0, supp=0, bot=0)
         for lane in lane_diffs:
             if lane != "bot":
@@ -96,9 +112,21 @@ class MatchMaker:
         return lane_diffs
 
     def calc_match_diff(self):
+        """
+        Assumes calc_lane_diffs has been called
+        :return: Returns a rounded sum of all the lane differences
+        """
         return round(sum(self.lane_diffs[lane] for lane in self.lane_diffs if lane != "adc" and lane != "supp"), 2)
 
     def get_best_pair(self, role: str, players: list[Player]) -> list[Player]:
+        """
+        Upon input of three of more players, returns in order the most optimal player for the given role
+        Takes into account lane preferences and player skill, but heavily prefers lane preferences
+        Stores deterministic calls into memory to save time
+        :param role: Must be a valid role in self.role_ranks
+        :param players: List of three or more players
+        :return: List of all original inputted players in order of fit for the role. The last player is always worst
+        """
         # Players will be cached only if get_best_pair ends in a deterministic outcome, i.e. based on score
         if tuple(sorted(players, key=lambda x: x.name)) in self.pair_cache:
             return self.pair_cache[tuple(sorted(players, key=lambda x: x.name))]

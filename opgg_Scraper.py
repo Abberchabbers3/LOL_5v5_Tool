@@ -14,6 +14,15 @@ class OpggScraper:
     CURRENT_SEASON = "S2025 S1"
 
     def __init__(self, server="na", player_name="", link="", player_list=None, auto_scrape=False):
+        """
+        Creates a scraper object that will open op.gg links and collect player information
+        Only one of player_name, link, and player_list is required to add players to the scraper queue upon creation
+        :param server: The server a player plays on, default is north america server
+        :param player_name: The name of the player ot be added
+        :param link: The direct op.gg link of the player to add
+        :param player_list: A list of players in tuple (server,player_name) or link form
+        :param auto_scrape: Whether the scraper will start as soon as its made
+        """
         self.link_map = dict()
         self.player_ranks = defaultdict(dict)
         self.player_game_ranks = defaultdict(list)
@@ -37,19 +46,39 @@ class OpggScraper:
             self.scrape_all()
 
     def scrape_all(self):
+        """
+        Scrapes each player one at a time
+        :return:
+        """
         for player in self.link_map:
             self.scrape(player, self.link_map[player])
 
     def add_player_by_name(self, server: str, player_name: str):
+        """
+        Adds player to link_map by server and player_name
+        :param server: the server the player uses i.e. "na" or "euw"
+        :param player_name: The name and tag of the play in the form name#tag
+        :return:
+        """
         player_name = player_name.replace(" #", "#")
         link = 'https://www.op.gg/summoners/' + server + '/' + player_name.replace(" ", "%20").replace("#", "-")
         self.link_map[player_name] = link
 
     def add_player_by_link(self, link: str):
+        """
+        Adds player to link_map directly using the link; also parses the player's name from the link
+        :param link: valid op.gg link of form: https://www.op.gg/summoners/server/name-tag
+        :return:
+        """
         player_name = link.split("/")[-1].replace("%20", " ").replace("-", "#")
         self.link_map[player_name] = link
 
     def add_players(self, server_player_list):
+        """
+        Adds a list of players parsing if they are a tuple or link
+        :param server_player_list: A list of player information in the form of rank,name tuples or valid link strs
+        :return:
+        """
         for player in server_player_list:
             if isinstance(player, str):
                 self.add_player_by_link(player)
@@ -57,6 +86,10 @@ class OpggScraper:
                 self.add_player_by_name(player[0], player[1])
 
     def __str__(self):
+        """
+        Outputs list of scraped players and information in str form
+        :return:
+        """
         output = ""
         for player in self.link_map:
             output += player + "\n"
@@ -68,6 +101,12 @@ class OpggScraper:
         return output
 
     def scrape(self, player, link):
+        """
+        Scrapes op.gg link using selenium web scraping
+        :param player: name of the player to be scraped
+        :param link: link to the player's op.gg
+        :return:
+        """
         self.driver.get(link)
         WebDriverWait(self.driver, 5).until(
             EC.presence_of_element_located((By.XPATH, "//button//span[text()='Update']"))
@@ -98,6 +137,11 @@ class OpggScraper:
             self.player_champs[player][role][champ] += 1
 
     def update_profile(self, driver):
+        """
+        Presses the update button on a users profile if it has been more than one hour since the last update
+        :param driver: The currently in use selenium driver
+        :return:
+        """
         update_button = driver.find_element(By.XPATH, '//button//span[text()="Update"]')
         time_since_update = driver.find_element(by=By.CLASS_NAME, value="last-update").text
         # only click if it has been 1+ day since last update
@@ -108,6 +152,11 @@ class OpggScraper:
                 time_since_update = driver.find_element(by=By.CLASS_NAME, value="last-update").text
 
     def update_player_mastery(self, driver):
+        """
+        Gathers champion mastery for a players most played champions
+        :param driver: The currently in use selenium driver
+        :return: returns list of most mastered champions
+        """
         try:
             mastery = driver.find_elements(by=By.XPATH, value="//div[text() = 'Mastery']/..//strong[@class='champion-name']")
             mastery = [m.get_attribute('textContent') for m in mastery]
@@ -117,6 +166,11 @@ class OpggScraper:
 
 
     def get_current_player_ranks(self, driver):
+        """
+        Scrapes data regarding most recent player rank
+        :param driver: The currently in use selenium driver
+        :return: dict representing each players season mapped to their rank that season
+        """
         try:
             rank = driver.find_element(by=By.XPATH, value="//span[text()='Ranked Solo/Duo']/..")
             if "Unranked" in rank.text:
@@ -131,6 +185,11 @@ class OpggScraper:
             return dict()
 
     def get_past_player_ranks(self, driver):
+        """
+        Scrapes data regarding player ranks over time
+        :param driver: The currently in use selenium driver
+        :return: dict representing each players season mapped to their rank that season
+        """
         try:
             rank_list = driver.find_element(by=By.XPATH, value="//div[@id='content-container']//table[1]")
 
@@ -143,6 +202,12 @@ class OpggScraper:
             return dict()
 
     def change_game_mode(self, driver, game_mode):
+        """
+        Changes the game mode to selected game_mode name
+        :param driver: The currently in use selenium driver
+        :param game_mode: str Name of the game mode to swap to
+        :return: False if game_mode not found, True if successful tab switch
+        """
         game_mode = game_mode.upper()
         start_url = driver.current_url
         if game_mode in start_url:
@@ -162,25 +227,24 @@ class OpggScraper:
         WebDriverWait(driver, 5).until(
             EC.url_contains(game_mode)
         )
-        # TODO Its possible for literally nothing to change during this time but the selected button; however this does not mean the rest has loaded
+        # Based on the design of the website it is theoretically possible for nothing to change besides the url
+        # However a url change does not mean the page is fully loaded so need to manually sleep
+        # Tab shouldn't take this long to load but sleep for full second for safety
         time.sleep(1)
         return True
 
-    # def change_game_mode(self, driver, game_mode, player_name):
-    #     start_url = driver.current_url
-    #     if game_mode in start_url:
-    #         return True
-    #     try:
-    #         link = self.link_map[player_name]
-    #         driver.get(link+f"?queue_type={game_mode}")
-    #         WebDriverWait(self.driver, 5).until(
-    #             EC.presence_of_element_located((By.XPATH, "//button//span[text()='Update']"))
-    #         )
-    #     except selenium.common.exceptions:
-    #         return False
-    #     return True
 
     def update_recent_roles(self, driver, game_mode, mode_weight, curr_player_name):
+        """
+        Updates the amount of time a player has played a champion over the past twenty games within a game_mode
+        This function will re-run itself if the tab takes too long to update causing an error
+        :param driver: The currently in use selenium driver
+        :param game_mode: The game_mode tab to try and scrape
+        :param mode_weight: The amount of weight the games in this mode have, My code uses 1 for norm and 2 for ranked
+        i.e. are ranked or norm games more important?
+        :param curr_player_name: Name of the current player we are scraping
+        :return: Updates dict of player name to role and champions in place; returns empty list if failed
+        """
         if not self.change_game_mode(driver, game_mode):
             return []
         try:
@@ -201,6 +265,14 @@ class OpggScraper:
             return self.update_recent_roles(driver, game_mode, mode_weight, curr_player_name)
 
     def recent_elo(self, driver, game_mode, player):
+        """
+        Scrapes average elo from the past twenty games
+        This function will re-run itself if the tab takes too long to update causing an error
+        :param driver: The currently in use selenium driver
+        :param game_mode: target game_mode name to scrape
+        :param player: The name of the current player
+        :return: List of elo values i.e. Gold 3, Bronze 1, etc.
+        """
         if not self.change_game_mode(driver, game_mode):
             return []
         try:
@@ -212,6 +284,12 @@ class OpggScraper:
             return self.recent_elo(driver, game_mode, player)
 
     def get_recent_champs(self, driver, game_mode):
+        """
+        Scrapes and returns a list of the 20 most recent champs a player has played in a given game mode
+        :param driver: The currently in use selenium driver
+        :param game_mode: target game_mode name to scrape
+        :return:
+        """
         if not self.change_game_mode(driver, game_mode):
             return []
         try:
@@ -223,22 +301,15 @@ class OpggScraper:
             return []
 
     def quit_driver(self):
+        """
+        Quits the driver to save resources
+        :return:
+        """
         self.driver.quit()
 
 
 if __name__ == '__main__':
-    # scraper = OpggScraper("na", "ArCaNeAscension#THICC", auto_scrape=True)  # test for unranked
-    scraper = OpggScraper("na", "soren#wolf", auto_scrape=True)  # test for both ranked
-    # scraper = OpggScraper("na", "Oreozx#NA1")  # test for just solo ranked
-    # scraper = OpggScraper(link="https://www.op.gg/summoners/na/SpaceDust-balls", auto_scrape=True)
-    # scraper = OpggScraper(link="https://www.op.gg/summoners/na/Nation%20Of%20Nugs-NA1", auto_scrape=True)
-    # p_list = [("na", "ArCaNeAscension#THICC"), ("na", "soren#wolf"), ("na", "Oreozx#NA1"),
-    #           "https://www.op.gg/summoners/na/SpaceDust-balls", "https://www.op.gg/summoners/na/Nation%20Of%20Nugs-NA1"]
-    # p_list.extend(["https://www.op.gg/summoners/na/Clítorís-42069", "https://www.op.gg/summoners/na/Kelso-69420",
-    #                "https://www.op.gg/summoners/na/Hexos926-ADC", "https://www.op.gg/summoners/na/ApolloZSL-NA1",
-    #                "https://www.op.gg/summoners/na/CpapaSlice-NA1"])
-    # p_list = [("na", "Oreozx#NA1"), "https://www.op.gg/summoners/na/whitehaven-111"]
-    # scraper = OpggScraper(link="https://www.op.gg/summoners/na/whitehaven-111", auto_scrape=True)
-    # scraper = OpggScraper(player_list=p_list, auto_scrape=True)
+    # Short scraper test for demonstration purposes
+    scraper = OpggScraper("na", "ArCaNeAscension#THICC", auto_scrape=True)  # test for unranked
     print(scraper)
     scraper.quit_driver()
