@@ -54,6 +54,7 @@ def index():
     The main page of the website, displays player data and allows for manipulation of data through index.html
     :return: renders html template
     """
+    # TODO bug where chance of 100 shows up as 10 on smaller screens
     max_roles = max(len(player.preferred_roles) for player in match_algo.players)
     return render_template("index.html", players=players, roles=dropdown_roles,
                            ranks=dropdown_ranks, divisions=divisions, max_roles=max_roles)
