@@ -80,19 +80,29 @@ class LogScraper:
                                                               "td[@class='championCellLight']//"
                                                               "img[contains(@class,'champion')]")]
         print(f"champs done after {time.time() - self.start_time} seconds", len(champs_per_game))
-        roles = [c.text for c in
-                 self.driver.find_elements(by=By.XPATH, value="//table[contains(@class,'recentGamesTable')]//"
-                                                              "td[@class='summonersTdLight']//"
-                                                              "div[contains(@class,'txt ')]")]
+        role_groups = self.driver.find_elements(by=By.XPATH, value="//table[contains(@class,'recentGamesTable')]//"
+                                                              "td[@class='summonersTdLight']")
+        roles = []
+        for group in role_groups:
+            group_roles = [c.text for c in group.find_elements(by=By.XPATH, value=".//div[contains(@class,'txt ')]")]
+            try:
+                ind = group_roles.index(self.player_name)
+                roles.append(self.role_list[ind % 5])
+            except:
+                roles.append("None")
+        print(f"roles done after {time.time() - self.start_time} seconds", len(roles))
+        # roles = [c.text for c in
+        #          self.driver.find_elements(by=By.XPATH, value="//table[contains(@class,'recentGamesTable')]//"
+        #                                                       "td[@class='summonersTdLight']//"
+        #                                                       "div[contains(@class,'txt ')]")]
         # convert role from player list to role base on location in list
-        # TODO, fix roles as not all gamemodes have 10 players this is broken, Maybe give it group treatment?
-        roles = [self.role_list[(i % 10) % 5] for i, p in enumerate(roles) if p == self.player_name]
+        # roles = [self.role_list[(i % 10) % 5] for i, p in enumerate(roles) if p == self.player_name]
+
         tooltips = [v.get_attribute('tooltip') for v in
                  self.driver.find_elements(by=By.XPATH, value="//table[contains(@class,'recentGamesTable')]//"
                                                               "td[contains(@class,'kdaColumn')]/"
                                                               "a[@class='full-cell']/"
                                                               "div[contains(@class,'display-block')]")]
-        print(f"roles done after {time.time() - self.start_time} seconds", len(roles))
         # read vision score and cs from tool tip
         vision_score = []
         cs = []
@@ -185,9 +195,10 @@ class LogScraper:
             except:
                 # If the button is no longer found, break the loop
                 try:
+                    # If button take too long to load, double check its gone and not still loading
                     self.driver.find_element(By.XPATH,
                                              "//table[contains(@class,'recentGamesTable')]//"
                                              "button[contains(@class, 'see_more')]")
                 except:
-                    print("Button is completely gone. Exiting loop.")
+                    print("Exiting loop")
                     break

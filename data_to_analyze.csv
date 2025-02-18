@@ -1,0 +1,815 @@
+win/lose,game_mode,game_date,game_duration,champion,role,KDA,CS,Vision Score,KP,Summoner Spell 1,Summoner Spell 2,Item 1,Item 2,Item 3,Item 4,Item 5,Item 6,Ward
+Defeat,AR Ultra Rapid Fire,2025-02-17,16min 13s,Sylas,Jungle,12/8/3,130,7,63%,Flash,Ghost,Shadowflame,Stormsurge,Spellslinger's Shoes,Lich Bane,Needlessly Large Rod,Needlessly Large Rod,Farsight Alteration
+Victory,Normal (Draft Pick),2025-02-17,30min 39s,Samira,Adc,16/7/4,232,23,33%,Flash,Barrier,Doran's Blade,The Collector,Armored Advance,Bloodthirster,Infinity Edge,Long Sword,Stealth Ward
+Victory,AR Ultra Rapid Fire,2025-02-17,20min 5s,Galio,Top,10/8/8,108,13,38%,Flash,Ghost,Stormsurge,Rabadon's Deathcap,Sorcerer's Shoes,Shadowflame,Hollow Radiance,Fiendish Codex,Farsight Alteration
+Victory,Normal (Draft Pick),2025-02-17,39min 9s,Aurelion Sol,Mid,12/5/15,313,19,69%,Flash,Teleport,Seraph's Embrace,Rylai's Crystal Scepter,Sorcerer's Shoes,Liandry's Torment,Rabadon's Deathcap,Blighting Jewel,Stealth Ward
+Victory,Normal (Draft Pick),2025-02-17,22min 28s,Lux,Mid,10/2/0,145,12,30%,Flash,Teleport,Stormsurge,Malignance,Sorcerer's Shoes,Hextech Alternator,None,None,Stealth Ward
+Victory,Normal (Draft Pick),2025-02-17,25min 40s,Mel,Mid,15/3/2,195,14,55%,Flash,Teleport,Shadowflame,Spellslinger's Shoes,Blackfire Torch,Liandry's Torment,Blighting Jewel,None,Stealth Ward
+Defeat,Normal (Draft Pick),2025-02-17,34min 26s,Zoe,Support,8/13/9,43,63,40%,Flash,Ignite,Zaz'Zak's Realmspike,Luden's Companion,Spellslinger's Shoes,Stormsurge,Hextech Alternator,Needlessly Large Rod,Oracle Lens
+Defeat,AR Ultra Rapid Fire,2025-02-16,21min 22s,Lux,Adc,4/11/9,130,4,62%,Flash,Ghost,Shadowflame,Horizon Focus,Stormsurge,Malignance,Sorcerer's Shoes,Oblivion Orb,Stealth Ward
+Victory,AR Ultra Rapid Fire,2025-02-16,10min 56s,Smolder,Mid,7/3/8,100,10,50%,Flash,Ghost,Doran's Blade,Spear of Shojin,Trinity Force,Swiftmarch,Zeal,Scout's Slingshot,Stealth Ward
+Defeat,AR Ultra Rapid Fire,2025-02-16,15min 13s,Lissandra,Top,5/11/6,121,6,52%,Flash,Ghost,Doran's Ring,Stormsurge,Luden's Companion,Shadowflame,Sorcerer's Shoes,Amplifying Tome,Oracle Lens
+Defeat,AR Ultra Rapid Fire,2025-02-16,19min 54s,Sejuani,Jungle,4/9/6,152,22,29%,Flash,Ghost,Heartsteel,Unending Despair,Chainlaced Crushers,Hollow Radiance,Thornmail,None,Stealth Ward
+Defeat,AR Ultra Rapid Fire,2025-02-16,12min 10s,Nami,Top,0/7/4,33,1,19%,Flash,Heal,Luden's Companion,Hextech Alternator,Sorcerer's Shoes,Aether Wisp,None,None,Stealth Ward
+Defeat,Normal (Draft Pick),2025-02-16,38min 18s,Caitlyn,Adc,6/20/4,167,25,26%,Flash,Barrier,Infinity Edge,Yun Tal Wildarrows,Rapid Firecannon,Boots of Swiftness,Last Whisper,None,Stealth Ward
+Defeat,ARAM,2025-02-16,18min 45s,Kennen,Support,11/11/30,34,0,66%,Flash,Mark,Zhonya's Hourglass,Hextech Rocketbelt,Stormsurge,Sorcerer's Shoes,Needlessly Large Rod,Needlessly Large Rod,None
+Victory,AR Ultra Rapid Fire,2025-02-15,14min 24s,Ekko,Top,11/9/6,80,12,55%,Flash,Ghost,Doran's Ring,Health Potion,Stormsurge,Sorcerer's Shoes,Lich Bane,Needlessly Large Rod,Stealth Ward
+Victory,AR Ultra Rapid Fire,2025-02-13,15min 5s,Kai'Sa,Adc,13/3/7,148,17,56%,Flash,Barrier,Blasting Wand,Statikk Shiv,Gunmetal Greaves,Kraken Slayer,Guinsoo's Rageblade,Fiendish Codex,Stealth Ward
+Defeat,AR Ultra Rapid Fire,2025-02-12,13min 38s,Lucian,Jungle,4/5/6,91,8,37%,Flash,Ghost,Cloak of Agility,The Collector,B. F. Sword,Kraken Slayer,Berserker's Greaves,Pickaxe,Stealth Ward
+Victory,Normal (Draft Pick),2025-02-12,15min 11s,Mel,Adc,5/3/2,113,8,37%,Flash,Teleport,Doran's Ring,Dark Seal,Seraph's Embrace,Sorcerer's Shoes,Fated Ashes,None,Stealth Ward
+Victory,AR Ultra Rapid Fire,2025-02-11,16min 36s,Xayah,Adc,14/3/3,150,18,68%,Flash,Ghost,Doran's Blade,The Collector,Gunmetal Greaves,Kraken Slayer,Infinity Edge,Long Sword,Stealth Ward
+Victory,AR Ultra Rapid Fire,2025-02-11,21min 28s,Kennen,Adc,11/12/7,102,16,37%,Flash,Ghost,Shadowflame,Stormsurge,Spellslinger's Shoes,Rabadon's Deathcap,Void Staff,None,Stealth Ward
+Defeat,AR Ultra Rapid Fire,2025-02-11,4min 23s,Volibear,Mid,0/1/2,7,0,100%,Flash,Ghost,Doran's Ring,Health Potion,None,None,None,None,Stealth Ward
+Defeat,AR Ultra Rapid Fire,2025-02-11,19min 56s,Zed,Support,6/14/6,125,9,44%,Flash,Ignite,Eclipse,Voltaic Cyclosword,Edge of Night,Plated Steelcaps,Serpent's Fang,Caulfield's Warhammer,Stealth Ward
+Victory,AR Ultra Rapid Fire,2025-02-11,18min 14s,Veigar,Mid,12/6/10,147,18,52%,Flash,Ghost,Stormsurge,Rabadon's Deathcap,Luden's Companion,Shadowflame,Spellslinger's Shoes,Blighting Jewel,Stealth Ward
+Defeat,AR Ultra Rapid Fire,2025-02-11,10min 55s,Zilean,Adc,0/4/3,43,11,16%,Flash,Ghost,Doran's Ring,Stormsurge,Lost Chapter,Sorcerer's Shoes,None,None,Stealth Ward
+Victory,Normal (Draft Pick),2025-02-09,18min 12s,Malzahar,Mid,7/4/7,117,6,44%,Flash,Teleport,Aether Wisp,Malignance,Hextech Alternator,Sorcerer's Shoes,Needlessly Large Rod,None,Stealth Ward
+Defeat,Normal (Draft Pick),2025-02-09,27min 59s,Yone,Top,6/4/3,246,16,60%,Flash,Teleport,Infinity Edge,Immortal Shieldbow,Berserker's Greaves,Blade of The Ruined King,Cloth Armor,Pickaxe,Stealth Ward
+Defeat,Normal (Draft Pick),2025-02-09,15min 49s,Fiora,Top,1/5/0,76,2,14%,Flash,Teleport,Doran's Blade,Caulfield's Warhammer,Vampiric Scepter,Plated Steelcaps,Long Sword,None,Stealth Ward
+Defeat,Normal (Draft Pick),2025-02-09,44min 52s,Mel,Mid,17/8/4,311,26,58%,Flash,Teleport,Seraph's Embrace,Spellslinger's Shoes,Cosmic Drive,Liandry's Torment,Rabadon's Deathcap,Void Staff,Farsight Alteration
+Victory,AR Ultra Rapid Fire,2025-02-09,19min 27s,Zed,Jungle,12/8/11,114,15,40%,Flash,Ignite,Eclipse,Serylda's Grudge,Mercury's Treads,Voltaic Cyclosword,Serpent's Fang,Tunneler,Stealth Ward
+Victory,AR Ultra Rapid Fire,2025-02-09,25min 56s,Zoe,Adc,9/12/14,164,16,32%,Flash,Ignite,Shadowflame,Stormsurge,Luden's Companion,Rabadon's Deathcap,Spellslinger's Shoes,Void Staff,Stealth Ward
+Victory,AR Ultra Rapid Fire,2025-02-09,17min 3s,Ezreal,Support,13/6/13,105,12,63%,Flash,Barrier,Doran's Blade,Crimson Lucidity,Muramana,Trinity Force,Serylda's Grudge,Tunneler,Stealth Ward
+Victory,AR Ultra Rapid Fire,2025-02-09,22min 55s,Shen,Jungle,12/11/27,57,14,60%,Flash,Ghost,Kaenic Rookern,Heartsteel,Chainlaced Crushers,Hollow Radiance,Thornmail,Long Sword,Stealth Ward
+Defeat,AR Ultra Rapid Fire,2025-02-09,14min 38s,Zeri,Jungle,6/9/2,57,13,40%,Flash,Ghost,Stormsurge,Malignance,Sorcerer's Shoes,Needlessly Large Rod,Needlessly Large Rod,None,Stealth Ward
+Victory,AR Ultra Rapid Fire,2025-02-08,20min 36s,Mel,Jungle,16/7/7,161,21,43%,Flash,Ghost,Void Staff,Cosmic Drive,Blackfire Torch,Spellslinger's Shoes,Liandry's Torment,Shadowflame,Stealth Ward
+Victory,Normal (Draft Pick),2025-02-08,40min 30s,Malzahar,Mid,13/8/14,292,27,61%,Flash,Teleport,Rylai's Crystal Scepter,Liandry's Torment,Malignance,Spellslinger's Shoes,Stormsurge,Shadowflame,Farsight Alteration
+Victory,Normal (Draft Pick),2025-02-07,24min 8s,Smolder,Adc,7/3/7,162,12,50%,Flash,Barrier,Rapid Firecannon,Essence Reaver,Ionian Boots of Lucidity,Infinity Edge,None,None,Stealth Ward
+Defeat,Normal (Draft Pick),2025-02-07,24min 42s,Samira,Adc,1/9/1,144,8,22%,Flash,Barrier,Doran's Blade,The Collector,Plated Steelcaps,Vampiric Scepter,Cloak of Agility,Pickaxe,Stealth Ward
+Defeat,Normal (Draft Pick),2025-02-07,28min 12s,Mel,Mid,5/7/2,202,13,39%,Flash,Teleport,Seraph's Embrace,Sorcerer's Shoes,Liandry's Torment,Fiendish Codex,Aether Wisp,Kindlegem,Stealth Ward
+Victory,AR Ultra Rapid Fire,2025-02-05,18min 29s,Fiddlesticks,Adc,14/7/11,59,20,66%,Flash,Ghost,Malignance,Zhonya's Hourglass,Liandry's Torment,Spellslinger's Shoes,Rylai's Crystal Scepter,Needlessly Large Rod,Scarecrow Effigy
+Defeat,AR Ultra Rapid Fire,2025-02-05,10min 35s,Vi,Top,2/8/3,78,9,26%,Flash,Ghost,Mercury's Treads,Health Potion,Eclipse,Long Sword,None,None,Stealth Ward
+Victory,AR Ultra Rapid Fire,2025-02-05,19min 50s,Xayah,Adc,21/8/6,157,17,49%,Flash,Barrier,Infinity Edge,The Collector,Berserker's Greaves,Kraken Slayer,Bloodthirster,Lord Dominik's Regards,Farsight Alteration
+Victory,AR Ultra Rapid Fire,2025-02-04,16min 18s,Jinx,Adc,18/11/9,102,7,52%,Flash,Ghost,Pickaxe,Yun Tal Wildarrows,The Collector,Runaan's Hurricane,Gunmetal Greaves,B. F. Sword,Farsight Alteration
+Defeat,AR Ultra Rapid Fire,2025-02-04,19min 17s,Zyra,Jungle,5/9/8,86,10,50%,Flash,Ignite,Blasting Wand,Blackfire Torch,Liandry's Torment,Sorcerer's Shoes,Rylai's Crystal Scepter,Lost Chapter,Stealth Ward
+Victory,Normal (Draft Pick),2025-02-04,29min 24s,Hwei,Mid,4/7/8,199,12,41%,Flash,Teleport,Rabadon's Deathcap,Liandry's Torment,Blackfire Torch,Amplifying Tome,Sorcerer's Shoes,None,Stealth Ward
+Victory,Normal (Draft Pick),2025-02-04,25min 0s,Malzahar,Mid,3/4/11,182,12,52%,Flash,Teleport,Doran's Ring,Malignance,Stormsurge,Sorcerer's Shoes,Hextech Alternator,Needlessly Large Rod,Stealth Ward
+Victory,Normal (Swiftplay),2025-02-03,21min 51s,Mel,Mid,6/3/3,156,10,35%,Flash,Teleport,Doran's Ring,Blackfire Torch,Spellslinger's Shoes,Cosmic Drive,Hextech Alternator,Needlessly Large Rod,Stealth Ward
+Defeat,Normal (Draft Pick),2025-02-02,40min 36s,Orianna,Mid,15/8/11,261,22,65%,Flash,Teleport,Liandry's Torment,Zhonya's Hourglass,Seraph's Embrace,Shadowflame,Morellonomicon,Mercury's Treads,Farsight Alteration
+Defeat,Normal (Draft Pick),2025-02-02,39min 57s,Aurelion Sol,Mid,11/8/10,303,19,75%,Flash,Teleport,Seraph's Embrace,Liandry's Torment,Rylai's Crystal Scepter,Sorcerer's Shoes,Blackfire Torch,Rabadon's Deathcap,Stealth Ward
+Defeat,Normal (Draft Pick),2025-02-02,15min 44s,Irelia,Mid,3/6/0,126,10,50%,Flash,Teleport,Blade of The Ruined King,Recurve Bow,Boots,Long Sword,Dagger,Null-Magic Mantle,Stealth Ward
+Victory,Normal (Draft Pick),2025-02-02,16min 32s,Lux,Mid,2/1/3,124,7,36%,Flash,Teleport,Doran's Ring,Health Potion,Malignance,Sorcerer's Shoes,Hextech Alternator,Amplifying Tome,Stealth Ward
+Victory,Normal (Draft Pick),2025-02-01,28min 30s,Orianna,Mid,7/6/18,154,15,58%,Flash,Teleport,Needlessly Large Rod,Luden's Companion,Stormsurge,Sorcerer's Shoes,Hextech Alternator,None,Stealth Ward
+Victory,Normal (Draft Pick),2025-02-01,15min 15s,Malzahar,Mid,6/2/1,132,4,47%,Flash,Teleport,Doran's Ring,Health Potion,Malignance,Hextech Alternator,Sorcerer's Shoes,Amplifying Tome,Stealth Ward
+Defeat,Normal (Draft Pick),2025-02-01,31min 1s,Zoe,Mid,11/10/12,167,18,72%,Flash,Ignite,Doran's Ring,Luden's Companion,Boots,Stormsurge,Shadowflame,Needlessly Large Rod,Stealth Ward
+Defeat,AR Ultra Rapid Fire,2025-02-01,27min 29s,Samira,Jungle,5/18/11,137,11,32%,Flash,Barrier,Infinity Edge,The Collector,Chainlaced Crushers,Bloodthirster,Lord Dominik's Regards,Immortal Shieldbow,Stealth Ward
+Defeat,AR Ultra Rapid Fire,2025-02-01,20min 46s,Samira,Support,9/11/9,128,18,46%,Flash,Barrier,Bloodthirster,Lord Dominik's Regards,The Collector,Berserker's Greaves,Infinity Edge,Pickaxe,Stealth Ward
+Defeat,Normal (Swiftplay),2025-02-01,25min 9s,Mel,Support,5/6/5,77,26,59%,Flash,Heal,Zaz'Zak's Realmspike,Malignance,Needlessly Large Rod,Spellslinger's Shoes,Shadowflame,Morellonomicon,Oracle Lens
+Victory,Normal (Swiftplay),2025-02-01,21min 5s,Mel,Mid,7/4/5,157,7,33%,Flash,Teleport,Needlessly Large Rod,Malignance,Dark Seal,Sorcerer's Shoes,Shadowflame,Needlessly Large Rod,Stealth Ward
+Victory,Normal (Swiftplay),2025-02-01,22min 47s,Mel,Support,8/3/10,21,24,58%,Flash,Heal,Zaz'Zak's Realmspike,Malignance,Spellslinger's Shoes,Shadowflame,Dark Seal,Needlessly Large Rod,Stealth Ward
+Victory,Normal (Swiftplay),2025-01-31,28min 48s,Mel,Mid,12/5/8,203,13,53%,Flash,Teleport,Rabadon's Deathcap,Sorcerer's Shoes,Mejai's Soulstealer,Malignance,Shadowflame,Horizon Focus,Farsight Alteration
+Victory,Normal (Draft Pick),2025-01-31,27min 5s,Swain,Mid,7/4/12,192,11,51%,Flash,Teleport,Fimbulwinter,Liandry's Torment,Rylai's Crystal Scepter,Sorcerer's Shoes,None,None,Stealth Ward
+Victory,Normal (Draft Pick),2025-01-31,27min 32s,Mel,Adc,6/3/7,209,11,62%,Flash,Teleport,Needlessly Large Rod,Dark Seal,Malignance,Sorcerer's Shoes,Shadowflame,Needlessly Large Rod,Stealth Ward
+Defeat,Normal (Draft Pick),2025-01-31,29min 22s,Caitlyn,Adc,7/8/6,194,18,54%,Flash,Barrier,Rapid Firecannon,Yun Tal Wildarrows,Infinity Edge,Boots of Swiftness,None,None,Stealth Ward
+Victory,AR Ultra Rapid Fire,2025-01-30,22min 20s,Mel,Support,18/4/10,159,40,53%,Flash,Ghost,Rabadon's Deathcap,Luden's Companion,Malignance,Void Staff,Shadowflame,Horizon Focus,Stealth Ward
+Defeat,AR Ultra Rapid Fire,2025-01-29,17min 25s,Corki,Support,10/6/2,117,13,38%,Flash,Ghost,Last Whisper,The Collector,Berserker's Greaves,Trinity Force,Infinity Edge,Noonquiver,Stealth Ward
+Defeat,Normal (Draft Pick),2025-01-29,29min 2s,Kai'Sa,Adc,15/12/7,156,12,61%,Flash,Barrier,Guinsoo's Rageblade,Kraken Slayer,Nashor's Tooth,Wit's End,Berserker's Greaves,Long Sword,Stealth Ward
+Defeat,AR Ultra Rapid Fire,2025-01-28,16min 44s,Sona,Adc,3/8/10,39,7,46%,Flash,Ghost,Moonstone Renewer,Lich Bane,Sorcerer's Shoes,Hextech Alternator,Amplifying Tome,Glowing Mote,Stealth Ward
+Defeat,AR Ultra Rapid Fire,2025-01-28,20min 54s,Nami,Adc,7/10/10,93,9,52%,Flash,Ghost,Rabadon's Deathcap,Sorcerer's Shoes,Stormsurge,Luden's Companion,Liandry's Torment,None,Stealth Ward
+Victory,AR Ultra Rapid Fire,2025-01-28,19min 45s,Sylas,Support,15/8/10,137,22,45%,Flash,Ignite,Rabadon's Deathcap,Spellslinger's Shoes,Lich Bane,Stormsurge,Kaenic Rookern,Aether Wisp,Stealth Ward
+Victory,AR Ultra Rapid Fire,2025-01-28,14min 3s,Tristana,Support,10/8/7,71,13,36%,Flash,Ghost,Kraken Slayer,The Collector,Berserker's Greaves,Infinity Edge,Long Sword,None,Stealth Ward
+Defeat,AR Ultra Rapid Fire,2025-01-27,16min 20s,Jhin,Top,7/9/5,75,9,31%,Flash,Ghost,Rapid Firecannon,Youmuu's Ghostblade,Swiftmarch,The Collector,None,None,Stealth Ward
+Defeat,AR Ultra Rapid Fire,2025-01-27,20min 41s,Shen,Top,9/10/16,72,5,52%,Flash,Ghost,Giant's Belt,Titanic Hydra,Mercury's Treads,Hollow Radiance,Aegis of the Legion,Heartsteel,Stealth Ward
+Victory,AR Ultra Rapid Fire,2025-01-27,17min 37s,Zac,Support,10/2/7,156,7,30%,Flash,Smite,Heartsteel,Chainlaced Crushers,Sunfire Aegis,Liandry's Torment,Ruby Crystal,Rejuvenation Bead,Stealth Ward
+Defeat,AR Ultra Rapid Fire,2025-01-27,18min 38s,Kai'Sa,Support,5/11/3,105,15,30%,Flash,Barrier,Nashor's Tooth,Kraken Slayer,Guinsoo's Rageblade,Berserker's Greaves,Hearthbound Axe,Recurve Bow,Stealth Ward
+Defeat,AR Ultra Rapid Fire,2025-01-27,11min 51s,Gwen,Top,4/10/3,68,6,58%,Flash,Ghost,Doran's Ring,Nashor's Tooth,Boots,Riftmaker,None,None,Stealth Ward
+Victory,AR Ultra Rapid Fire,2025-01-26,18min 44s,Zoe,Mid,8/8/8,99,7,31%,Flash,Ignite,Doran's Ring,Lich Bane,Sorcerer's Shoes,Stormsurge,Rabadon's Deathcap,Hextech Alternator,Stealth Ward
+Defeat,AR Ultra Rapid Fire,2025-01-26,17min 31s,Lucian,Top,9/9/12,93,8,54%,Flash,Ghost,Vampiric Scepter,The Collector,Infinity Edge,Gunmetal Greaves,Kraken Slayer,Last Whisper,Stealth Ward
+Victory,AR Ultra Rapid Fire,2025-01-26,21min 14s,Alistar,Adc,9/5/11,104,12,49%,Flash,Ghost,Sorcerer's Shoes,Stormsurge,Heartsteel,Luden's Companion,Needlessly Large Rod,Needlessly Large Rod,Stealth Ward
+Victory,AR Ultra Rapid Fire,2025-01-26,24min 10s,Ahri,Top,15/10/9,184,9,37%,Flash,Ignite,Stormsurge,Rabadon's Deathcap,Luden's Companion,Malignance,Spellslinger's Shoes,Shadowflame,Stealth Ward
+Victory,AR Ultra Rapid Fire,2025-01-26,14min 37s,Ekko,Top,8/1/4,127,15,35%,Flash,Ghost,Doran's Ring,Rabadon's Deathcap,Lich Bane,Sorcerer's Shoes,Stormsurge,None,Stealth Ward
+Victory,AR Ultra Rapid Fire,2025-01-26,13min 13s,Vi,Mid,8/8/7,80,11,42%,Flash,Ghost,Doran's Blade,Mercury's Treads,Eclipse,The Collector,Tunneler,Caulfield's Warhammer,Stealth Ward
+Victory,AR Ultra Rapid Fire,2025-01-26,10min 42s,Zoe,Adc,3/3/10,52,4,38%,Flash,Ignite,Doran's Ring,Amplifying Tome,Lich Bane,Sorcerer's Shoes,Health Potion,None,Stealth Ward
+Victory,AR Ultra Rapid Fire,2025-01-26,13min 35s,Janna,Mid,3/4/21,66,6,60%,Flash,Ghost,Luden's Companion,Spellslinger's Shoes,Rabadon's Deathcap,Amplifying Tome,None,None,Stealth Ward
+Victory,AR Ultra Rapid Fire,2025-01-26,13min 46s,Bel'Veth,Mid,10/5/4,138,7,52%,Flash,Smite,Berserker's Greaves,Blade of The Ruined King,Kraken Slayer,Negatron Cloak,Dagger,None,Stealth Ward
+Victory,AR Ultra Rapid Fire,2025-01-26,16min 0s,Sivir,Mid,10/2/6,163,2,52%,Flash,Ghost,Vampiric Scepter,The Collector,Statikk Shiv,Gunmetal Greaves,Infinity Edge,B. F. Sword,Stealth Ward
+Defeat,AR Ultra Rapid Fire,2025-01-26,31min 19s,Karthus,Mid,17/16/10,192,5,53%,Flash,Exhaust,Liandry's Torment,Rabadon's Deathcap,Malignance,Void Staff,Blackfire Torch,Shadowflame,Stealth Ward
+Defeat,AR Ultra Rapid Fire,2025-01-26,17min 30s,Mel,Mid,15/9/6,113,1,49%,Flash,Ghost,Rabadon's Deathcap,Shadowflame,Luden's Companion,Spellslinger's Shoes,None,None,Stealth Ward
+Victory,AR Ultra Rapid Fire,2025-01-26,19min 11s,Sona,Top,16/8/17,100,15,66%,Flash,Ghost,Lich Bane,Amplifying Tome,Spellslinger's Shoes,Rabadon's Deathcap,Stormsurge,Void Staff,Stealth Ward
+Defeat,AR Ultra Rapid Fire,2025-01-26,14min 59s,Syndra,Top,4/6/2,106,1,32%,Flash,Ghost,Needlessly Large Rod,Luden's Companion,Sorcerer's Shoes,Stormsurge,Needlessly Large Rod,None,Stealth Ward
+Victory,AR Ultra Rapid Fire,2025-01-25,14min 23s,Nami,Jungle,9/4/18,69,5,54%,Flash,Barrier,Luden's Companion,Health Potion,Sorcerer's Shoes,Stormsurge,Rabadon's Deathcap,None,Stealth Ward
+Victory,AR Ultra Rapid Fire,2025-01-25,14min 5s,Zed,Adc,7/8/6,123,1,35%,Flash,Ignite,Eclipse,Serrated Dirk,Voltaic Cyclosword,Edge of Night,Crimson Lucidity,Pickaxe,Stealth Ward
+Defeat,AR Ultra Rapid Fire,2025-01-25,19min 30s,Sona,Adc,15/12/10,88,9,69%,Flash,Ghost,Lich Bane,Sorcerer's Shoes,Rabadon's Deathcap,Shadowflame,Stormsurge,Seeker's Armguard,Stealth Ward
+Victory,AR Ultra Rapid Fire,2025-01-25,15min 41s,Teemo,Mid,12/9/3,96,3,45%,Flash,Ghost,Doran's Ring,Liandry's Torment,Spellslinger's Shoes,Malignance,Shadowflame,None,Stealth Ward
+Victory,AR Ultra Rapid Fire,2025-01-25,13min 42s,Aurora,Mid,8/4/10,99,5,53%,Flash,Ignite,Doran's Ring,Health Potion,Luden's Companion,Sorcerer's Shoes,Stormsurge,Shadowflame,Stealth Ward
+Victory,AR Ultra Rapid Fire,2025-01-25,22min 17s,Fiora,Mid,16/10/6,167,4,48%,Flash,Ghost,Death's Dance,Ravenous Hydra,Trinity Force,Mercury's Treads,Maw of Malmortius,Blade of The Ruined King,Stealth Ward
+Victory,AR Ultra Rapid Fire,2025-01-25,12min 21s,Sylas,Jungle,18/6/6,82,4,60%,Flash,Ignite,Doran's Ring,Rabadon's Deathcap,Lich Bane,Spellslinger's Shoes,Stormsurge,None,Stealth Ward
+Defeat,Normal (Swiftplay),2025-01-25,24min 23s,Mel,Mid,3/5/3,185,13,29%,Flash,Teleport,Doran's Ring,Luden's Companion,Spellslinger's Shoes,Shadowflame,Rabadon's Deathcap,None,Stealth Ward
+Defeat,Normal (Draft Pick),2025-01-24,22min 15s,Ekko,Mid,5/5/2,131,14,44%,Flash,Teleport,Doran's Ring,Lich Bane,Sorcerer's Shoes,Stormsurge,Amplifying Tome,Amplifying Tome,Stealth Ward
+Defeat,Normal (Swiftplay),2025-01-24,31min 49s,Mel,Mid,6/9/4,242,11,40%,Flash,Teleport,Void Staff,Zhonya's Hourglass,Sorcerer's Shoes,Shadowflame,Rabadon's Deathcap,Luden's Companion,Stealth Ward
+Defeat,AR Ultra Rapid Fire,2025-01-24,15min 51s,Vex,Mid,13/10/2,117,6,42%,Flash,Ignite,Needlessly Large Rod,Zhonya's Hourglass,Luden's Companion,Sorcerer's Shoes,Stormsurge,Rabadon's Deathcap,Stealth Ward
+Victory,AR Ultra Rapid Fire,2025-01-24,10min 2s,Ziggs,Jungle,13/1/7,69,0,38%,Flash,Barrier,Doran's Ring,Lost Chapter,Stormsurge,Boots,Rabadon's Deathcap,Hextech Alternator,Stealth Ward
+Defeat,AR Ultra Rapid Fire,2025-01-24,17min 18s,Kog'Maw,Mid,2/13/12,114,3,36%,Flash,Ghost,Rabadon's Deathcap,Spellslinger's Shoes,Shadowflame,Stormsurge,None,None,Stealth Ward
+Victory,Normal (Swiftplay),2025-01-24,15min 47s,Mel,Mid,5/0/4,142,6,43%,Flash,Teleport,Doran's Ring,Sorcerer's Shoes,Luden's Companion,Needlessly Large Rod,Hextech Alternator,None,Stealth Ward
+Defeat,Normal (Swiftplay),2025-01-24,21min 35s,Kai'Sa,Adc,4/5/0,172,9,50%,Flash,Barrier,Nashor's Tooth,Statikk Shiv,Berserker's Greaves,Guinsoo's Rageblade,None,None,Stealth Ward
+Victory,Normal (Swiftplay),2025-01-24,19min 30s,Mel,Mid,8/2/4,138,8,60%,Flash,Teleport,Doran's Ring,Luden's Companion,Sorcerer's Shoes,Shadowflame,Horizon Focus,None,Stealth Ward
+Victory,Normal (Draft Pick),2025-01-19,36min 8s,Malzahar,Mid,9/12/8,196,17,40%,Flash,Teleport,Void Staff,Malignance,Sorcerer's Shoes,Stormsurge,Shadowflame,Needlessly Large Rod,Stealth Ward
+Defeat,Normal (Draft Pick),2025-01-19,50min 45s,Kai'Sa,Adc,16/19/19,268,24,57%,Flash,Barrier,Terminus,Zhonya's Hourglass,Guinsoo's Rageblade,Nashor's Tooth,Gunmetal Greaves,Kraken Slayer,Stealth Ward
+Victory,Normal (Draft Pick),2025-01-18,37min 16s,Syndra,Mid,11/4/11,257,22,51%,Flash,Teleport,Blasting Wand,Blackfire Torch,Sorcerer's Shoes,Cosmic Drive,Rabadon's Deathcap,Blighting Jewel,Farsight Alteration
+Defeat,Normal (Draft Pick),2025-01-18,39min 44s,Hwei,Mid,8/9/7,264,12,38%,Flash,Teleport,Blackfire Torch,Shattered Armguard,Sorcerer's Shoes,Liandry's Torment,Shadowflame,Rabadon's Deathcap,Farsight Alteration
+Defeat,Normal (Draft Pick),2025-01-17,0min 0s,Lux,Mid,0/0/0,0,0,None,Flash,Teleport,None,None,None,None,None,None,None
+Defeat,Normal (Draft Pick),2025-01-14,31min 49s,Aurelion Sol,Mid,6/11/7,143,23,39%,Flash,Teleport,Seraph's Embrace,Rylai's Crystal Scepter,Liandry's Torment,Sorcerer's Shoes,None,None,Stealth Ward
+Victory,Normal (Draft Pick),2025-01-14,22min 26s,Kai'Sa,Adc,5/4/4,198,8,24%,Flash,Barrier,Doran's Blade,Guinsoo's Rageblade,Gunmetal Greaves,Statikk Shiv,Recurve Bow,Blasting Wand,Stealth Ward
+Defeat,Normal (Draft Pick),2025-01-14,15min 44s,Kai'Sa,Adc,0/4/3,115,3,43%,Flash,Barrier,Doran's Blade,Health Potion,Berserker's Greaves,Kraken Slayer,Dagger,None,Stealth Ward
+Victory,Normal (Draft Pick),2025-01-14,29min 10s,Jhin,Adc,11/8/10,148,21,64%,Flash,Barrier,Rapid Firecannon,Swiftmarch,The Collector,Serpent's Fang,B. F. Sword,Pickaxe,Stealth Ward
+Defeat,Normal (Draft Pick),2025-01-14,24min 49s,Zoe,Adc,1/11/3,51,43,29%,Flash,Ignite,Zaz'Zak's Realmspike,Health Potion,Luden's Companion,Blasting Wand,Sorcerer's Shoes,Amplifying Tome,Oracle Lens
+Victory,Normal (Draft Pick),2025-01-11,31min 36s,Vayne,Adc,13/8/6,218,18,56%,Flash,Barrier,Guinsoo's Rageblade,Blade of The Ruined King,Berserker's Greaves,Terminus,"Jak'Sho, The Protean",None,Stealth Ward
+Defeat,Normal (Draft Pick),2025-01-11,28min 4s,Kai'Sa,Adc,1/8/5,166,14,38%,Flash,Barrier,Guinsoo's Rageblade,Hearthbound Axe,Kraken Slayer,Berserker's Greaves,Recurve Bow,None,Stealth Ward
+Defeat,Normal (Draft Pick),2025-01-11,33min 31s,Lux,Mid,12/5/13,259,15,56%,Flash,Teleport,Shadowflame,Malignance,Stormsurge,Spellslinger's Shoes,Needlessly Large Rod,Needlessly Large Rod,Stealth Ward
+Victory,Normal (Draft Pick),2025-01-10,24min 6s,Lux,Mid,4/1/12,153,10,64%,Flash,Teleport,Doran's Ring,Health Potion,Malignance,Sorcerer's Shoes,Stormsurge,None,Stealth Ward
+Defeat,Normal (Draft Pick),2025-01-10,24min 40s,Swain,Adc,4/9/6,174,13,56%,Flash,Barrier,Doran's Ring,Shattered Armguard,Boots of Swiftness,Cosmic Drive,Blackfire Torch,None,Stealth Ward
+Defeat,Normal (Draft Pick),2025-01-10,24min 22s,Zoe,Support,3/12/8,34,20,73%,Flash,Ignite,Zaz'Zak's Realmspike,Luden's Companion,Hextech Alternator,Sorcerer's Shoes,Aether Wisp,None,Oracle Lens
+Victory,Normal (Draft Pick),2025-01-10,31min 5s,Miss Fortune,Adc,6/5/8,207,21,40%,Flash,Barrier,Doran's Blade,Bloodthirster,Boots of Swiftness,Infinity Edge,Serpent's Fang,Cloth Armor,Stealth Ward
+Victory,Normal (Draft Pick),2025-01-10,30min 55s,Ezreal,Adc,2/3/8,201,18,43%,Flash,Barrier,Muramana,Crimson Lucidity,Last Whisper,Trinity Force,Glowing Mote,Long Sword,Stealth Ward
+Victory,Normal (Draft Pick),2025-01-09,33min 46s,Warwick,Top,9/3/11,220,18,57%,Flash,Teleport,Sterak's Gage,Stridebreaker,Blade of The Ruined King,Plated Steelcaps,Thornmail,None,Stealth Ward
+Defeat,Normal (Draft Pick),2025-01-09,15min 47s,Kai'Sa,Adc,2/3/1,96,6,50%,Flash,Barrier,Doran's Blade,Berserker's Greaves,Kraken Slayer,Recurve Bow,Amplifying Tome,None,Stealth Ward
+Defeat,ARAM,2025-01-09,30min 31s,Kai'Sa,Adc,12/13/40,132,0,63%,Flash,Barrier,Luden's Companion,Nashor's Tooth,Muramana,Sorcerer's Shoes,Shadowflame,Rabadon's Deathcap,None
+Victory,Normal (Draft Pick),2025-01-07,25min 39s,Zoe,Support,10/3/14,53,27,48%,Flash,Ignite,Zaz'Zak's Realmspike,Luden's Companion,Sorcerer's Shoes,Stormsurge,None,None,Oracle Lens
+Victory,Soloqueue,2025-01-07,28min 29s,Kai'Sa,Adc,21/3/5,247,18,70%,Flash,Barrier,Vampiric Scepter,Kraken Slayer,Berserker's Greaves,Guinsoo's Rageblade,Nashor's Tooth,Terminus,Stealth Ward
+Victory,Soloqueue,2025-01-07,33min 28s,Hwei,Mid,11/5/10,236,20,47%,Flash,Teleport,Needlessly Large Rod,Liandry's Torment,Blackfire Torch,Shadowflame,Sorcerer's Shoes,None,Stealth Ward
+Defeat,Soloqueue,2025-01-07,28min 10s,Lux,Support,2/5/16,31,47,82%,Flash,Heal,Zaz'Zak's Realmspike,Stormsurge,Luden's Companion,Sorcerer's Shoes,Amplifying Tome,None,Oracle Lens
+Defeat,Soloqueue,2025-01-07,30min 10s,Viktor,Mid,3/6/6,178,16,39%,Flash,Teleport,Lich Bane,Blackfire Torch,Sorcerer's Shoes,Needlessly Large Rod,None,None,Stealth Ward
+Defeat,Soloqueue,2025-01-07,31min 48s,Ezreal,Adc,2/6/6,194,13,42%,Flash,Barrier,Bloodthirster,Muramana,Trinity Force,Ionian Boots of Lucidity,None,None,Farsight Alteration
+Victory,Normal (Draft Pick),2025-01-06,29min 27s,Udyr,Jungle,11/5/13,183,18,56%,Flash,Smite,Dead Man's Plate,Liandry's Torment,Boots of Swiftness,Abyssal Mask,Giant's Belt,Negatron Cloak,Oracle Lens
+Defeat,Normal (Draft Pick),2025-01-06,42min 27s,Aurora,Mid,7/13/15,270,17,47%,Flash,Teleport,Rabadon's Deathcap,Zhonya's Hourglass,Sorcerer's Shoes,Shadowflame,Luden's Companion,Glowing Mote,Stealth Ward
+Defeat,Normal (Draft Pick),2025-01-06,35min 37s,Kai'Sa,Adc,8/6/6,265,16,40%,Flash,Barrier,Nashor's Tooth,Kraken Slayer,Berserker's Greaves,Guinsoo's Rageblade,Terminus,Vampiric Scepter,Stealth Ward
+Victory,Normal (Draft Pick),2025-01-06,32min 27s,Kai'Sa,Adc,12/8/11,246,26,49%,Flash,Barrier,Berserker's Greaves,Guinsoo's Rageblade,Kraken Slayer,Terminus,Nashor's Tooth,Vampiric Scepter,Stealth Ward
+Victory,Normal (Draft Pick),2025-01-04,40min 12s,Viktor,Mid,11/8/16,241,29,50%,Flash,Teleport,Hextech Alternator,Zhonya's Hourglass,Sorcerer's Shoes,Lich Bane,Rabadon's Deathcap,Blackfire Torch,Stealth Ward
+Defeat,ARAM,2024-12-25,19min 41s,Illaoi,Top,4/18/13,38,0,50%,Flash,Mark,Sundered Sky,Plated Steelcaps,Iceborn Gauntlet,Sterak's Gage,Bramble Vest,None,None
+Defeat,ARAM,2024-12-25,12min 56s,Varus,Support,8/9/14,37,0,56%,Flash,Barrier,The Collector,Muramana,Ionian Boots of Lucidity,Serylda's Grudge,Long Sword,None,Poro-Snax
+Defeat,ARAM,2024-12-25,16min 41s,Caitlyn,Top,11/15/18,30,0,71%,Flash,Barrier,The Collector,Berserker's Greaves,Rapid Firecannon,Infinity Edge,Vampiric Scepter,None,Poro-Snax
+Defeat,Normal (Draft Pick),2024-12-25,36min 26s,Zoe,Mid,5/10/7,192,21,43%,Flash,Ignite,Rabadon's Deathcap,Luden's Companion,Sorcerer's Shoes,Lich Bane,Hextech Alternator,None,Stealth Ward
+Victory,ARAM,2024-12-25,12min 16s,Aurora,Top,12/4/25,30,0,71%,Flash,Mark,Malignance,Kindlegem,Sorcerer's Shoes,Liandry's Torment,Fiendish Codex,Aether Wisp,Poro-Snax
+Victory,ARAM,2024-12-25,20min 32s,Fiddlesticks,Jungle,16/12/35,40,5,69%,Flash,Mark,Malignance,Zhonya's Hourglass,Sorcerer's Shoes,Liandry's Torment,Shadowflame,Giant's Belt,Scarecrow Effigy
+Defeat,ARAM,2024-12-25,17min 45s,Swain,Mid,6/18/14,16,0,49%,Flash,Mark,Malignance,Zhonya's Hourglass,Sorcerer's Shoes,Rylai's Crystal Scepter,Amplifying Tome,Amplifying Tome,Poro-Snax
+Victory,Normal (Quickplay),2024-12-23,15min 57s,Viktor,Mid,2/1/1,131,6,14%,Flash,Teleport,Doran's Ring,Sorcerer's Shoes,Blackfire Torch,Haunting Guise,None,None,Stealth Ward
+Defeat,Normal (Quickplay),2024-12-23,9min 18s,Viktor,Mid,0/2/0,51,1,None,Flash,Teleport,Doran's Ring,Lost Chapter,Amplifying Tome,None,None,None,Stealth Ward
+Victory,Normal (Quickplay),2024-12-23,34min 37s,Ezreal,Adc,11/6/12,224,21,66%,Flash,Barrier,Muramana,Bloodthirster,Ionian Boots of Lucidity,Trinity Force,Serylda's Grudge,None,Stealth Ward
+Defeat,Normal (Quickplay),2024-12-23,17min 3s,Ezreal,Adc,0/7/1,93,7,8%,Flash,Barrier,Tear of the Goddess,Trinity Force,Ionian Boots of Lucidity,None,None,None,Stealth Ward
+Victory,ARAM,2024-12-23,20min 51s,Heimerdinger,Jungle,10/11/34,50,0,67%,Flash,Barrier,Blackfire Torch,Rylai's Crystal Scepter,Liandry's Torment,Rabadon's Deathcap,Sorcerer's Shoes,None,None
+Defeat,ARAM,2024-12-23,23min 43s,Viktor,Support,12/11/34,55,0,85%,Flash,Barrier,Luden's Companion,Rabadon's Deathcap,Sorcerer's Shoes,Lich Bane,Shadowflame,Blasting Wand,None
+Victory,ARAM,2024-12-22,27min 2s,Brand,Top,14/14/26,118,0,57%,Flash,Mark,Blackfire Torch,Rylai's Crystal Scepter,Sorcerer's Shoes,Liandry's Torment,Shadowflame,Rabadon's Deathcap,Poro-Snax
+Victory,ARAM,2024-12-20,15min 0s,Twisted Fate,Top,5/5/29,28,0,87%,Flash,Barrier,Luden's Companion,Refillable Potion,Sorcerer's Shoes,Lich Bane,Zeal,Scout's Slingshot,Poro-Snax
+Defeat,ARAM,2024-12-20,22min 26s,Naafiri,Top,24/16/22,64,0,61%,Flash,Mark,The Collector,Profane Hydra,Ionian Boots of Lucidity,Eclipse,Serylda's Grudge,Edge of Night,Poro-Snax
+Defeat,Normal (Draft Pick),2024-12-15,24min 23s,Viktor,Mid,2/9/2,198,10,24%,Flash,Teleport,Doran's Ring,Blackfire Torch,Sorcerer's Shoes,Liandry's Torment,Aether Wisp,Sheen,Stealth Ward
+Victory,Normal (Draft Pick),2024-12-14,46min 8s,Viktor,Mid,11/8/16,364,31,47%,Flash,Teleport,Rabadon's Deathcap,Zhonya's Hourglass,Luden's Companion,Lich Bane,Force of Nature,Shadowflame,Farsight Alteration
+Victory,Normal (Draft Pick),2024-12-14,6min 32s,Viktor,Mid,0/1/2,47,0,29%,Flash,Teleport,Doran's Ring,Health Potion,Total Biscuit of Everlasting Will,Lost Chapter,None,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-12-14,23min 8s,Sylas,Mid,9/6/2,137,9,79%,Flash,Teleport,Zhonya's Hourglass,Hextech Rocketbelt,Sorcerer's Shoes,Lich Bane,Doran's Ring,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-12-14,15min 26s,Zoe,Support,9/1/6,28,4,68%,Flash,Ignite,Zaz'Zak's Realmspike,Luden's Companion,Sorcerer's Shoes,Stormsurge,Amplifying Tome,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-12-14,32min 8s,Lux,Mid,7/2/7,279,14,34%,Flash,Teleport,Needlessly Large Rod,Malignance,Stormsurge,Sorcerer's Shoes,Rabadon's Deathcap,Shadowflame,Stealth Ward
+Defeat,ARAM,2024-12-14,14min 11s,Vel'Koz,Top,7/9/9,17,0,48%,Flash,Barrier,Malignance,Refillable Potion,Ionian Boots of Lucidity,Liandry's Torment,Needlessly Large Rod,None,Poro-Snax
+Victory,ARAM,2024-12-14,18min 12s,Lucian,Jungle,26/11/16,179,0,76%,Flash,Barrier,Statikk Shiv,Ionian Boots of Lucidity,The Collector,Infinity Edge,Bloodthirster,Navori Flickerblade,None
+Victory,Normal (Draft Pick),2024-12-13,37min 1s,Caitlyn,Adc,9/10/9,254,17,38%,Flash,Barrier,Infinity Edge,The Collector,Boots of Swiftness,Mortal Reminder,Bloodthirster,None,Farsight Alteration
+Victory,Normal (Quickplay),2024-12-12,28min 56s,Viktor,Mid,7/4/12,204,19,51%,Flash,Teleport,Doran's Ring,Blackfire Torch,Sorcerer's Shoes,Liandry's Torment,Rabadon's Deathcap,Blasting Wand,Stealth Ward
+Remake,Normal (Quickplay),2024-12-12,2min 22s,Viktor,Mid,0/0/0,7,0,None,Flash,Teleport,Doran's Ring,Health Potion,Total Biscuit of Everlasting Will,None,None,None,Stealth Ward
+Defeat,Normal (Quickplay),2024-12-12,17min 43s,Teemo,Top,1/6/0,110,8,8%,Flash,Ignite,Doran's Ring,Nashor's Tooth,Sorcerer's Shoes,Amplifying Tome,None,None,Stealth Ward
+Victory,Normal (Quickplay),2024-12-12,8min 34s,Viktor,Mid,1/0/0,60,1,17%,Flash,Teleport,Doran's Ring,Health Potion,Fated Ashes,Lost Chapter,None,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-12-11,32min 18s,Udyr,Jungle,4/0/4,266,13,21%,Flash,Smite,Boots of Swiftness,Unending Despair,Dark Seal,Liandry's Torment,Heartsteel,Negatron Cloak,Oracle Lens
+Defeat,Normal (Draft Pick),2024-12-11,32min 47s,Jinx,Adc,4/9/5,242,11,41%,Flash,Barrier,Mortal Reminder,Yun Tal Wildarrows,Infinity Edge,Berserker's Greaves,None,None,Farsight Alteration
+Defeat,ARAM,2024-12-11,12min 26s,Gragas,Support,7/8/20,28,0,69%,Flash,Mark,Luden's Companion,Refillable Potion,Sorcerer's Shoes,Stormsurge,Needlessly Large Rod,None,Poro-Snax
+Victory,Normal (Draft Pick),2024-12-10,36min 13s,Ezreal,Adc,8/9/6,252,14,34%,Flash,Barrier,Doran's Blade,Muramana,Trinity Force,Ionian Boots of Lucidity,Spear of Shojin,Last Whisper,Stealth Ward
+Defeat,ARAM,2024-12-10,28min 58s,Kai'Sa,Adc,15/13/24,153,0,53%,Flash,Barrier,Luden's Companion,Nashor's Tooth,Muramana,Shadowflame,Rabadon's Deathcap,Horizon Focus,Poro-Snax
+Defeat,ARAM,2024-12-09,23min 5s,Sivir,Jungle,5/11/21,142,0,70%,Flash,Barrier,Berserker's Greaves,Statikk Shiv,Navori Flickerblade,Infinity Edge,Bloodthirster,Last Whisper,Poro-Snax
+Defeat,Normal (Draft Pick),2024-12-09,43min 59s,Zed,Mid,4/15/8,262,24,31%,Flash,Ignite,Axiom Arc,Voltaic Cyclosword,Ionian Boots of Lucidity,Edge of Night,Eclipse,Serrated Dirk,Stealth Ward
+Victory,Normal (Draft Pick),2024-12-08,35min 4s,Miss Fortune,Adc,11/7/15,203,11,57%,Flash,Barrier,Lord Dominik's Regards,Hubris,The Collector,Boots of Swiftness,Serpent's Fang,Serrated Dirk,Stealth Ward
+Defeat,Normal (Draft Pick),2024-12-08,38min 28s,Fiora,Top,5/10/5,261,17,26%,Flash,Teleport,Sterak's Gage,Ravenous Hydra,Plated Steelcaps,Trinity Force,Death's Dance,None,Farsight Alteration
+Defeat,Normal (Draft Pick),2024-12-08,20min 37s,Ambessa,Top,3/6/1,131,9,36%,Flash,Teleport,Doran's Blade,Eclipse,Plated Steelcaps,Pickaxe,Phage,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-12-05,26min 11s,Zoe,Mid,9/5/9,141,14,40%,Flash,Ignite,Doran's Ring,Luden's Companion,Sorcerer's Shoes,Lich Bane,Amplifying Tome,Amplifying Tome,Stealth Ward
+Victory,ARAM,2024-12-04,22min 13s,Aurelion Sol,Adc,13/18/38,39,0,66%,Flash,Barrier,Rylai's Crystal Scepter,Liandry's Torment,Seraph's Embrace,Sorcerer's Shoes,Blackfire Torch,Negatron Cloak,Poro-Snax
+Defeat,ARAM,2024-12-04,11min 28s,Smolder,Top,5/7/10,26,0,68%,Flash,Barrier,Trinity Force,Muramana,Ionian Boots of Lucidity,None,None,None,Poro-Snax
+Defeat,ARAM,2024-12-04,17min 27s,Renata Glasc,Mid,2/11/36,26,0,76%,Flash,Exhaust,Imperial Mandate,Seraph's Embrace,Ionian Boots of Lucidity,Malignance,Aether Wisp,Amplifying Tome,Poro-Snax
+Defeat,ARAM,2024-12-03,17min 15s,Mordekaiser,Jungle,8/9/19,33,0,60%,Flash,Mark,Riftmaker,Mercury's Treads,Rylai's Crystal Scepter,Liandry's Torment,Kindlegem,None,Poro-Snax
+Defeat,ARAM,2024-12-03,16min 38s,Naafiri,Adc,14/14/11,70,0,64%,Flash,Mark,The Collector,Ionian Boots of Lucidity,Eclipse,Death's Dance,Caulfield's Warhammer,Last Whisper,Poro-Snax
+Defeat,ARAM,2024-12-03,26min 19s,Tahm Kench,Adc,7/16/24,34,0,53%,Flash,Mark,Heartsteel,Mercury's Treads,Spirit Visage,Unending Despair,Thornmail,Crystalline Bracer,Poro-Snax
+Defeat,Normal (Draft Pick),2024-12-03,41min 36s,Vayne,Adc,7/13/4,278,14,30%,Flash,Barrier,Negatron Cloak,Blade of The Ruined King,Guinsoo's Rageblade,Berserker's Greaves,Terminus,"Jak'Sho, The Protean",Stealth Ward
+Victory,Normal (Draft Pick),2024-12-03,22min 24s,Jhin,Adc,6/4/8,150,14,45%,Flash,Barrier,Doran's Blade,The Collector,Boots of Swiftness,Infinity Edge,Cloak of Agility,Dagger,Stealth Ward
+Victory,ARAM,2024-12-02,26min 50s,Hwei,Mid,14/8/34,104,0,77%,Flash,Barrier,Blackfire Torch,Shadowflame,Liandry's Torment,Sorcerer's Shoes,Rabadon's Deathcap,Void Staff,None
+Defeat,Normal (Draft Pick),2024-12-01,37min 51s,Pyke,Support,7/10/12,59,63,54%,Flash,Ignite,Bloodsong,Youmuu's Ghostblade,Umbral Glaive,Synchronized Souls,Edge of Night,Serrated Dirk,Oracle Lens
+Defeat,Normal (Draft Pick),2024-12-01,28min 33s,Swain,Support,4/7/9,59,38,81%,Flash,Ignite,Zaz'Zak's Realmspike,Shattered Armguard,Sorcerer's Shoes,Rylai's Crystal Scepter,Liandry's Torment,Needlessly Large Rod,Oracle Lens
+Victory,ARAM,2024-11-30,13min 12s,Neeko,Adc,6/5/20,33,0,51%,Flash,Mark,Seeker's Armguard,Hextech Rocketbelt,Ionian Boots of Lucidity,Malignance,Needlessly Large Rod,None,Poro-Snax
+Victory,Normal (Draft Pick),2024-11-29,34min 55s,Zoe,Mid,13/5/11,198,17,48%,Flash,Ignite,Shadowflame,Sorcerer's Shoes,Luden's Companion,Lich Bane,Needlessly Large Rod,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-11-28,40min 11s,Zoe,Adc,4/11/12,73,54,48%,Flash,Ignite,Zaz'Zak's Realmspike,Luden's Companion,Sorcerer's Shoes,Stormsurge,Lich Bane,Needlessly Large Rod,Oracle Lens
+Remake,Normal (Draft Pick),2024-11-28,1min 47s,Zoe,Mid,0/0/0,0,0,None,Flash,Ignite,World Atlas,Health Potion,None,None,None,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-11-28,27min 59s,Jhin,Adc,2/8/3,170,9,21%,Flash,Barrier,Infinity Edge,The Collector,Boots of Swiftness,Scout's Slingshot,Cloak of Agility,Dagger,Stealth Ward
+Victory,Normal (Draft Pick),2024-11-27,29min 27s,Swain,Adc,10/5/12,174,17,63%,Flash,Ghost,Liandry's Torment,Blackfire Torch,Boots of Swiftness,Cosmic Drive,Blasting Wand,Amplifying Tome,Stealth Ward
+Victory,ARAM,2024-11-26,17min 53s,Shen,Mid,8/6/26,21,0,81%,Flash,Mark,Heartsteel,Plated Steelcaps,Warmog's Armor,Thornmail,Ruby Crystal,Cloth Armor,Poro-Snax
+Defeat,Normal (Draft Pick),2024-11-25,40min 33s,Zoe,Mid,6/11/14,245,22,30%,Flash,Ignite,Shadowflame,Luden's Companion,Sorcerer's Shoes,Lich Bane,Rabadon's Deathcap,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-11-25,33min 5s,Zoe,Mid,5/6/12,199,15,43%,Flash,Ignite,Needlessly Large Rod,Luden's Companion,Stormsurge,Sorcerer's Shoes,Shadowflame,Needlessly Large Rod,Stealth Ward
+Victory,Normal (Draft Pick),2024-11-24,34min 17s,Lux,Mid,11/5/8,275,19,49%,Flash,Teleport,Rabadon's Deathcap,Luden's Companion,Sorcerer's Shoes,Stormsurge,Shadowflame,None,Farsight Alteration
+Defeat,Normal (Draft Pick),2024-11-24,33min 23s,Smolder,Adc,4/9/4,248,18,31%,Flash,Barrier,Vampiric Scepter,Essence Reaver,Ionian Boots of Lucidity,Spear of Shojin,Rapid Firecannon,B. F. Sword,Stealth Ward
+Victory,ARAM,2024-11-24,17min 11s,Zoe,Jungle,21/5/25,67,0,74%,Flash,Ignite,Luden's Companion,Refillable Potion,Stormsurge,Sorcerer's Shoes,Rabadon's Deathcap,Amplifying Tome,Poro-Snax
+Victory,ARAM,2024-11-24,23min 6s,Orianna,Adc,13/10/37,50,0,79%,Flash,Barrier,Luden's Companion,Blasting Wand,Sorcerer's Shoes,Stormsurge,Rabadon's Deathcap,Blighting Jewel,None
+Defeat,Normal (Draft Pick),2024-11-24,37min 45s,Smolder,Adc,7/14/23,228,15,56%,Flash,Barrier,Bloodthirster,Spear of Shojin,Essence Reaver,Ionian Boots of Lucidity,Rapid Firecannon,Last Whisper,Stealth Ward
+Defeat,Normal (Draft Pick),2024-11-23,30min 46s,Tahm Kench,Top,6/4/4,193,14,42%,Flash,Teleport,Chain Vest,Heartsteel,Boots of Swiftness,Riftmaker,Thornmail,Kindlegem,Stealth Ward
+Defeat,Normal (Draft Pick),2024-11-23,15min 41s,Zed,Mid,4/4/0,116,3,44%,Flash,Ignite,Voltaic Cyclosword,Ionian Boots of Lucidity,Serrated Dirk,Caulfield's Warhammer,None,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-11-23,19min 32s,Veigar,Mid,3/5/0,148,7,21%,Flash,Teleport,Doran's Ring,Rod of Ages,Tear of the Goddess,Sorcerer's Shoes,Lost Chapter,Fiendish Codex,Stealth Ward
+Defeat,ARAM,2024-11-22,12min 46s,Ezreal,Mid,9/4/21,40,0,91%,Flash,Barrier,Trinity Force,Muramana,Last Whisper,Ionian Boots of Lucidity,Long Sword,None,Poro-Snax
+Victory,Normal (Draft Pick),2024-11-22,49min 18s,Warwick,Jungle,25/10/22,278,25,73%,Flash,Smite,Blade of The Ruined King,Stridebreaker,Thornmail,Plated Steelcaps,Spirit Visage,"Jak'Sho, The Protean",Oracle Lens
+Victory,Normal (Quickplay),2024-11-21,17min 22s,Ambessa,Top,3/3/4,118,4,23%,Flash,Teleport,Doran's Blade,Tiamat,Ionian Boots of Lucidity,Eclipse,Long Sword,Glowing Mote,Stealth Ward
+Defeat,Normal (Quickplay),2024-11-21,39min 37s,Ambessa,Top,7/10/7,263,27,42%,Flash,Teleport,Eclipse,Ravenous Hydra,Plated Steelcaps,Death's Dance,Spear of Shojin,Phage,Stealth Ward
+Defeat,ARAM,2024-11-21,17min 52s,Xayah,Adc,8/14/16,72,0,49%,Flash,Mark,Berserker's Greaves,Kraken Slayer,Navori Flickerblade,Infinity Edge,Vampiric Scepter,None,Poro-Snax
+Defeat,ARAM,2024-11-20,20min 49s,Ambessa,Mid,12/15/20,58,0,53%,Flash,Mark,Eclipse,Ravenous Hydra,Ionian Boots of Lucidity,Spear of Shojin,Death's Dance,Long Sword,Poro-Snax
+Victory,ARAM,2024-11-19,14min 47s,Kai'Sa,Mid,9/9/25,33,0,65%,Flash,Barrier,Luden's Companion,Refillable Potion,Muramana,Sorcerer's Shoes,Nashor's Tooth,Amplifying Tome,Poro-Snax
+Defeat,ARAM,2024-11-19,19min 54s,Zoe,Jungle,25/15/23,45,0,74%,Flash,Ignite,Luden's Companion,Shadowflame,Sorcerer's Shoes,Stormsurge,Rabadon's Deathcap,Seeker's Armguard,Poro-Snax
+Defeat,ARAM,2024-11-18,17min 27s,Illaoi,Adc,7/15/16,23,0,64%,Flash,Mark,Sundered Sky,Mercury's Treads,Iceborn Gauntlet,Spirit Visage,None,None,Poro-Snax
+Victory,Normal (Draft Pick),2024-11-18,29min 36s,Corki,Adc,11/5/5,196,15,62%,Flash,Barrier,Lord Dominik's Regards,The Collector,Plated Steelcaps,Tear of the Goddess,Infinity Edge,Vampiric Scepter,Stealth Ward
+Defeat,Normal (Draft Pick),2024-11-18,28min 38s,Corki,Adc,9/7/5,196,17,67%,Flash,Barrier,Rapid Firecannon,Muramana,Trinity Force,Pickaxe,Plated Steelcaps,None,Farsight Alteration
+Defeat,Normal (Draft Pick),2024-11-18,28min 19s,Katarina,Mid,11/7/4,155,14,68%,Flash,Teleport,Needlessly Large Rod,Lich Bane,Sorcerer's Shoes,Dark Seal,Shadowflame,Needlessly Large Rod,Stealth Ward
+Defeat,Normal (Draft Pick),2024-11-17,35min 51s,Lux,Mid,5/7/9,229,19,50%,Flash,Teleport,Rabadon's Deathcap,Health Potion,Luden's Companion,Sorcerer's Shoes,Stormsurge,Amplifying Tome,Farsight Alteration
+Defeat,Normal (Draft Pick),2024-11-17,37min 5s,Zoe,Support,12/9/15,62,45,73%,Flash,Ignite,Zaz'Zak's Realmspike,Rabadon's Deathcap,Sorcerer's Shoes,Stormsurge,Luden's Companion,Hextech Alternator,Oracle Lens
+Defeat,Normal (Draft Pick),2024-11-16,27min 25s,Lux,Mid,2/10/2,168,10,24%,Flash,Teleport,Doran's Ring,Luden's Companion,Stormsurge,Amplifying Tome,Sorcerer's Shoes,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-11-16,17min 50s,Caitlyn,Adc,2/3/1,130,8,43%,Flash,Barrier,Doran's Blade,The Collector,Berserker's Greaves,Pickaxe,None,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-11-16,31min 53s,Illaoi,Top,6/7/4,213,17,40%,Flash,Teleport,Sheen,Black Cleaver,Mercury's Treads,Sterak's Gage,Spirit Visage,Executioner's Calling,Stealth Ward
+Defeat,Normal (Draft Pick),2024-11-16,25min 43s,Poppy,Top,0/4/0,182,11,None,Flash,Teleport,Doran's Shield,Tear of the Goddess,Sundered Sky,Mercury's Treads,Kindlegem,Ruby Crystal,Stealth Ward
+Defeat,ARAM,2024-11-15,14min 40s,Darius,Top,4/15/16,32,0,59%,Flash,Mark,Trinity Force,Plated Steelcaps,Sundered Sky,Long Sword,Ruby Crystal,None,Poro-Snax
+Defeat,ARAM,2024-11-15,21min 55s,Xayah,Adc,9/11/27,90,0,63%,Flash,Barrier,Berserker's Greaves,Kraken Slayer,Navori Flickerblade,Infinity Edge,Bloodthirster,Long Sword,None
+Defeat,ARAM,2024-11-15,17min 23s,Rek'Sai,Jungle,4/10/12,12,0,46%,Flash,Mark,Heartsteel,Plated Steelcaps,Unending Despair,Spectre's Cowl,Kindlegem,None,Poro-Snax
+Victory,Normal (Draft Pick),2024-11-15,6min 9s,Ambessa,Top,0/0/2,36,0,67%,Flash,Teleport,Doran's Blade,Health Potion,Executioner's Calling,Long Sword,None,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-11-14,31min 24s,Ambessa,Top,9/9/2,172,17,23%,Flash,Teleport,Spear of Shojin,Eclipse,Plated Steelcaps,Voltaic Cyclosword,None,None,Oracle Lens
+Victory,Normal (Draft Pick),2024-11-14,31min 17s,Ezreal,Adc,9/6/13,190,10,50%,Flash,Barrier,Spear of Shojin,Trinity Force,Muramana,Ionian Boots of Lucidity,Caulfield's Warhammer,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-11-12,39min 46s,Vex,Mid,10/14/7,242,25,45%,Flash,Teleport,Stormsurge,Luden's Companion,Sorcerer's Shoes,Shadowflame,Void Staff,Needlessly Large Rod,Stealth Ward
+Defeat,Normal (Draft Pick),2024-11-12,19min 34s,Ahri,Mid,2/5/1,145,9,27%,Flash,Teleport,Doran's Ring,Malignance,Sorcerer's Shoes,Sheen,Aether Wisp,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-11-12,28min 30s,Corki,Mid,3/9/4,200,14,47%,Flash,Teleport,Doran's Blade,Mercury's Treads,Trinity Force,Muramana,Scout's Slingshot,Cloak of Agility,Stealth Ward
+Defeat,Normal (Draft Pick),2024-11-12,20min 52s,Fizz,Mid,3/4/2,135,8,63%,Flash,Ignite,Amplifying Tome,Lich Bane,Sorcerer's Shoes,Cloth Armor,Amplifying Tome,Needlessly Large Rod,Stealth Ward
+Victory,Normal (Draft Pick),2024-11-12,26min 29s,Naafiri,Mid,15/5/7,200,19,92%,Flash,Teleport,Doran's Shield,Profane Hydra,Mercury's Treads,Eclipse,Serylda's Grudge,Edge of Night,Stealth Ward
+Victory,Normal (Draft Pick),2024-11-11,34min 13s,Zoe,Mid,9/6/8,205,26,53%,Flash,Ignite,Doran's Ring,Luden's Companion,Sorcerer's Shoes,Lich Bane,Rabadon's Deathcap,Blasting Wand,Stealth Ward
+Defeat,Normal (Draft Pick),2024-11-11,42min 20s,Ezreal,Adc,9/10/6,276,23,39%,Flash,Barrier,Spear of Shojin,Muramana,Trinity Force,Ionian Boots of Lucidity,Serylda's Grudge,Bloodthirster,Stealth Ward
+Victory,Normal (Quickplay),2024-11-10,35min 7s,Ambessa,Jungle,7/5/14,196,23,62%,Flash,Smite,Plated Steelcaps,Eclipse,Black Cleaver,Death's Dance,Tunneler,Ruby Crystal,Oracle Lens
+Defeat,Normal (Draft Pick),2024-11-10,29min 52s,Viego,Jungle,4/7/5,206,19,60%,Flash,Smite,Sundered Sky,Sterak's Gage,Trinity Force,Plated Steelcaps,Long Sword,None,Oracle Lens
+Defeat,Normal (Quickplay),2024-11-10,41min 8s,Katarina,Mid,14/10/11,228,29,56%,Flash,Teleport,Mejai's Soulstealer,Zhonya's Hourglass,Lich Bane,Sorcerer's Shoes,Void Staff,Shadowflame,Stealth Ward
+Victory,ARAM,2024-11-08,19min 17s,Ambessa,Mid,12/15/21,44,0,59%,Flash,Mark,Death's Dance,Ravenous Hydra,Eclipse,Ionian Boots of Lucidity,Tunneler,Ruby Crystal,Poro-Snax
+Victory,Normal (Draft Pick),2024-11-08,17min 48s,Zed,Jungle,9/1/9,115,17,67%,Flash,Smite,Voltaic Cyclosword,Ionian Boots of Lucidity,Serrated Dirk,Tunneler,None,None,Stealth Ward
+Victory,Normal (Quickplay),2024-11-08,34min 36s,Ambessa,Top,4/8/6,232,19,26%,Flash,Teleport,Eclipse,Ravenous Hydra,Spear of Shojin,Plated Steelcaps,Long Sword,Long Sword,Farsight Alteration
+Defeat,Normal (Draft Pick),2024-11-07,21min 21s,Sivir,Adc,1/7/3,136,10,33%,Flash,Barrier,Doran's Blade,Essence Reaver,Boots of Swiftness,Zeal,Dagger,Dagger,Stealth Ward
+Defeat,Normal (Draft Pick),2024-11-07,19min 56s,Kalista,Adc,5/5/5,125,4,71%,Flash,Barrier,Doran's Blade,Berserker's Greaves,Blade of The Ruined King,Pickaxe,Recurve Bow,Amplifying Tome,Stealth Ward
+Defeat,Normal (Draft Pick),2024-11-07,17min 41s,Kalista,Adc,3/6/1,82,3,44%,Flash,Barrier,Doran's Blade,Blade of The Ruined King,Recurve Bow,Berserker's Greaves,None,None,Stealth Ward
+Defeat,ARAM,2024-11-07,21min 48s,Vex,Mid,27/12/28,110,0,83%,Flash,Mark,Rabadon's Deathcap,Void Staff,Sorcerer's Shoes,Stormsurge,Luden's Companion,Shadowflame,Poro-Snax
+Victory,ARAM,2024-11-07,13min 4s,Jhin,Jungle,4/6/22,45,0,65%,Flash,Barrier,Infinity Edge,The Collector,Boots of Swiftness,Scout's Slingshot,Zeal,None,Poro-Snax
+Defeat,Normal (Draft Pick),2024-11-07,33min 32s,Smolder,Adc,17/8/6,284,12,70%,Flash,Barrier,Bloodthirster,Essence Reaver,Boots of Swiftness,Spear of Shojin,Rapid Firecannon,Immortal Shieldbow,Stealth Ward
+Defeat,Normal (Draft Pick),2024-11-07,17min 50s,Aurora,Mid,2/3/3,122,6,45%,Flash,Teleport,Doran's Ring,Malignance,Sorcerer's Shoes,Fated Ashes,Amplifying Tome,Ruby Crystal,Stealth Ward
+Defeat,Normal (Draft Pick),2024-11-07,32min 45s,Kai'Sa,Adc,7/5/0,292,12,39%,Flash,Barrier,Pickaxe,Kraken Slayer,Berserker's Greaves,Guinsoo's Rageblade,Terminus,Bloodthirster,Stealth Ward
+Victory,ARAM,2024-11-06,14min 37s,Hwei,Adc,16/7/32,43,0,89%,Flash,Barrier,Blackfire Torch,Refillable Potion,Sorcerer's Shoes,Liandry's Torment,Needlessly Large Rod,Needlessly Large Rod,Poro-Snax
+Remake,Normal (Draft Pick),2024-11-06,1min 45s,Qiyana,Mid,0/0/0,2,0,None,Flash,Ignite,Long Sword,Refillable Potion,None,None,None,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-11-06,15min 28s,Vladimir,Mid,3/0/1,134,6,17%,Flash,Teleport,Doran's Ring,Health Potion,Sorcerer's Shoes,Cosmic Drive,Hextech Alternator,Amplifying Tome,Stealth Ward
+Victory,Normal (Draft Pick),2024-11-06,24min 24s,Yasuo,Adc,8/3/9,191,16,65%,Flash,Ignite,Doran's Shield,Blade of The Ruined King,Berserker's Greaves,Immortal Shieldbow,B. F. Sword,Pickaxe,Stealth Ward
+Victory,Normal (Draft Pick),2024-11-06,28min 9s,Kai'Sa,Adc,11/2/2,224,11,76%,Flash,Barrier,Nashor's Tooth,Kraken Slayer,Berserker's Greaves,Guinsoo's Rageblade,Needlessly Large Rod,None,Stealth Ward
+Remake,ARAM,2024-11-06,1min 52s,Miss Fortune,Top,0/0/2,2,0,67%,Flash,Barrier,B. F. Sword,Health Potion,None,None,None,None,Poro-Snax
+Victory,ARAM,2024-11-06,19min 19s,Twitch,Mid,11/15/33,70,0,65%,Flash,Barrier,Nashor's Tooth,Void Staff,Sorcerer's Shoes,Shadowflame,Rabadon's Deathcap,None,Poro-Snax
+Victory,ARAM,2024-11-06,17min 17s,Yorick,Adc,6/5/25,74,0,52%,Flash,Mark,Sundered Sky,Mercury's Treads,Iceborn Gauntlet,Spectre's Cowl,Kindlegem,None,None
+Victory,ARAM,2024-11-06,26min 47s,LeBlanc,Support,25/18/20,56,0,58%,Flash,Mark,Luden's Companion,Rabadon's Deathcap,Sorcerer's Shoes,Stormsurge,Shadowflame,Void Staff,Poro-Snax
+Victory,ARAM,2024-11-04,17min 29s,Swain,Support,5/7/24,58,0,69%,Flash,Mark,Malignance,Refillable Potion,Sorcerer's Shoes,Rylai's Crystal Scepter,Liandry's Torment,Fiendish Codex,None
+Victory,Normal (Draft Pick),2024-11-03,34min 59s,Irelia,Top,7/6/6,332,19,35%,Flash,Teleport,Wit's End,Blade of The Ruined King,Plated Steelcaps,Kraken Slayer,Death's Dance,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-11-03,26min 22s,Sett,Top,7/7/0,178,11,41%,Flash,Teleport,Hullbreaker,Stridebreaker,Boots of Swiftness,Tunneler,Long Sword,Ruby Crystal,Stealth Ward
+Defeat,Normal (Draft Pick),2024-11-03,26min 43s,Lucian,Adc,5/8/2,160,14,33%,Flash,Barrier,Doran's Blade,The Collector,Ionian Boots of Lucidity,Infinity Edge,Last Whisper,Long Sword,Stealth Ward
+Defeat,Normal (Draft Pick),2024-11-03,39min 6s,Kai'Sa,Adc,6/11/5,300,27,44%,Flash,Barrier,Nashor's Tooth,Statikk Shiv,Guinsoo's Rageblade,Terminus,Berserker's Greaves,Vampiric Scepter,Stealth Ward
+Victory,ARAM,2024-11-03,15min 9s,Aphelios,Jungle,14/9/19,44,0,73%,Flash,Barrier,Infinity Edge,Bloodthirster,The Collector,Berserker's Greaves,Long Sword,None,Poro-Snax
+Victory,Normal (Draft Pick),2024-11-03,20min 8s,Aurelion Sol,Mid,4/2/4,183,7,36%,Flash,Teleport,Doran's Ring,Tear of the Goddess,Rylai's Crystal Scepter,Sorcerer's Shoes,Fated Ashes,Haunting Guise,Stealth Ward
+Defeat,ARAM,2024-11-03,27min 36s,Lillia,Adc,10/23/35,106,0,56%,Flash,Mark,Blackfire Torch,Sorcerer's Shoes,Liandry's Torment,Cosmic Drive,Rabadon's Deathcap,Shadowflame,Poro-Snax
+Defeat,ARAM,2024-11-03,13min 40s,Neeko,Adc,7/8/18,38,0,81%,Flash,Mark,Malignance,Hextech Rocketbelt,Sorcerer's Shoes,Needlessly Large Rod,Amplifying Tome,Amplifying Tome,Poro-Snax
+Defeat,ARAM,2024-11-03,15min 26s,Cho'Gath,Jungle,8/8/20,20,0,80%,Flash,Mark,Heartsteel,Plated Steelcaps,Refillable Potion,Warmog's Armor,Bramble Vest,Chain Vest,None
+Defeat,Normal (Draft Pick),2024-10-31,28min 26s,Xayah,Adc,2/9/11,203,11,41%,Flash,Barrier,B. F. Sword,Berserker's Greaves,Essence Reaver,Navori Flickerblade,Cloak of Agility,Pickaxe,Farsight Alteration
+Victory,ARAM,2024-10-31,14min 41s,Viktor,Mid,10/6/23,47,0,85%,Flash,Barrier,Blackfire Torch,Sorcerer's Shoes,Liandry's Torment,Hextech Alternator,Needlessly Large Rod,None,Poro-Snax
+Victory,ARAM,2024-10-31,21min 14s,Akali,Support,7/13/29,17,0,48%,Flash,Mark,Heartsteel,Plated Steelcaps,Riftmaker,Warmog's Armor,Fated Ashes,Amplifying Tome,None
+Victory,ARAM,2024-10-30,11min 5s,Udyr,Adc,3/4/27,25,0,83%,Flash,Mark,Liandry's Torment,Health Potion,Winter's Approach,Mercury's Treads,Kindlegem,None,None
+Defeat,Normal (Draft Pick),2024-10-30,30min 59s,Corki,Adc,6/9/4,207,11,53%,Flash,Barrier,Rapid Firecannon,Muramana,Plated Steelcaps,Trinity Force,Serrated Dirk,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-10-30,29min 38s,Caitlyn,Adc,7/7/9,188,14,46%,Flash,Barrier,Rapid Firecannon,The Collector,Boots of Swiftness,Infinity Edge,Long Sword,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-10-30,30min 26s,Kai'Sa,Adc,2/6/5,231,17,23%,Flash,Barrier,Doran's Blade,Statikk Shiv,Guinsoo's Rageblade,Terminus,Berserker's Greaves,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-10-30,24min 14s,Sivir,Adc,5/2/3,224,12,32%,Flash,Barrier,Doran's Blade,Essence Reaver,Berserker's Greaves,Infinity Edge,Navori Flickerblade,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-10-30,34min 11s,Zoe,Mid,5/12/8,184,18,45%,Flash,Ignite,Doran's Ring,Luden's Companion,Lich Bane,Sorcerer's Shoes,Stormsurge,Blighting Jewel,Stealth Ward
+Defeat,Normal (Draft Pick),2024-10-30,28min 3s,Sivir,Adc,1/10/7,183,15,47%,Flash,Barrier,Doran's Blade,Berserker's Greaves,Essence Reaver,Infinity Edge,Dagger,Dagger,Stealth Ward
+Victory,ARAM,2024-10-30,18min 14s,Twisted Fate,Support,6/11/28,48,0,57%,Flash,Barrier,Kraken Slayer,Berserker's Greaves,Guinsoo's Rageblade,Rapid Firecannon,Vampiric Scepter,Recurve Bow,None
+Victory,Normal (Draft Pick),2024-10-29,18min 0s,Corki,Adc,10/1/6,121,9,57%,Flash,Barrier,Doran's Blade,Muramana,Plated Steelcaps,Trinity Force,None,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-10-29,42min 12s,Zoe,Adc,2/14/12,57,82,44%,Flash,Ignite,Zaz'Zak's Realmspike,Luden's Companion,Sorcerer's Shoes,Lich Bane,Shadowflame,None,Oracle Lens
+Defeat,Normal (Draft Pick),2024-10-29,32min 33s,Zoe,Adc,12/9/16,79,31,72%,Flash,Ignite,Zaz'Zak's Realmspike,Luden's Companion,Sorcerer's Shoes,Lich Bane,Stormsurge,Needlessly Large Rod,Oracle Lens
+Victory,Normal (Draft Pick),2024-10-29,40min 30s,Zoe,Mid,8/13/18,220,14,50%,Flash,Ignite,Stormsurge,Rabadon's Deathcap,Luden's Companion,Sorcerer's Shoes,Lich Bane,Blasting Wand,Stealth Ward
+Defeat,Normal (Draft Pick),2024-10-29,16min 32s,Aurelion Sol,Mid,2/4/1,105,6,43%,Flash,Teleport,Doran's Ring,Tear of the Goddess,Rylai's Crystal Scepter,Sorcerer's Shoes,Fated Ashes,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-10-29,38min 57s,Swain,Adc,14/10/14,255,15,57%,Flash,Ignite,Liandry's Torment,Zhonya's Hourglass,Malignance,Rylai's Crystal Scepter,Morellonomicon,Abyssal Mask,Stealth Ward
+Victory,ARAM,2024-10-22,25min 25s,Hwei,Jungle,16/8/39,97,0,79%,Flash,Barrier,Blackfire Torch,Shadowflame,Stormsurge,Liandry's Torment,Rabadon's Deathcap,Cryptbloom,None
+Victory,ARAM,2024-10-21,17min 32s,Vladimir,Jungle,5/11/26,40,0,69%,Flash,Mark,Riftmaker,Sorcerer's Shoes,Cosmic Drive,Needlessly Large Rod,Needlessly Large Rod,None,None
+Victory,ARAM,2024-10-21,16min 7s,Samira,Jungle,18/13/19,37,0,66%,Flash,Mark,The Collector,Mercury's Treads,Infinity Edge,Bloodthirster,Noonquiver,None,None
+Remake,ARAM,2024-10-21,2min 29s,Aurora,Support,1/1/0,2,0,50%,Flash,Mark,Lost Chapter,Refillable Potion,Boots,None,None,None,Poro-Snax
+Victory,ARAM,2024-10-21,26min 50s,Seraphine,Adc,6/14/56,76,0,82%,Flash,Barrier,Malignance,Rabadon's Deathcap,Sorcerer's Shoes,Rylai's Crystal Scepter,Liandry's Torment,Cryptbloom,None
+Victory,ARAM,2024-10-20,22min 32s,Samira,Jungle,19/14/24,122,0,65%,Flash,Mark,The Collector,Mercury's Treads,Infinity Edge,Bloodthirster,Immortal Shieldbow,Lord Dominik's Regards,None
+Victory,ARAM,2024-10-20,18min 30s,Zilean,Top,13/9/24,52,0,65%,Flash,Clarity,Luden's Companion,Needlessly Large Rod,Sorcerer's Shoes,Stormsurge,Shadowflame,Needlessly Large Rod,Poro-Snax
+Victory,ARAM,2024-10-20,16min 39s,Zoe,Top,21/10/27,46,0,84%,Flash,Ignite,Luden's Companion,Void Staff,Sorcerer's Shoes,Stormsurge,Shadowflame,None,None
+Defeat,ARAM,2024-10-20,20min 40s,Ezreal,Top,13/9/29,83,0,74%,Flash,Barrier,Trinity Force,Muramana,Serylda's Grudge,Spear of Shojin,Ionian Boots of Lucidity,Vampiric Scepter,Poro-Snax
+Victory,ARAM,2024-10-20,18min 50s,Taliyah,Jungle,12/11/51,51,0,76%,Flash,Barrier,Blackfire Torch,Shadowflame,Sorcerer's Shoes,Liandry's Torment,Needlessly Large Rod,Needlessly Large Rod,Poro-Snax
+Defeat,ARAM,2024-10-19,22min 13s,Viktor,Jungle,18/17/23,84,0,80%,Flash,Barrier,Luden's Companion,Zhonya's Hourglass,Lich Bane,Rabadon's Deathcap,Sorcerer's Shoes,Shadowflame,Poro-Snax
+Victory,ARAM,2024-10-19,17min 36s,Thresh,Mid,6/11/35,14,0,71%,Flash,Mark,Heartsteel,Fimbulwinter,Warmog's Armor,Mercury's Treads,None,None,Poro-Snax
+Victory,ARAM,2024-10-19,23min 14s,Samira,Jungle,26/16/19,81,0,74%,Flash,Mark,The Collector,Mercury's Treads,Infinity Edge,Bloodthirster,Immortal Shieldbow,Death's Dance,None
+Victory,ARAM,2024-10-18,11min 37s,Kai'Sa,Top,9/5/17,24,0,67%,Flash,Barrier,Muramana,Luden's Companion,Fiendish Codex,Sorcerer's Shoes,None,None,Poro-Snax
+Remake,ARAM,2024-10-18,2min 22s,Hwei,Top,0/0/3,2,0,100%,Flash,Barrier,Lost Chapter,Refillable Potion,None,None,None,None,Poro-Snax
+Victory,ARAM,2024-10-18,7min 53s,Rumble,Mid,3/8/14,13,0,65%,Flash,Mark,Liandry's Torment,Sorcerer's Shoes,Lost Chapter,None,None,None,Poro-Snax
+Victory,Normal (Draft Pick),2024-10-18,28min 57s,Syndra,Mid,3/5/6,186,16,26%,Flash,Teleport,Doran's Ring,Luden's Companion,Sorcerer's Shoes,Stormsurge,Needlessly Large Rod,Needlessly Large Rod,Stealth Ward
+Victory,ARAM,2024-10-18,15min 9s,Taliyah,Top,8/6/25,61,0,72%,Flash,Barrier,Blackfire Torch,Refillable Potion,Sorcerer's Shoes,Liandry's Torment,Shadowflame,Needlessly Large Rod,Poro-Snax
+Victory,ARAM,2024-10-18,15min 27s,Samira,Jungle,20/11/23,44,0,84%,Flash,Mark,The Collector,Plated Steelcaps,Infinity Edge,Bloodthirster,Noonquiver,None,Poro-Snax
+Victory,ARAM,2024-10-16,11min 20s,Yorick,Top,16/5/22,30,0,84%,Flash,Mark,Sundered Sky,Plated Steelcaps,Iceborn Gauntlet,Kindlegem,Null-Magic Mantle,None,None
+Victory,ARAM,2024-10-16,19min 49s,Azir,Jungle,3/11/18,65,0,43%,Flash,Mark,Nashor's Tooth,Sorcerer's Shoes,Liandry's Torment,Shadowflame,None,None,Poro-Snax
+Victory,ARAM,2024-10-16,18min 23s,Aurelion Sol,Support,12/12/35,94,0,78%,Flash,Barrier,Rylai's Crystal Scepter,Seraph's Embrace,Liandry's Torment,Sorcerer's Shoes,Rabadon's Deathcap,Amplifying Tome,Poro-Snax
+Defeat,ARAM,2024-10-16,12min 58s,Zoe,Jungle,8/7/13,36,0,75%,Flash,Ignite,Luden's Companion,Refillable Potion,Sorcerer's Shoes,Stormsurge,Shadowflame,None,None
+Defeat,ARAM,2024-10-12,18min 16s,Viego,Adc,17/15/13,30,0,60%,Flash,Mark,Sundered Sky,Mercury's Treads,Blade of The Ruined King,Death's Dance,Sterak's Gage,None,Poro-Snax
+Defeat,ARAM,2024-10-12,22min 17s,Yasuo,Mid,14/19/22,75,0,55%,Flash,Mark,Berserker's Greaves,Blade of The Ruined King,Immortal Shieldbow,Infinity Edge,Bloodthirster,Negatron Cloak,None
+Defeat,ARAM,2024-10-12,15min 3s,Shaco,Top,9/10/25,26,0,68%,Flash,Mark,Blackfire Torch,Shadowflame,Sorcerer's Shoes,Liandry's Torment,Needlessly Large Rod,None,Poro-Snax
+Defeat,ARAM,2024-10-12,27min 49s,Hwei,Top,19/14/37,130,0,72%,Flash,Barrier,Blackfire Torch,Rabadon's Deathcap,Stormsurge,Liandry's Torment,Shadowflame,Cryptbloom,Poro-Snax
+Victory,ARAM,2024-10-11,17min 39s,Ryze,Jungle,4/9/29,44,0,54%,Flash,Mark,Rod of Ages,Seraph's Embrace,Sorcerer's Shoes,Frozen Heart,Fiendish Codex,None,Poro-Snax
+Defeat,Ultimate Spellbook,2024-10-09,25min 4s,Renekton,Top,0/10/3,131,12,12%,Flash,Placeholder,Eclipse,Plated Steelcaps,Black Cleaver,Sterak's Gage,Pickaxe,Long Sword,Stealth Ward
+Defeat,Ultimate Spellbook,2024-10-09,12min 14s,Sett,Top,2/6/0,62,3,33%,Flash,Placeholder,Doran's Blade,Refillable Potion,Blade of The Ruined King,Phage,Plated Steelcaps,Long Sword,Stealth Ward
+Defeat,Ultimate Spellbook,2024-10-09,23min 7s,Aatrox,Top,2/6/7,114,10,29%,Flash,Placeholder,Eclipse,Sundered Sky,Death's Dance,Plated Steelcaps,Tunneler,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-10-09,30min 13s,Kog'Maw,Adc,6/3/8,206,16,56%,Flash,Barrier,Runaan's Hurricane,Blade of The Ruined King,Berserker's Greaves,Guinsoo's Rageblade,Dagger,None,Stealth Ward
+Victory,ARAM,2024-10-08,16min 23s,Pyke,Mid,32/12/12,14,0,75%,Flash,Mark,The Collector,Ionian Boots of Lucidity,Axiom Arc,Edge of Night,Opportunity,Last Whisper,Poro-Snax
+Defeat,ARAM,2024-10-08,12min 31s,Gnar,Mid,7/10/17,33,0,71%,Flash,Mark,Trinity Force,Plated Steelcaps,Black Cleaver,Pickaxe,Long Sword,Ruby Crystal,Poro-Snax
+Defeat,ARAM,2024-10-08,17min 37s,Corki,Mid,22/13/16,92,0,76%,Flash,Mark,Trinity Force,Muramana,Ionian Boots of Lucidity,Infinity Edge,Bloodthirster,Rapid Firecannon,Poro-Snax
+Defeat,Normal (Draft Pick),2024-10-08,31min 55s,Kai'Sa,Adc,7/9/6,216,20,42%,Flash,Barrier,Needlessly Large Rod,Statikk Shiv,Berserker's Greaves,Guinsoo's Rageblade,Nashor's Tooth,Needlessly Large Rod,Stealth Ward
+Victory,Ultimate Spellbook,2024-10-08,20min 4s,Yasuo,Mid,8/6/7,131,7,44%,Flash,Placeholder,Berserker's Greaves,Phantom Dancer,Blade of The Ruined King,Kraken Slayer,Pickaxe,B. F. Sword,Stealth Ward
+Defeat,Normal (Draft Pick),2024-10-07,35min 36s,Kennen,Top,4/5/5,241,19,60%,Flash,Teleport,Zhonya's Hourglass,Hextech Rocketbelt,Needlessly Large Rod,Sorcerer's Shoes,Liandry's Torment,Needlessly Large Rod,Stealth Ward
+Remake,Normal (Draft Pick),2024-10-07,1min 48s,Xayah,Adc,0/0/0,0,0,None,Flash,Barrier,Doran's Blade,Health Potion,None,None,None,None,Stealth Ward
+Victory,Ultimate Spellbook,2024-10-07,25min 52s,Aurora,Mid,14/5/22,110,14,67%,Flash,Placeholder,Malignance,Sorcerer's Shoes,Liandry's Torment,Cosmic Drive,Rabadon's Deathcap,Rylai's Crystal Scepter,Stealth Ward
+Victory,ARAM,2024-10-06,21min 23s,Zoe,Top,20/11/23,48,0,69%,Flash,Ignite,Luden's Companion,Blighting Jewel,Sorcerer's Shoes,Stormsurge,Rabadon's Deathcap,Shadowflame,None
+Victory,ARAM,2024-10-06,20min 20s,Gragas,Adc,14/7/42,69,0,76%,Flash,Mark,Luden's Companion,Sorcerer's Shoes,Stormsurge,Shadowflame,Rabadon's Deathcap,None,Poro-Snax
+Victory,Normal (Draft Pick),2024-10-06,30min 8s,Vel'Koz,Support,5/7/27,33,32,63%,Flash,Heal,Zaz'Zak's Realmspike,Liandry's Torment,Sorcerer's Shoes,Shadowflame,Needlessly Large Rod,None,Oracle Lens
+Defeat,Normal (Draft Pick),2024-10-06,15min 57s,Seraphine,Adc,6/6/5,112,4,61%,Flash,Teleport,Doran's Ring,Blackfire Torch,Sorcerer's Shoes,Fated Ashes,Haunting Guise,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-10-06,33min 54s,Ezreal,Adc,3/6/4,227,20,37%,Flash,Barrier,Spear of Shojin,Muramana,Trinity Force,Caulfield's Warhammer,Ionian Boots of Lucidity,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-10-06,25min 36s,Kog'Maw,Adc,9/9/12,126,5,57%,Flash,Barrier,Doran's Blade,Boots,Guinsoo's Rageblade,Runaan's Hurricane,Recurve Bow,Vampiric Scepter,Stealth Ward
+Victory,Ultimate Spellbook,2024-10-05,22min 38s,Ezreal,Adc,11/5/12,134,8,53%,Flash,Placeholder,Trinity Force,Muramana,Ionian Boots of Lucidity,Spear of Shojin,Bloodthirster,Serylda's Grudge,Stealth Ward
+Defeat,Ultimate Spellbook,2024-10-05,31min 38s,Kai'Sa,Adc,14/13/13,231,13,52%,Flash,Placeholder,Statikk Shiv,Void Staff,Gunmetal Greaves,Nashor's Tooth,Rabadon's Deathcap,Guinsoo's Rageblade,Farsight Alteration
+Defeat,Normal (Draft Pick),2024-10-05,17min 5s,Lux,Mid,3/2/2,130,7,33%,Flash,Teleport,Doran's Ring,Luden's Companion,Sorcerer's Shoes,Aether Wisp,Amplifying Tome,Amplifying Tome,Stealth Ward
+Defeat,Normal (Draft Pick),2024-10-05,26min 20s,Aurelion Sol,Mid,3/1/6,204,11,43%,Flash,Teleport,Doran's Ring,Tear of the Goddess,Sorcerer's Shoes,Rylai's Crystal Scepter,Liandry's Torment,Glowing Mote,Stealth Ward
+Defeat,Normal (Draft Pick),2024-10-05,28min 52s,Hwei,Mid,9/4/5,247,18,47%,Flash,Teleport,Needlessly Large Rod,Blackfire Torch,Sorcerer's Shoes,Liandry's Torment,Cryptbloom,Needlessly Large Rod,Stealth Ward
+Victory,Ultimate Spellbook,2024-10-05,25min 37s,Lucian,Adc,21/9/5,190,11,65%,Flash,Placeholder,Essence Reaver,Navori Flickerblade,Gunmetal Greaves,Infinity Edge,Bloodthirster,Lord Dominik's Regards,Stealth Ward
+Defeat,ARAM,2024-10-04,24min 17s,Xerath,Adc,14/14/22,43,0,68%,Flash,Barrier,Luden's Companion,Stormsurge,Horizon Focus,Sorcerer's Shoes,Rabadon's Deathcap,Void Staff,Poro-Snax
+Defeat,ARAM,2024-10-04,21min 46s,Ahri,Top,4/19/28,69,0,55%,Flash,Mark,Malignance,Stormsurge,Sorcerer's Shoes,Shadowflame,Void Staff,None,Poro-Snax
+Defeat,Normal (Draft Pick),2024-10-04,32min 5s,Jhin,Adc,5/10/6,196,16,34%,Flash,Barrier,Infinity Edge,Statikk Shiv,Rapid Firecannon,Boots of Swiftness,Long Sword,Cloth Armor,Stealth Ward
+Defeat,Normal (Draft Pick),2024-10-04,31min 43s,Sett,Top,9/9/3,249,18,50%,Flash,Teleport,Black Cleaver,Stridebreaker,Plated Steelcaps,Hullbreaker,Overlord's Bloodmail,Long Sword,Stealth Ward
+Defeat,Normal (Draft Pick),2024-10-04,33min 41s,Vel'Koz,Mid,7/4/6,203,28,50%,Flash,Barrier,Rabadon's Deathcap,Luden's Companion,Sorcerer's Shoes,Shadowflame,Amplifying Tome,Amplifying Tome,Stealth Ward
+Victory,Normal (Draft Pick),2024-10-03,16min 21s,Hwei,Mid,5/0/5,134,8,45%,Flash,Teleport,Doran's Ring,Health Potion,Blackfire Torch,Tear of the Goddess,Sorcerer's Shoes,Lost Chapter,Stealth Ward
+Defeat,Normal (Draft Pick),2024-10-03,34min 36s,Lux,Mid,5/8/6,219,19,35%,Flash,Teleport,Doran's Ring,Luden's Companion,Stormsurge,Sorcerer's Shoes,Shadowflame,Amplifying Tome,Farsight Alteration
+Victory,Ultimate Spellbook,2024-10-03,26min 50s,Syndra,Mid,9/8/20,153,13,49%,Flash,Placeholder,Rabadon's Deathcap,Zhonya's Hourglass,Stormsurge,Sorcerer's Shoes,Void Staff,Luden's Companion,Farsight Alteration
+Victory,Normal (Draft Pick),2024-10-01,30min 29s,Lux,Mid,10/0/6,230,21,46%,Flash,Teleport,Doran's Ring,Luden's Companion,Sorcerer's Shoes,Stormsurge,Shadowflame,Needlessly Large Rod,Stealth Ward
+Defeat,Normal (Draft Pick),2024-10-01,40min 35s,Jhin,Adc,15/9/17,296,22,63%,Flash,Barrier,Bloodthirster,Statikk Shiv,Rapid Firecannon,Boots of Swiftness,Infinity Edge,Lord Dominik's Regards,Stealth Ward
+Victory,Normal (Draft Pick),2024-10-01,25min 14s,Jhin,Adc,4/4/5,165,12,33%,Flash,Barrier,Doran's Blade,Boots of Swiftness,Statikk Shiv,B. F. Sword,Pickaxe,Cloak of Agility,Stealth Ward
+Victory,Ultimate Spellbook,2024-09-29,24min 24s,Ezreal,Adc,12/8/10,116,12,42%,Flash,Placeholder,Muramana,Tiamat,Trinity Force,Spear of Shojin,Serylda's Grudge,Ionian Boots of Lucidity,Stealth Ward
+Defeat,Ultimate Spellbook,2024-09-29,22min 29s,Kai'Sa,Adc,7/13/10,146,6,47%,Flash,Placeholder,Statikk Shiv,Guinsoo's Rageblade,Berserker's Greaves,Nashor's Tooth,Rabadon's Deathcap,Needlessly Large Rod,Stealth Ward
+Victory,ARAM,2024-09-29,26min 49s,Zeri,Support,11/16/24,185,0,64%,Flash,Barrier,Gunmetal Greaves,Statikk Shiv,Runaan's Hurricane,Infinity Edge,Bloodthirster,Lord Dominik's Regards,None
+Victory,ARAM,2024-09-29,22min 32s,Sona,Support,6/10/36,39,0,86%,Flash,Barrier,Seraph's Embrace,Moonstone Renewer,Ionian Boots of Lucidity,Staff of Flowing Water,Ardent Censer,Dawncore,Poro-Snax
+Defeat,ARAM,2024-09-29,21min 27s,Ahri,Top,18/15/14,76,0,71%,Flash,Ignite,Malignance,Stormsurge,Sorcerer's Shoes,Shadowflame,Rabadon's Deathcap,Void Staff,None
+Defeat,Ultimate Spellbook,2024-09-29,29min 0s,Irelia,Mid,6/10/7,170,18,33%,Flash,Placeholder,Blade of The Ruined King,Plated Steelcaps,Wit's End,Kraken Slayer,Death's Dance,Frozen Heart,Stealth Ward
+Defeat,Ultimate Spellbook,2024-09-29,24min 46s,Aurora,Mid,5/12/4,112,6,29%,Flash,Placeholder,Malignance,Liandry's Torment,Sorcerer's Shoes,Cosmic Drive,Rylai's Crystal Scepter,None,Stealth Ward
+Victory,Ultimate Spellbook,2024-09-29,24min 6s,Yasuo,Mid,9/9/7,134,11,41%,Flash,Placeholder,Berserker's Greaves,Blade of The Ruined King,Infinity Edge,Phantom Dancer,Bloodthirster,Pickaxe,Stealth Ward
+Victory,ARAM,2024-09-28,15min 15s,Corki,Support,16/13/35,29,0,72%,Flash,Mark,Trinity Force,Ionian Boots of Lucidity,Muramana,Infinity Edge,Noonquiver,None,Poro-Snax
+Defeat,ARAM,2024-09-28,17min 26s,Renekton,Adc,7/17/14,35,0,50%,Flash,Barrier,Eclipse,Mercury's Treads,Sundered Sky,Sterak's Gage,Steel Sigil,Pickaxe,None
+Defeat,ARAM,2024-09-28,19min 2s,Zoe,Support,12/15/19,23,0,74%,Flash,Barrier,Luden's Companion,Sorcerer's Shoes,Stormsurge,Shadowflame,Needlessly Large Rod,Needlessly Large Rod,None
+Victory,ARAM,2024-09-28,14min 54s,Brand,Adc,5/9/25,41,0,73%,Flash,Barrier,Blackfire Torch,Liandry's Torment,Rylai's Crystal Scepter,Sorcerer's Shoes,None,None,None
+Defeat,ARAM,2024-09-28,11min 40s,LeBlanc,Support,6/11/12,16,0,62%,Flash,Mark,Luden's Companion,Stormsurge,Blighting Jewel,Sorcerer's Shoes,None,None,Poro-Snax
+Victory,Normal (Draft Pick),2024-09-27,33min 36s,Jhin,Adc,6/5/5,249,26,31%,Flash,Barrier,B. F. Sword,Statikk Shiv,Boots of Swiftness,Rapid Firecannon,Infinity Edge,Vampiric Scepter,Farsight Alteration
+Victory,Normal (Draft Pick),2024-09-27,15min 30s,Jhin,Adc,7/2/4,106,5,65%,Flash,Barrier,Doran's Blade,Boots of Swiftness,Statikk Shiv,Scout's Slingshot,Dagger,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-09-27,31min 23s,Smolder,Adc,4/11/5,205,13,41%,Flash,Barrier,Rapid Firecannon,Muramana,Trinity Force,Ionian Boots of Lucidity,Vampiric Scepter,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-09-27,16min 48s,Ezreal,Adc,3/0/1,150,4,80%,Flash,Barrier,Trinity Force,Long Sword,Tear of the Goddess,Long Sword,Ionian Boots of Lucidity,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-09-27,37min 6s,Hwei,Mid,5/9/7,272,24,38%,Flash,Teleport,Sorcerer's Shoes,Seraph's Embrace,Blackfire Torch,Liandry's Torment,Cryptbloom,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-09-27,24min 57s,Hwei,Mid,4/4/6,192,16,56%,Flash,Teleport,Amplifying Tome,Liandry's Torment,Blackfire Torch,Sorcerer's Shoes,Tear of the Goddess,Lost Chapter,Stealth Ward
+Defeat,Normal (Draft Pick),2024-09-27,26min 33s,Sylas,Mid,9/8/2,150,17,69%,Flash,Teleport,Lich Bane,Seeker's Armguard,Sorcerer's Shoes,Shadowflame,None,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-09-26,29min 52s,Caitlyn,Adc,9/5/9,211,18,60%,Flash,Barrier,Infinity Edge,The Collector,Berserker's Greaves,Lord Dominik's Regards,Rapid Firecannon,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-09-26,33min 39s,Aurelion Sol,Mid,16/7/13,184,21,53%,Flash,Teleport,Seraph's Embrace,Sorcerer's Shoes,Rylai's Crystal Scepter,Liandry's Torment,Needlessly Large Rod,Needlessly Large Rod,Stealth Ward
+Victory,ARAM,2024-09-25,15min 34s,Vex,Top,12/7/27,48,0,71%,Flash,Mark,Luden's Companion,Sorcerer's Shoes,Stormsurge,Shadowflame,Needlessly Large Rod,None,None
+Defeat,ARAM,2024-09-25,18min 30s,Swain,Adc,3/12/27,30,0,67%,Flash,Mark,Malignance,Rylai's Crystal Scepter,Sorcerer's Shoes,Liandry's Torment,Fiendish Codex,Amplifying Tome,None
+Victory,ARAM,2024-09-25,17min 19s,Darius,Top,13/12/16,45,0,66%,Flash,Mark,Trinity Force,Mercury's Treads,Sundered Sky,Sterak's Gage,Winged Moonplate,None,None
+Victory,ARAM,2024-09-25,14min 45s,Kalista,Support,11/6/14,34,2,54%,Flash,Barrier,The Collector,Blade of The Ruined King,Berserker's Greaves,Recurve Bow,Pickaxe,Amplifying Tome,Poro-Snax
+Defeat,Normal (Draft Pick),2024-09-25,28min 36s,Zed,Mid,5/6/1,199,16,40%,Flash,Ignite,Eclipse,Ionian Boots of Lucidity,Voltaic Cyclosword,Edge of Night,Long Sword,The Brutalizer,Stealth Ward
+Victory,Normal (Draft Pick),2024-09-25,30min 7s,Aurora,Mid,4/3/13,190,15,45%,Flash,Teleport,Sorcerer's Shoes,Malignance,Cosmic Drive,Liandry's Torment,None,None,Stealth Ward
+Victory,ARAM,2024-09-24,19min 0s,Samira,Adc,19/14/23,50,0,61%,Flash,Mark,The Collector,Mercury's Treads,Infinity Edge,Bloodthirster,Immortal Shieldbow,Kindlegem,Poro-Snax
+Victory,Soloqueue,2024-09-24,15min 55s,Hwei,Mid,8/0/1,144,9,53%,Flash,Teleport,Doran's Ring,Blackfire Torch,Sorcerer's Shoes,Haunting Guise,Amplifying Tome,None,Stealth Ward
+Defeat,Soloqueue,2024-09-24,25min 31s,Vex,Mid,4/5/5,191,19,64%,Flash,Teleport,Doran's Ring,Luden's Companion,Sorcerer's Shoes,Shadowflame,Needlessly Large Rod,None,Stealth Ward
+Victory,Soloqueue,2024-09-24,31min 8s,Hwei,Mid,12/2/14,235,18,53%,Flash,Teleport,Needlessly Large Rod,Needlessly Large Rod,Sorcerer's Shoes,Seraph's Embrace,Blackfire Torch,Liandry's Torment,Farsight Alteration
+Victory,Normal (Draft Pick),2024-09-24,29min 24s,Ezreal,Adc,6/3/11,209,10,47%,Flash,Barrier,Kindlegem,Ionian Boots of Lucidity,Muramana,Trinity Force,Pickaxe,Caulfield's Warhammer,Stealth Ward
+Victory,Soloqueue,2024-09-23,25min 9s,Aurelion Sol,Mid,2/0/4,216,13,19%,Flash,Teleport,Liandry's Torment,Rylai's Crystal Scepter,Tear of the Goddess,Sorcerer's Shoes,Amplifying Tome,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-09-23,23min 58s,Xayah,Adc,2/3/4,179,11,32%,Flash,Barrier,Doran's Blade,Essence Reaver,Berserker's Greaves,Navori Flickerblade,B. F. Sword,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-09-23,25min 28s,Aurelion Sol,Mid,10/3/5,198,17,38%,Flash,Teleport,Doran's Ring,Sorcerer's Shoes,Tear of the Goddess,Rylai's Crystal Scepter,Liandry's Torment,Lost Chapter,Stealth Ward
+Defeat,ARAM,2024-09-22,18min 14s,Hwei,Adc,7/10/22,81,0,69%,Flash,Barrier,Blackfire Torch,Shadowflame,Sorcerer's Shoes,Liandry's Torment,Needlessly Large Rod,None,Poro-Snax
+Victory,ARAM,2024-09-22,18min 44s,Xayah,Adc,15/10/27,65,0,67%,Flash,Barrier,Berserker's Greaves,Navori Flickerblade,The Collector,Infinity Edge,Bloodthirster,None,None
+Remake,ARAM,2024-09-22,1min 52s,Zoe,Support,0/0/1,1,0,100%,Flash,Barrier,Lost Chapter,Refillable Potion,None,None,None,None,Poro-Snax
+Victory,ARAM,2024-09-20,11min 33s,Smolder,Jungle,10/5/25,44,0,81%,Flash,Barrier,Trinity Force,Muramana,Long Sword,Ionian Boots of Lucidity,None,None,Poro-Snax
+Victory,ARAM,2024-09-19,25min 30s,Quinn,Jungle,21/16/27,76,1,61%,Flash,Mark,The Collector,Berserker's Greaves,Infinity Edge,Bloodthirster,Lord Dominik's Regards,Blade of The Ruined King,Poro-Snax
+Defeat,ARAM,2024-09-19,20min 49s,Diana,Support,10/13/37,40,0,73%,Flash,Mark,Zhonya's Hourglass,Hextech Rocketbelt,Stormsurge,Sorcerer's Shoes,Rabadon's Deathcap,Needlessly Large Rod,Poro-Snax
+Defeat,ARAM,2024-09-19,24min 57s,Miss Fortune,Top,18/15/21,136,0,57%,Flash,Barrier,The Collector,B. F. Sword,Axiom Arc,Serylda's Grudge,Bloodthirster,Edge of Night,None
+Victory,Normal (Draft Pick),2024-09-19,49min 4s,Lux,Mid,7/6/11,360,49,38%,Flash,Teleport,Void Staff,Zhonya's Hourglass,Stormsurge,Sorcerer's Shoes,Rabadon's Deathcap,Luden's Companion,Farsight Alteration
+Defeat,Normal (Draft Pick),2024-09-19,22min 42s,Naafiri,Mid,2/7/7,152,16,60%,Flash,Teleport,Doran's Blade,Profane Hydra,Ionian Boots of Lucidity,Eclipse,Long Sword,Long Sword,Stealth Ward
+Remake,Normal (Draft Pick),2024-09-19,1min 46s,Syndra,Mid,0/0/0,0,0,None,Flash,Teleport,Doran's Ring,Health Potion,None,None,None,None,Stealth Ward
+Victory,ARAM,2024-09-18,14min 29s,Ezreal,Support,16/6/27,47,0,84%,Flash,Barrier,Trinity Force,Muramana,Serylda's Grudge,Ionian Boots of Lucidity,Vampiric Scepter,None,Poro-Snax
+Victory,ARAM,2024-09-18,23min 15s,Seraphine,Support,9/15/56,47,0,82%,Flash,Mark,Malignance,Sorcerer's Shoes,Rylai's Crystal Scepter,Liandry's Torment,Morellonomicon,Rabadon's Deathcap,Poro-Snax
+Victory,Normal (Draft Pick),2024-09-18,32min 0s,Samira,Adc,10/6/3,213,16,46%,Flash,Barrier,Pickaxe,The Collector,Plated Steelcaps,Infinity Edge,Bloodthirster,Long Sword,Stealth Ward
+Victory,Normal (Draft Pick),2024-09-18,29min 31s,Ezreal,Adc,6/6/6,208,19,29%,Flash,Barrier,Spear of Shojin,Trinity Force,Muramana,Ionian Boots of Lucidity,None,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-09-18,20min 52s,Smolder,Adc,1/3/0,143,9,25%,Flash,Barrier,Doran's Blade,Health Potion,Trinity Force,Ionian Boots of Lucidity,Tear of the Goddess,Caulfield's Warhammer,Stealth Ward
+Defeat,Normal (Draft Pick),2024-09-18,28min 57s,Katarina,Mid,5/7/2,205,21,47%,Flash,Teleport,Dark Seal,Zhonya's Hourglass,Lich Bane,Shadowflame,Sorcerer's Shoes,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-09-17,25min 10s,Yone,Mid,1/4/2,199,14,27%,Flash,Teleport,Doran's Shield,Blade of The Ruined King,Berserker's Greaves,Immortal Shieldbow,B. F. Sword,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-09-17,36min 12s,Smolder,Adc,12/11/9,235,27,43%,Flash,Barrier,Trinity Force,Ionian Boots of Lucidity,Muramana,Rapid Firecannon,Bloodthirster,Last Whisper,Stealth Ward
+Defeat,Normal (Draft Pick),2024-09-17,24min 8s,Orianna,Mid,1/8/4,143,13,38%,Flash,Teleport,Doran's Ring,Seraph's Embrace,Sorcerer's Shoes,Haunting Guise,Fated Ashes,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-09-17,32min 3s,Aurora,Mid,3/6/7,252,19,29%,Flash,Teleport,Liandry's Torment,Malignance,Sorcerer's Shoes,Cosmic Drive,Amplifying Tome,Amplifying Tome,Stealth Ward
+Defeat,Normal (Draft Pick),2024-09-17,16min 3s,Qiyana,Mid,2/4/1,76,6,75%,Flash,Ignite,Refillable Potion,Profane Hydra,Ionian Boots of Lucidity,Long Sword,None,None,Stealth Ward
+Victory,ARAM,2024-09-16,9min 7s,Ahri,Top,10/4/31,18,0,84%,Flash,Mark,Malignance,Refillable Potion,Hextech Alternator,Sorcerer's Shoes,Aether Wisp,None,Poro-Snax
+Defeat,ARAM,2024-09-16,3min 44s,Senna,Adc,2/2/4,3,0,100%,Flash,Barrier,Serrated Dirk,Tear of the Goddess,Boots of Swiftness,None,None,None,Poro-Snax
+Victory,Normal (Draft Pick),2024-09-13,31min 28s,Jhin,Adc,19/3/3,200,15,44%,Flash,Barrier,Infinity Edge,Rapid Firecannon,Boots of Swiftness,Statikk Shiv,Guardian Angel,Noonquiver,Stealth Ward
+Victory,Normal (Draft Pick),2024-09-12,18min 19s,Aurora,Mid,2/3/3,115,8,31%,Flash,Teleport,Doran's Ring,Malignance,Haunting Guise,Sorcerer's Shoes,Amplifying Tome,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-09-12,38min 12s,Katarina,Mid,12/10/8,229,29,45%,Flash,Ignite,Dark Seal,Zhonya's Hourglass,Lich Bane,Shadowflame,Sorcerer's Shoes,Rabadon's Deathcap,Stealth Ward
+Defeat,Normal (Draft Pick),2024-09-12,16min 32s,Katarina,Mid,1/8/2,80,5,25%,Flash,Ignite,Dark Seal,Refillable Potion,Lich Bane,Boots,Amplifying Tome,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-09-11,36min 1s,Kai'Sa,Adc,12/5/9,205,17,41%,Flash,Barrier,Rabadon's Deathcap,Statikk Shiv,Berserker's Greaves,Guinsoo's Rageblade,Nashor's Tooth,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-09-11,28min 40s,Miss Fortune,Adc,1/7/6,217,14,41%,Flash,Barrier,Doran's Blade,Bloodthirster,Essence Reaver,Boots of Swiftness,Cloak of Agility,B. F. Sword,Stealth Ward
+Defeat,Normal (Draft Pick),2024-09-11,33min 32s,Yone,Mid,9/8/3,261,19,71%,Flash,Teleport,Immortal Shieldbow,Berserker's Greaves,Blade of The Ruined King,Infinity Edge,Steel Sigil,Pickaxe,Stealth Ward
+Defeat,ARAM,2024-09-07,24min 7s,Smolder,Adc,17/15/20,129,0,66%,Flash,Barrier,Trinity Force,Muramana,Spear of Shojin,Ionian Boots of Lucidity,Rapid Firecannon,Liandry's Torment,None
+Defeat,Normal (Draft Pick),2024-09-07,32min 18s,Fiora,Top,8/10/13,210,19,58%,Flash,Teleport,Trinity Force,Ravenous Hydra,Plated Steelcaps,Hullbreaker,Caulfield's Warhammer,Steel Sigil,Stealth Ward
+Victory,Normal (Draft Pick),2024-09-07,38min 25s,Aurora,Top,12/8/7,261,21,46%,Flash,Teleport,Cosmic Drive,Sorcerer's Shoes,Malignance,Liandry's Torment,Rabadon's Deathcap,Rylai's Crystal Scepter,Stealth Ward
+Defeat,ARAM,2024-09-06,17min 51s,Darius,Support,11/10/23,28,0,65%,Flash,Mark,Trinity Force,Plated Steelcaps,Sundered Sky,Sterak's Gage,Winged Moonplate,Chain Vest,Poro-Snax
+Defeat,Normal (Draft Pick),2024-09-06,27min 43s,Hwei,Mid,6/8/3,215,17,47%,Flash,Teleport,Doran's Ring,Blackfire Torch,Sorcerer's Shoes,Liandry's Torment,Cryptbloom,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-09-06,33min 18s,Smolder,Adc,6/9/10,218,20,47%,Flash,Barrier,Doran's Blade,Muramana,Ionian Boots of Lucidity,Trinity Force,Rapid Firecannon,Caulfield's Warhammer,Stealth Ward
+Defeat,Normal (Draft Pick),2024-09-06,15min 26s,Yone,Mid,0/4/0,93,2,None,Flash,Teleport,Doran's Shield,Blade of The Ruined King,Boots,None,None,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-09-06,15min 30s,Aurora,Mid,1/0/2,126,6,18%,Flash,Teleport,Doran's Ring,Health Potion,Malignance,Sorcerer's Shoes,Amplifying Tome,None,Stealth Ward
+Defeat,ARAM,2024-09-06,20min 24s,Vayne,Jungle,1/16/20,25,0,41%,Flash,Ghost,Berserker's Greaves,Blade of The Ruined King,Guinsoo's Rageblade,Wit's End,Vampiric Scepter,None,Poro-Snax
+Defeat,ARAM,2024-09-06,16min 58s,Varus,Support,8/10/15,55,0,56%,Flash,Mark,The Collector,Muramana,Ionian Boots of Lucidity,Serylda's Grudge,Serrated Dirk,Long Sword,None
+Victory,ARAM,2024-09-05,24min 16s,Amumu,Jungle,8/15/31,33,0,64%,Flash,Mark,Sunfire Aegis,Thornmail,Liandry's Torment,Mercury's Treads,Abyssal Mask,Frozen Heart,None
+Victory,Normal (Draft Pick),2024-09-04,22min 32s,Hwei,Mid,10/3/6,156,10,44%,Flash,Teleport,Doran's Ring,Blackfire Torch,Sorcerer's Shoes,Liandry's Torment,Blighting Jewel,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-09-04,29min 34s,Katarina,Mid,5/9/7,199,18,55%,Flash,Ignite,Doran's Shield,Zhonya's Hourglass,Sorcerer's Shoes,Shadowflame,Lich Bane,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-09-03,39min 27s,Aurora,Mid,8/8/11,244,23,54%,Flash,Teleport,Rabadon's Deathcap,Liandry's Torment,Malignance,Cosmic Drive,Sorcerer's Shoes,Blasting Wand,Stealth Ward
+Defeat,Normal (Draft Pick),2024-09-03,28min 40s,Jhin,Adc,9/4/6,204,8,60%,Flash,Barrier,Infinity Edge,Last Whisper,Boots of Swiftness,The Collector,Rapid Firecannon,Long Sword,Stealth Ward
+Victory,Normal (Draft Pick),2024-09-02,28min 8s,Aurora,Mid,24/2/11,171,12,70%,Flash,Teleport,Malignance,Zhonya's Hourglass,Sorcerer's Shoes,Liandry's Torment,Cosmic Drive,Needlessly Large Rod,Stealth Ward
+Defeat,Normal (Draft Pick),2024-09-02,32min 18s,Aurora,Mid,4/6/10,183,9,37%,Flash,Teleport,Doran's Ring,Malignance,Mercury's Treads,Abyssal Mask,Liandry's Torment,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-09-02,10min 33s,Aurora,Mid,3/0/1,68,3,33%,Flash,Teleport,Doran's Ring,Malignance,Boots,None,None,None,Stealth Ward
+Defeat,ARAM,2024-09-01,17min 41s,Veigar,Jungle,12/9/18,67,0,67%,Flash,Mark,Seraph's Embrace,Rod of Ages,Rabadon's Deathcap,Sorcerer's Shoes,Void Staff,None,Poro-Snax
+Defeat,Normal (Draft Pick),2024-09-01,35min 15s,Kai'Sa,Adc,14/11/15,233,17,69%,Flash,Barrier,Berserker's Greaves,Zhonya's Hourglass,Nashor's Tooth,Guinsoo's Rageblade,Rabadon's Deathcap,Statikk Shiv,Farsight Alteration
+Victory,Normal (Draft Pick),2024-09-01,24min 47s,Aurora,Mid,4/0/2,202,12,25%,Flash,Teleport,Doran's Ring,Malignance,Sorcerer's Shoes,Liandry's Torment,Fiendish Codex,Aether Wisp,Stealth Ward
+Victory,Normal (Draft Pick),2024-09-01,44min 11s,Jhin,Adc,7/6/9,333,19,30%,Flash,Barrier,Lord Dominik's Regards,The Collector,Infinity Edge,Boots of Swiftness,Rapid Firecannon,Guardian Angel,Stealth Ward
+Victory,Normal (Draft Pick),2024-09-01,19min 41s,Hwei,Mid,8/2/3,175,9,42%,Flash,Teleport,Doran's Ring,Blackfire Torch,Sorcerer's Shoes,Liandry's Torment,Fiendish Codex,Amplifying Tome,Stealth Ward
+Victory,Normal (Draft Pick),2024-09-01,18min 55s,Smolder,Adc,10/2/7,143,5,65%,Flash,Barrier,Doran's Blade,Ionian Boots of Lucidity,Essence Reaver,Spear of Shojin,Zeal,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-08-24,31min 28s,Smolder,Adc,10/10/9,223,13,41%,Flash,Barrier,Bloodthirster,Essence Reaver,Spear of Shojin,Ionian Boots of Lucidity,Rapid Firecannon,Long Sword,Stealth Ward
+Victory,Normal (Draft Pick),2024-08-22,28min 59s,Aurora,Mid,16/6/9,201,17,66%,Flash,Teleport,Cosmic Drive,Malignance,Sorcerer's Shoes,Liandry's Torment,Rabadon's Deathcap,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-08-22,21min 59s,Aurora,Mid,10/1/7,141,8,65%,Flash,Teleport,Doran's Ring,Malignance,Sorcerer's Shoes,Liandry's Torment,Fiendish Codex,Amplifying Tome,Stealth Ward
+Victory,ARAM,2024-08-21,21min 36s,Lux,Support,13/7/31,83,0,86%,Flash,Mark,Luden's Companion,Shadowflame,Sorcerer's Shoes,Stormsurge,Rabadon's Deathcap,Blasting Wand,Poro-Snax
+Defeat,ARAM,2024-08-21,22min 23s,Pantheon,Top,10/16/27,48,0,69%,Flash,Mark,Eclipse,Mercury's Treads,Sundered Sky,Black Cleaver,Spear of Shojin,Caulfield's Warhammer,Poro-Snax
+Defeat,ARAM,2024-08-21,19min 5s,Twitch,Mid,14/13/29,34,0,84%,Flash,Barrier,Infinity Edge,Blade of The Ruined King,Berserker's Greaves,Runaan's Hurricane,Bloodthirster,None,Poro-Snax
+Defeat,ARAM,2024-08-21,18min 57s,Naafiri,Top,8/15/25,76,0,69%,Flash,Mark,The Collector,Profane Hydra,Plated Steelcaps,Eclipse,Serylda's Grudge,Long Sword,Poro-Snax
+Defeat,ARAM,2024-08-21,16min 30s,Pyke,Top,3/8/13,8,0,40%,Flash,Mark,The Collector,Ionian Boots of Lucidity,Axiom Arc,Tunneler,Long Sword,Long Sword,Poro-Snax
+Victory,Normal (Draft Pick),2024-08-21,36min 54s,Aurora,Mid,6/10/8,219,26,40%,Flash,Teleport,Liandry's Torment,Malignance,Sorcerer's Shoes,Cosmic Drive,Rylai's Crystal Scepter,None,Stealth Ward
+Victory,ARAM,2024-08-20,21min 13s,Ivern,Mid,0/9/41,12,0,85%,Flash,Mark,Moonstone Renewer,Redemption,Ionian Boots of Lucidity,Ardent Censer,Dawncore,Aether Wisp,Poro-Snax
+Defeat,ARAM,2024-08-20,18min 10s,Zeri,Support,11/17/24,94,0,76%,Flash,Mark,Statikk Shiv,Berserker's Greaves,Runaan's Hurricane,Infinity Edge,Bloodthirster,None,Poro-Snax
+Victory,ARAM,2024-08-20,36min 13s,Hwei,Top,26/13/60,293,0,81%,Flash,Barrier,Blackfire Torch,Rabadon's Deathcap,Luden's Companion,Liandry's Torment,Shadowflame,Cryptbloom,None
+Defeat,Normal (Draft Pick),2024-08-20,26min 30s,Aurora,Mid,7/8/7,142,10,47%,Flash,Teleport,Doran's Ring,Malignance,Liandry's Torment,Sorcerer's Shoes,Cosmic Drive,Amplifying Tome,Stealth Ward
+Victory,Swarm,2024-08-19,15min 52s,Jinx,Top,0/0/0,6711,0,None,None,None,Battle Cat Barrage,Tempest's Gauntlet,Enveloping Light,OwO Blaster,Radiant Field,None,None
+Defeat,Normal (Draft Pick),2024-08-18,46min 7s,Lux,Mid,8/5/15,260,28,49%,Flash,Teleport,Horizon Focus,Zhonya's Hourglass,Sorcerer's Shoes,Stormsurge,Rabadon's Deathcap,Luden's Companion,Stealth Ward
+Defeat,Swarm,2024-08-18,14min 18s,Illaoi,Top,0/1/0,3953,0,None,None,None,Grizzly Smash,Double Bun-Bun Barrage,Explosive Embrace,T.I.B.B.E.R.S (B.E.E.G Edition),Evolved Embershot,None,None
+Defeat,Swarm,2024-08-18,8min 29s,Illaoi,Top,0/1/0,2193,0,None,None,None,Tentacle Slam,T.I.B.B.E.R.S,Enveloping Light,Gatling Bunny-Guns,Statikk Sword,None,None
+Victory,Swarm,2024-08-17,15min 22s,Jinx,Top,0/0/0,6612,0,None,None,None,Battle Cat Barrage,Blade-o-rang,Enveloping Light,Prumbis's Electrocarver,OwO Blaster,None,None
+Victory,Swarm,2024-08-17,15min 22s,Jinx,Top,0/0/0,6659,0,None,None,None,Battle Cat Barrage,OwO Blaster,Quad-o-rang,Enveloping Light,YuumiBot,None,None
+Victory,Swarm,2024-08-17,15min 35s,Jinx,Top,0/0/0,6630,0,None,None,None,Battle Cat Barrage,Evolved Embershot,Quad-o-rang,UwU Blaster,Battle Bunny Crossbow,None,None
+Defeat,Swarm,2024-08-17,19min 16s,Illaoi,Top,0/1/0,5258,0,None,None,None,Grizzly Smash,Double Bun-Bun Barrage,Cyclonic Slicers,Evolved Embershot,OwO Blaster,None,None
+Defeat,Swarm,2024-08-16,18min 38s,Illaoi,Top,0/1/0,5081,0,None,None,None,Grizzly Smash,Tempest's Gauntlet,T.I.B.B.E.R.S (B.E.E.G Edition),Double Bun-Bun Barrage,UwU Blaster,None,None
+Defeat,Swarm,2024-08-16,17min 50s,Yasuo,Top,0/2/0,6265,0,None,None,None,Wandering Storms,Blade-o-rang,Unceasing Cyclone,Neverending Mobstomper,Bunny Prime Ballista,None,None
+Defeat,Swarm,2024-08-16,4min 7s,Yasuo,Top,0/1/0,681,0,None,None,None,Steel Tempest,Final City Transit,Lioness's Lament,Gatling Bunny-Guns,Anti-Shark Sea Mine,None,None
+8th place,Arena,2024-08-16,23min 27s,Vladimir,Jungle,4/6/1,0,0,100%,None,None,Guardian's Orb,Ionian Boots of Lucidity,Kinkou Jitte,Riftmaker,Cosmic Drive,None,Arcane Sweeper
+Victory,Normal (Draft Pick),2024-08-16,27min 37s,Aurora,Mid,6/3/6,231,16,40%,Flash,Teleport,Doran's Ring,Malignance,Sorcerer's Shoes,Cosmic Drive,Liandry's Torment,Needlessly Large Rod,Stealth Ward
+Victory,Normal (Draft Pick),2024-08-16,32min 1s,Aurora,Mid,3/5/12,141,16,50%,Flash,Teleport,Doran's Ring,Malignance,Boots,Cosmic Drive,Needlessly Large Rod,Needlessly Large Rod,Stealth Ward
+Defeat,Normal (Draft Pick),2024-08-14,33min 10s,Aurora,Top,7/7/7,177,20,47%,Flash,Teleport,Cosmic Drive,Rod of Ages,Sorcerer's Shoes,Liandry's Torment,None,None,Stealth Ward
+Defeat,ARAM,2024-08-13,22min 21s,Pyke,Top,12/14/20,19,0,46%,Flash,Mark,Axiom Arc,The Collector,Ionian Boots of Lucidity,Edge of Night,Opportunity,None,None
+Defeat,Swarm,2024-08-13,9min 0s,Jinx,Top,0/1/0,1697,0,None,None,None,Meow Meow,UwU Blaster,Lioness's Lament,Blade-o-rang,Battle Bunny Crossbow,None,None
+Victory,Swarm,2024-08-13,16min 19s,Seraphine,Top,0/0/0,5865,0,None,None,None,Anima Echo,Enveloping Light,YuumiBot_Final_FINAL,OwO Blaster,Blade-o-rang,None,None
+Victory,Swarm,2024-08-13,18min 2s,Illaoi,Top,0/0/0,5899,0,None,None,None,Grizzly Smash,Explosive Embrace,Cyclonic Slicers,Double Bun-Bun Barrage,Evolved Embershot,None,None
+Victory,Swarm,2024-08-13,15min 47s,Yasuo,Top,0/0/0,5883,0,None,None,None,Steel Tempest,Bunny Mega-Blast,OwO Blaster,Bunny Prime Ballista,Enveloping Light,None,None
+2nd place,Arena,2024-08-11,21min 36s,Sylas,Adc,12/6/7,0,0,100%,None,None,Morellonomicon,Zhonya's Hourglass,Detonation Orb,Lich Bane,Rabadon's Deathcap,Shadowflame,Arcane Sweeper
+8th place,Arena,2024-08-11,19min 49s,Kai'Sa,None,7/8/1,0,0,89%,None,None,Guardian's Hammer,Berserker's Greaves,Twin Mask,Kraken Slayer,Guinsoo's Rageblade,None,Arcane Sweeper
+7th place,Arena,2024-08-11,21min 1s,Aurora,Top,1/7/6,0,0,117%,None,None,Guardian's Orb,Sorcerer's Shoes,Pyromancer's Cloak,Rod of Ages,Liandry's Anguish,None,Arcane Sweeper
+Victory,Swarm,2024-08-11,16min 15s,Yasuo,Top,0/0/0,6845,0,None,None,None,Wandering Storms,Explosive Embrace,Neverending Mobstomper,Gatling Bunny-Guns,FC Limited Express,None,None
+Victory,Swarm,2024-08-11,17min 23s,Illaoi,Top,0/0/0,7358,0,None,None,None,Grizzly Smash,Radiant Field,Double Bun-Bun Barrage,UwU Blaster,Enveloping Light,None,None
+Defeat,Swarm,2024-08-11,5min 40s,Illaoi,Top,0/1/0,1249,0,None,None,None,Tentacle Slam,Cyclonic Slicers,Searing Shortbow,None,None,None,None
+Victory,Swarm,2024-08-11,15min 46s,Jinx,Top,0/0/0,6679,0,None,None,None,Battle Cat Barrage,Anti-Shark Sea Mine,Blade-o-rang,Enveloping Light,FC Limited Express,None,None
+Victory,Swarm,2024-08-11,15min 33s,Jinx,Top,0/0/0,6627,0,None,None,None,Battle Cat Barrage,Bunny Mega-Blast,Lioness's Lament,OwO Blaster,Quad-o-rang,None,None
+Victory,ARAM,2024-08-11,24min 54s,Syndra,Jungle,9/17/30,69,0,67%,Flash,Mark,Luden's Companion,Shadowflame,Sorcerer's Shoes,Rabadon's Deathcap,Void Staff,Amplifying Tome,Poro-Snax
+Victory,Swarm,2024-08-11,16min 35s,Jinx,Top,0/0/0,7040,0,None,None,None,Meow Meow,Rapid Rabbit Raindown,YuumiBot_Final_FINAL,Vortex Glove,Statikk Sword,None,None
+Victory,Swarm,2024-08-11,15min 25s,Jinx,Top,0/0/0,6610,0,None,None,None,Battle Cat Barrage,OwO Blaster,Vortex Glove,Quad-o-rang,Lioness's Lament,None,None
+Victory,Swarm,2024-08-08,15min 44s,Jinx,Top,0/0/0,6695,0,None,None,None,Battle Cat Barrage,Statikk Sword,Vortex Glove,Lioness's Lament,Neverending Mobstomper,None,None
+Defeat,Swarm,2024-08-08,9min 15s,Leona,Top,0/1/0,2328,0,None,None,None,Shield Slam,UwU Blaster,Searing Shortbow,Gatling Bunny-Guns,Lioness's Lament,None,None
+Defeat,Swarm,2024-08-08,5min 42s,Jinx,Top,0/1/0,1364,0,None,None,None,Meow Meow,Blade-o-rang,Anti-Shark Sea Mine,Searing Shortbow,Lioness's Lament,None,None
+Defeat,Swarm,2024-08-08,5min 54s,Illaoi,Top,0/1/0,1552,0,None,None,None,Tentacle Slam,Gatling Bunny-Guns,T.I.B.B.E.R.S,Searing Shortbow,Iceblast Armor,None,None
+Defeat,Normal (Draft Pick),2024-08-08,41min 17s,Aurora,Mid,2/7/6,275,31,32%,Flash,Teleport,Rabadon's Deathcap,Rod of Ages,Sorcerer's Shoes,Liandry's Torment,Cosmic Drive,None,Stealth Ward
+Defeat,Swarm,2024-08-08,6min 40s,Jinx,Top,0/1/0,1738,0,None,None,None,Meow Meow,Bunny Mega-Blast,Vortex Glove,Lioness's Lament,Cyclonic Slicers,None,None
+Defeat,Swarm,2024-08-08,2min 43s,Seraphine,Top,0/1/0,261,0,None,None,None,Sound Wave,None,None,None,None,None,None
+Defeat,Swarm,2024-08-08,13min 43s,Leona,Top,0/1/0,4684,0,None,None,None,Light of the Lion,Searing Shortbow,Lioness's Lament,Radiant Field,Tempest's Gauntlet,None,None
+Defeat,Swarm,2024-08-08,6min 49s,Illaoi,Top,0/1/0,1720,0,None,None,None,Tentacle Slam,Radiant Field,Anti-Shark Sea Mine,Final City Transit,Cyclonic Slicers,None,None
+Victory,Swarm,2024-08-08,15min 54s,Briar,Top,0/0/0,6528,0,None,None,None,Savage Slice,Explosive Embrace,UwU Blaster,Unceasing Cyclone,Blade-o-rang,None,None
+Victory,Swarm,2024-08-08,16min 24s,Seraphine,Top,0/0/0,6969,0,None,None,None,Anima Echo,Searing Shortbow,Prumbis's Electrocarver,T.I.B.B.E.R.S,UwU Blaster,None,None
+Defeat,Normal (Draft Pick),2024-08-08,20min 13s,Corki,Mid,2/5/1,144,8,50%,Flash,Teleport,Doran's Blade,Trinity Force,Mercury's Treads,Caulfield's Warhammer,Long Sword,Tear of the Goddess,Stealth Ward
+Defeat,Normal (Draft Pick),2024-08-08,36min 34s,Yasuo,Mid,1/11/7,277,25,31%,Flash,Teleport,Infinity Edge,Blade of The Ruined King,Berserker's Greaves,Immortal Shieldbow,Zeal,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-08-08,27min 9s,Aurora,Mid,7/2/7,156,15,50%,Flash,Teleport,Cosmic Drive,Rod of Ages,Sorcerer's Shoes,Liandry's Torment,None,None,Stealth Ward
+2nd place,Arena,2024-08-08,22min 26s,Aurora,None,5/10/7,0,0,80%,None,None,Morellonomicon,Sorcerer's Shoes,Detonation Orb,Rod of Ages,Liandry's Anguish,Pyromancer's Cloak,Arcane Sweeper
+Defeat,Swarm,2024-08-08,6min 38s,Illaoi,Top,0/1/0,1712,0,None,None,None,Tentacle Slam,Statikk Sword,Gatling Bunny-Guns,Vortex Glove,Cyclonic Slicers,None,None
+Defeat,Swarm,2024-08-08,3min 37s,Illaoi,Top,0/1/0,744,0,None,None,None,Tentacle Slam,UwU Blaster,Radiant Field,Vortex Glove,None,None,None
+Defeat,Swarm,2024-08-08,4min 11s,Illaoi,Top,0/1/0,867,0,None,None,None,Tentacle Slam,Gatling Bunny-Guns,Searing Shortbow,None,None,None,None
+Victory,Swarm,2024-08-08,17min 22s,Illaoi,Top,0/0/0,6908,0,None,None,None,Tentacle Slam,Final City Transit,Gatling Bunny-Guns,Prumbis's Electrocarver,Explosive Embrace,None,None
+Victory,Swarm,2024-08-08,17min 12s,Leona,Top,0/0/0,7026,0,None,None,None,Light of the Lion,UwU Blaster,T.I.B.B.E.R.S,Cyclonic Slicers,Explosive Embrace,None,None
+Defeat,Swarm,2024-08-08,15min 0s,Jinx,Top,0/1/0,6146,0,None,None,None,Meow Meow,Lioness's Lament,Blade-o-rang,Gatling Bunny-Guns,Searing Shortbow,None,None
+Defeat,Swarm,2024-08-08,4min 8s,Jinx,Top,0/1/0,774,0,None,None,None,Meow Meow,Gatling Bunny-Guns,UwU Blaster,None,None,None,None
+4th place,Arena,2024-08-08,21min 17s,Hwei,None,6/6/9,0,0,100%,None,None,Guardian's Orb,Sorcerer's Shoes,Pyromancer's Cloak,Liandry's Anguish,Rabadon's Deathcap,Reality Fracture,Arcane Sweeper
+3rd place,Arena,2024-07-07,22min 38s,Naafiri,None,15/4/5,0,0,91%,None,None,Gargoyle Stoneplate,Profane Hydra,Ionian Boots of Lucidity,Eclipse,Blade of The Ruined King,Serpent's Fang,Arcane Sweeper
+Defeat,ARAM,2024-07-07,15min 42s,Samira,Adc,11/11/5,56,0,57%,Flash,Mark,The Collector,Mercury's Treads,Infinity Edge,Immortal Shieldbow,Steel Sigil,Long Sword,None
+Defeat,ARAM,2024-07-07,12min 23s,Aatrox,Mid,6/10/19,25,0,64%,Flash,Mark,Sundered Sky,Mercury's Treads,Eclipse,Long Sword,Ruby Crystal,Pickaxe,None
+1st place,Arena,2024-07-07,23min 9s,Pantheon,None,13/2/10,0,0,100%,None,None,Duskblade of Draktharr,Death's Dance,Sword of the Divine,Eclipse,The Golden Spatula,Blade of The Ruined King,Arcane Sweeper
+Defeat,Normal (Draft Pick),2024-07-07,27min 39s,Kai'Sa,Adc,3/9/6,209,20,31%,Flash,Barrier,Nashor's Tooth,Statikk Shiv,Berserker's Greaves,Guinsoo's Rageblade,Needlessly Large Rod,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-07-07,16min 14s,Jhin,Adc,4/5/1,95,8,45%,Flash,Barrier,Doran's Blade,The Collector,Boots of Swiftness,B. F. Sword,None,None,Stealth Ward
+Victory,ARAM,2024-07-07,20min 45s,Lux,Mid,7/4/36,60,0,78%,Flash,Barrier,Luden's Companion,Rabadon's Deathcap,Sorcerer's Shoes,Stormsurge,Blighting Jewel,None,Poro-Snax
+Victory,ARAM,2024-07-06,23min 57s,Jhin,Adc,25/12/23,156,0,69%,Flash,Barrier,The Collector,Boots of Swiftness,Infinity Edge,Rapid Firecannon,Lord Dominik's Regards,Bloodthirster,Poro-Snax
+Defeat,ARAM,2024-07-05,13min 22s,Pyke,Mid,13/10/22,6,0,70%,Flash,Mark,The Collector,Axiom Arc,Ionian Boots of Lucidity,Edge of Night,Long Sword,Long Sword,Poro-Snax
+Defeat,ARAM,2024-07-05,15min 20s,Zoe,Jungle,8/10/17,40,0,60%,Flash,Barrier,Luden's Companion,Stormsurge,Sorcerer's Shoes,Shadowflame,Needlessly Large Rod,None,Poro-Snax
+Victory,ARAM,2024-07-05,12min 32s,Senna,Top,12/7/17,20,0,85%,Flash,Barrier,The Collector,Muramana,Boots of Swiftness,None,None,None,Poro-Snax
+Defeat,ARAM,2024-07-05,18min 19s,Darius,Top,13/15/32,42,0,66%,Flash,Mark,Sundered Sky,Mercury's Treads,Trinity Force,Sterak's Gage,Chain Vest,Winged Moonplate,None
+Defeat,Normal (Draft Pick),2024-07-05,44min 31s,Smolder,Adc,3/12/11,293,20,30%,Flash,Barrier,Bloodthirster,Essence Reaver,Spear of Shojin,Ionian Boots of Lucidity,Rapid Firecannon,Noonquiver,Stealth Ward
+Defeat,Normal (Draft Pick),2024-07-05,21min 22s,Kai'Sa,Adc,2/7/6,122,10,53%,Flash,Barrier,Doran's Blade,Statikk Shiv,Berserker's Greaves,Pickaxe,Recurve Bow,Amplifying Tome,Stealth Ward
+Victory,Normal (Draft Pick),2024-07-05,36min 54s,Caitlyn,Adc,14/11/19,204,25,45%,Flash,Barrier,Infinity Edge,Berserker's Greaves,The Collector,Rapid Firecannon,Bloodthirster,Cloth Armor,Stealth Ward
+Victory,Soloqueue,2024-07-05,35min 8s,Jhin,Adc,15/7/11,172,15,63%,Flash,Barrier,B. F. Sword,The Collector,Boots of Swiftness,Infinity Edge,Rapid Firecannon,Lord Dominik's Regards,Farsight Alteration
+Victory,Normal (Draft Pick),2024-07-05,21min 34s,Jhin,Adc,8/5/2,144,12,36%,Flash,Barrier,Doran's Blade,Boots of Swiftness,The Collector,Infinity Edge,Dagger,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-07-05,31min 3s,Kai'Sa,Adc,9/3/5,279,27,61%,Flash,Barrier,B. F. Sword,Statikk Shiv,Guinsoo's Rageblade,Berserker's Greaves,Nashor's Tooth,Vampiric Scepter,Stealth Ward
+Victory,ARAM,2024-07-04,17min 7s,Swain,Top,23/6/38,87,0,90%,Flash,Mark,Malignance,Riftmaker,Mercury's Treads,Rylai's Crystal Scepter,Liandry's Torment,Kindlegem,Poro-Snax
+Defeat,ARAM,2024-07-04,21min 26s,Senna,Support,5/10/44,53,0,84%,Flash,Barrier,The Collector,Boots of Swiftness,Muramana,Rapid Firecannon,Lord Dominik's Regards,Pickaxe,None
+Victory,Normal (Draft Pick),2024-07-04,21min 11s,Jhin,Adc,8/1/5,146,8,45%,Flash,Barrier,Doran's Blade,The Collector,Boots of Swiftness,Infinity Edge,Dagger,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-07-04,25min 14s,Kai'Sa,Adc,7/2/10,175,20,53%,Flash,Barrier,Guinsoo's Rageblade,Berserker's Greaves,Statikk Shiv,Nashor's Tooth,Vampiric Scepter,None,Stealth Ward
+Defeat,Soloqueue,2024-07-02,27min 38s,Miss Fortune,Adc,4/6/0,194,15,24%,Flash,Barrier,Doran's Blade,Infinity Edge,The Collector,Boots of Swiftness,Last Whisper,Long Sword,Stealth Ward
+Defeat,Normal (Draft Pick),2024-07-01,21min 38s,Jinx,Adc,4/6/3,129,8,39%,Flash,Ghost,Doran's Blade,Kraken Slayer,Zeal,Berserker's Greaves,Scout's Slingshot,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-07-01,21min 5s,Miss Fortune,Adc,7/1/2,166,11,39%,Flash,Heal,Doran's Blade,Boots of Swiftness,The Collector,Infinity Edge,Long Sword,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-06-29,25min 32s,Akshan,Mid,5/8/3,150,14,42%,Flash,Teleport,Doran's Blade,Kraken Slayer,Mercury's Treads,Blade of The Ruined King,None,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-06-29,29min 33s,Aurelion Sol,Mid,8/8/9,164,17,61%,Flash,Teleport,Rylai's Crystal Scepter,Zhonya's Hourglass,Liandry's Torment,Sorcerer's Shoes,Needlessly Large Rod,None,Stealth Ward
+6th place,Arena,2024-06-29,22min 2s,Graves,None,6/8/4,0,0,100%,None,None,Guardian's Dirk,Galeforce,Mercury's Treads,The Collector,Infinity Edge,Fulmination,Arcane Sweeper
+Victory,ARAM,2024-06-29,15min 45s,Swain,Top,19/7/37,56,0,92%,Flash,Mark,Malignance,Riftmaker,Mercury's Treads,Rylai's Crystal Scepter,Liandry's Torment,None,Poro-Snax
+Defeat,ARAM,2024-06-29,16min 40s,Swain,Mid,9/11/24,59,0,72%,Flash,Mark,Malignance,Liandry's Torment,Mercury's Treads,Rylai's Crystal Scepter,Spirit Visage,Cloth Armor,Poro-Snax
+Victory,ARAM,2024-06-29,14min 48s,Skarner,Adc,5/11/30,30,0,67%,Flash,Mark,Heartsteel,Fimbulwinter,Mercury's Treads,Bami's Cinder,Chain Vest,None,Poro-Snax
+Victory,ARAM,2024-06-29,16min 19s,Viktor,Top,13/8/32,59,0,73%,Flash,Ghost,Blackfire Torch,Lich Bane,Sorcerer's Shoes,Liandry's Torment,Needlessly Large Rod,None,Poro-Snax
+3rd place,Arena,2024-06-29,22min 16s,Volibear,None,8/7/10,0,0,100%,None,None,Guardian's Blade,Runecarver,Reality Fracture,Heartsteel,Spirit Visage,Thornmail,Arcane Sweeper
+4th place,Arena,2024-06-29,21min 4s,Sona,Jungle,1/5/11,0,0,100%,None,None,Guardian's Amulet,Empyrean Promise,Ionian Boots of Lucidity,Seraph's Embrace,Moonstone Renewer,Chemtech Putrifier,Arcane Sweeper
+2nd place,Arena,2024-06-29,20min 38s,Samira,None,12/3/9,0,0,105%,None,None,Sword of the Divine,Bloodthirster,Decapitator,The Collector,Infinity Edge,Lord Dominik's Regards,Arcane Sweeper
+Defeat,ARAM,2024-06-29,22min 53s,Ekko,Adc,9/14/31,38,0,65%,Flash,Mark,Sorcerer's Shoes,Hextech Rocketbelt,Lich Bane,Stormsurge,Shadowflame,Blighting Jewel,Poro-Snax
+Defeat,ARAM,2024-06-29,19min 7s,Aphelios,Support,10/15/39,65,0,74%,Flash,Ghost,The Collector,Infinity Edge,Berserker's Greaves,Bloodthirster,Runaan's Hurricane,Long Sword,Poro-Snax
+Victory,ARAM,2024-06-29,11min 0s,Corki,Adc,12/6/19,41,0,78%,Flash,Mark,Opportunity,The Collector,Berserker's Greaves,Pickaxe,B. F. Sword,None,Poro-Snax
+Victory,Normal (Draft Pick),2024-06-28,31min 25s,Hwei,Mid,6/5/12,232,20,53%,Flash,Teleport,Doran's Ring,Blackfire Torch,Liandry's Torment,Cryptbloom,Sorcerer's Shoes,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-06-28,43min 11s,Samira,Adc,20/12/1,317,22,62%,Flash,Heal,Bloodthirster,Gunmetal Greaves,The Collector,Infinity Edge,Lord Dominik's Regards,Immortal Shieldbow,Farsight Alteration
+Defeat,Normal (Draft Pick),2024-06-28,12min 22s,Sylas,Mid,1/2/1,65,4,33%,Flash,Teleport,Doran's Ring,Hextech Alternator,Amplifying Tome,Sheen,Boots,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-06-28,40min 26s,Udyr,Jungle,13/9/15,268,29,54%,Flash,Smite,"Jak'Sho, The Protean",Liandry's Torment,Boots of Swiftness,Dead Man's Plate,Force of Nature,Frozen Heart,Oracle Lens
+Victory,ARAM,2024-06-28,22min 9s,Miss Fortune,Mid,23/11/25,109,0,81%,Flash,Heal,The Collector,Ionian Boots of Lucidity,Axiom Arc,Serylda's Grudge,Infinity Edge,Edge of Night,Poro-Snax
+Victory,ARAM,2024-06-28,16min 16s,Ivern,Top,2/6/42,6,0,88%,Flash,Mark,Moonstone Renewer,Redemption,Ionian Boots of Lucidity,Seraph's Embrace,Blasting Wand,None,Poro-Snax
+Defeat,Flex,2024-06-27,27min 40s,Camille,Top,0/9/2,133,10,8%,Flash,Teleport,Trinity Force,Tiamat,Vampiric Scepter,Glowing Mote,Plated Steelcaps,Long Sword,Stealth Ward
+Victory,Flex,2024-06-27,25min 36s,Miss Fortune,Adc,7/9/9,164,16,50%,Flash,Heal,Doran's Blade,The Collector,Infinity Edge,Berserker's Greaves,Noonquiver,None,Stealth Ward
+Defeat,Flex,2024-06-27,24min 34s,Ezreal,Adc,6/5/5,135,15,46%,Flash,Heal,Doran's Blade,Trinity Force,Muramana,Long Sword,Ionian Boots of Lucidity,Pickaxe,Stealth Ward
+Victory,ARAM,2024-06-18,16min 9s,Syndra,Top,4/7/24,30,0,62%,Flash,Barrier,Luden's Companion,Needlessly Large Rod,Sorcerer's Shoes,Stormsurge,Needlessly Large Rod,None,None
+Defeat,ARAM,2024-06-18,21min 45s,Smolder,Mid,5/14/13,86,0,47%,Flash,Barrier,Trinity Force,Muramana,Spear of Shojin,Ionian Boots of Lucidity,Rapid Firecannon,Long Sword,Poro-Snax
+Defeat,Normal (Draft Pick),2024-06-18,26min 39s,Renata Glasc,Support,3/8/8,29,31,39%,Flash,Ignite,Solstice Sleigh,Locket of the Iron Solari,Redemption,Ionian Boots of Lucidity,Kindlegem,None,Oracle Lens
+1st place,Arena,2024-06-18,19min 27s,Lucian,None,15/5/9,0,0,109%,None,None,Blade of The Ruined King,Berserker's Greaves,Hamstringer,Infinity Edge,The Collector,Lord Dominik's Regards,Arcane Sweeper
+4th place,Arena,2024-06-18,20min 36s,Udyr,Jungle,6/8/5,0,0,79%,None,None,Hellfire Hatchet,Mercury's Treads,Hamstringer,Blade of The Ruined King,The Collector,Infinity Edge,Arcane Sweeper
+Defeat,Normal (Draft Pick),2024-06-18,29min 4s,Renata Glasc,Support,0/8/12,25,55,48%,Flash,Ignite,Solstice Sleigh,Locket of the Iron Solari,Redemption,Ionian Boots of Lucidity,None,None,Oracle Lens
+Victory,Normal (Draft Pick),2024-06-18,30min 41s,Ezreal,Adc,12/4/8,210,21,53%,Flash,Heal,Spear of Shojin,Ionian Boots of Lucidity,Trinity Force,Muramana,The Brutalizer,Long Sword,Stealth Ward
+Victory,Normal (Draft Pick),2024-06-17,19min 54s,Ezreal,Adc,7/2/4,155,11,50%,Flash,Heal,Doran's Blade,Muramana,Ionian Boots of Lucidity,Trinity Force,Long Sword,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-06-17,31min 41s,Galio,Mid,2/6/8,195,20,34%,Flash,Teleport,Riftmaker,Frozen Heart,Mercury's Treads,Hollow Radiance,None,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-06-14,34min 2s,LeBlanc,Mid,10/8/5,203,19,44%,Flash,Teleport,Shadowflame,Zhonya's Hourglass,Sorcerer's Shoes,Needlessly Large Rod,Luden's Companion,Needlessly Large Rod,Stealth Ward
+Defeat,ARAM,2024-06-13,13min 25s,Naafiri,Mid,13/10/11,37,0,75%,Flash,Mark,The Collector,Eclipse,Ionian Boots of Lucidity,Serylda's Grudge,Long Sword,None,Poro-Snax
+Defeat,ARAM,2024-06-13,15min 27s,Lucian,Top,11/15/10,69,0,54%,Flash,Mark,The Collector,Kraken Slayer,Berserker's Greaves,Navori Flickerblade,Pickaxe,Cloak of Agility,Poro-Snax
+Victory,ARAM,2024-06-13,17min 0s,Lillia,Mid,21/5/25,104,0,96%,Flash,Mark,Blackfire Torch,Blasting Wand,Liandry's Torment,Sorcerer's Shoes,Riftmaker,Rabadon's Deathcap,Poro-Snax
+Victory,ARAM,2024-06-13,14min 2s,Xerath,Mid,14/4/19,42,0,77%,Flash,Barrier,Luden's Companion,Refillable Potion,Sorcerer's Shoes,Horizon Focus,Shadowflame,Blighting Jewel,Poro-Snax
+Victory,ARAM,2024-06-13,23min 47s,Zeri,Mid,17/10/21,150,0,86%,Flash,Ghost,Statikk Shiv,Bloodthirster,Runaan's Hurricane,Infinity Edge,Berserker's Greaves,Lord Dominik's Regards,None
+Victory,Normal (Draft Pick),2024-06-13,29min 3s,Kai'Sa,Adc,7/12/10,142,11,46%,Flash,Heal,Blasting Wand,Kraken Slayer,Berserker's Greaves,Guinsoo's Rageblade,Recurve Bow,Fiendish Codex,Stealth Ward
+6th place,Arena,2024-06-12,22min 34s,Pyke,Top,6/6/1,0,0,88%,None,None,Guardian's Dirk,Ionian Boots of Lucidity,Duskblade of Draktharr,Voltaic Cyclosword,Serylda's Grudge,Serpent's Fang,Arcane Sweeper
+7th place,Arena,2024-06-12,22min 37s,Pantheon,Top,3/7/5,0,0,100%,None,None,Cruelty,Mercury's Treads,Duskblade of Draktharr,Eclipse,Flesheater,None,Arcane Sweeper
+3rd place,Arena,2024-06-12,22min 59s,Veigar,Top,13/9/5,0,0,100%,None,None,Sorcerer's Shoes,Zhonya's Hourglass,Detonation Orb,Rabadon's Deathcap,Morellonomicon,Shadowflame,Arcane Sweeper
+Defeat,Normal (Draft Pick),2024-06-11,37min 14s,Ekko,Mid,11/7/3,231,25,50%,Flash,Teleport,Rabadon's Deathcap,Sorcerer's Shoes,Lich Bane,Nashor's Tooth,Void Staff,Amplifying Tome,Stealth Ward
+Defeat,Normal (Draft Pick),2024-06-11,15min 19s,Ezreal,Adc,0/4/0,97,6,None,Flash,Cleanse,Doran's Blade,Long Sword,Tear of the Goddess,Sheen,Long Sword,Ionian Boots of Lucidity,Stealth Ward
+Victory,Normal (Draft Pick),2024-06-10,45min 17s,Skarner,Jungle,15/9/25,234,23,63%,Flash,Smite,"Jak'Sho, The Protean",Heartsteel,Plated Steelcaps,Sunfire Aegis,Kaenic Rookern,Iceborn Gauntlet,Oracle Lens
+Defeat,Normal (Draft Pick),2024-06-10,17min 35s,Samira,Adc,6/5/2,131,7,73%,Flash,Cleanse,Doran's Blade,The Collector,Plated Steelcaps,Pickaxe,B. F. Sword,Cloak of Agility,Stealth Ward
+Defeat,Normal (Draft Pick),2024-06-10,25min 9s,Camille,Top,1/10/1,133,13,15%,Flash,Teleport,Trinity Force,Tiamat,Long Sword,Plated Steelcaps,Long Sword,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-06-09,38min 22s,Miss Fortune,Adc,10/10/6,293,25,50%,Flash,Heal,The Collector,Infinity Edge,Berserker's Greaves,Bloodthirster,Lord Dominik's Regards,Edge of Night,Farsight Alteration
+Victory,Normal (Draft Pick),2024-06-09,18min 10s,Aurelion Sol,Mid,1/3/7,129,6,42%,Flash,Teleport,Doran's Ring,Rylai's Crystal Scepter,Sorcerer's Shoes,Fated Ashes,None,None,Stealth Ward
+Victory,Soloqueue,2024-06-09,20min 58s,Hwei,Mid,3/5/7,162,9,31%,Flash,Teleport,Blackfire Torch,Sorcerer's Shoes,Liandry's Torment,Doran's Ring,Blighting Jewel,Fiendish Codex,Stealth Ward
+Defeat,Normal (Draft Pick),2024-06-09,29min 54s,Twisted Fate,Mid,4/12/5,131,13,47%,Flash,Teleport,Needlessly Large Rod,Rod of Ages,Boots of Swiftness,Lich Bane,Rapid Firecannon,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-06-09,33min 0s,Kai'Sa,Adc,7/6/6,282,16,43%,Flash,Heal,B. F. Sword,Kraken Slayer,Berserker's Greaves,Guinsoo's Rageblade,Nashor's Tooth,Navori Flickerblade,Stealth Ward
+Victory,Normal (Draft Pick),2024-06-09,35min 17s,Viktor,Mid,3/10/6,273,27,23%,Flash,Teleport,Blasting Wand,Blackfire Torch,Liandry's Torment,Sorcerer's Shoes,Rabadon's Deathcap,Lich Bane,Stealth Ward
+Defeat,Normal (Draft Pick),2024-06-09,21min 33s,Twisted Fate,Mid,4/4/2,162,11,23%,Flash,Teleport,Doran's Ring,Lich Bane,Rod of Ages,Boots of Swiftness,Rapid Firecannon,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-06-09,31min 3s,Vladimir,Mid,2/5/5,225,26,29%,Flash,Teleport,Doran's Ring,Ionian Boots of Lucidity,Riftmaker,Liandry's Torment,Needlessly Large Rod,None,Stealth Ward
+2nd place,Arena,2024-06-08,22min 50s,Pyke,Adc,12/6/9,0,0,95%,None,None,Edge of Night,Youmuu's Ghostblade,Prowler's Claw,Voltaic Cyclosword,Serylda's Grudge,Hubris,Arcane Sweeper
+8th place,Arena,2024-06-08,20min 16s,Corki,Support,5/6/5,0,0,83%,None,None,Guardian's Hammer,Berserker's Greaves,Sword of the Divine,The Collector,Infinity Edge,None,Arcane Sweeper
+Victory,Normal (Draft Pick),2024-06-08,29min 45s,Miss Fortune,Adc,4/4/9,244,20,39%,Flash,Barrier,Pickaxe,Berserker's Greaves,The Collector,Infinity Edge,Lord Dominik's Regards,B. F. Sword,Stealth Ward
+2nd place,Arena,2024-06-07,21min 22s,Kai'Sa,Adc,16/7/3,0,0,100%,None,None,Blade of The Ruined King,Guardian Angel,Hamstringer,Kraken Slayer,Guinsoo's Rageblade,Nashor's Tooth,Arcane Sweeper
+Defeat,ARAM,2024-06-07,12min 54s,Senna,Jungle,8/8/13,33,0,84%,Flash,Ghost,The Collector,Muramana,Boots of Swiftness,Rapid Firecannon,None,None,None
+Defeat,ARAM,2024-06-07,22min 7s,Cassiopeia,Top,12/14/20,92,0,82%,Flash,Mark,Rod of Ages,Rabadon's Deathcap,Seraph's Embrace,Liandry's Torment,Rylai's Crystal Scepter,Amplifying Tome,Poro-Snax
+Defeat,ARAM,2024-06-07,14min 55s,Karma,Jungle,3/7/23,52,0,67%,Flash,Ghost,Malignance,Sorcerer's Shoes,Stormsurge,Needlessly Large Rod,Hextech Alternator,None,Poro-Snax
+Victory,Normal (Draft Pick),2024-06-06,39min 59s,Jhin,Adc,12/5/6,249,26,49%,Flash,Heal,Bloodthirster,Rapid Firecannon,The Collector,Boots of Swiftness,Infinity Edge,Long Sword,Stealth Ward
+Victory,Normal (Draft Pick),2024-06-06,32min 31s,Jhin,Adc,20/4/3,227,17,64%,Flash,Heal,Lord Dominik's Regards,B. F. Sword,The Collector,Boots of Swiftness,Infinity Edge,Rapid Firecannon,Stealth Ward
+Victory,Soloqueue,2024-06-06,36min 35s,Miss Fortune,Adc,15/6/13,207,21,61%,Flash,Heal,Infinity Edge,The Collector,Lord Dominik's Regards,Berserker's Greaves,Bloodthirster,Zeal,Stealth Ward
+Defeat,Soloqueue,2024-06-06,28min 55s,Caitlyn,Adc,4/7/1,209,18,29%,Flash,Heal,Doran's Blade,The Collector,Infinity Edge,Cloak of Agility,Berserker's Greaves,None,Stealth Ward
+Victory,Soloqueue,2024-06-05,24min 5s,Miss Fortune,Adc,6/2/10,177,15,52%,Flash,Heal,Lord Dominik's Regards,The Collector,Berserker's Greaves,Infinity Edge,None,None,Stealth Ward
+Defeat,Soloqueue,2024-06-05,35min 25s,Sylas,Mid,8/7/4,177,20,48%,Flash,Teleport,Doran's Ring,Seeker's Armguard,Sorcerer's Shoes,Shadowflame,Lich Bane,None,Stealth Ward
+Defeat,Soloqueue,2024-06-05,32min 30s,Lux,Mid,5/7/5,243,17,50%,Flash,Teleport,Horizon Focus,Luden's Companion,Sorcerer's Shoes,Blasting Wand,Rabadon's Deathcap,Blighting Jewel,Stealth Ward
+Defeat,Normal (Draft Pick),2024-06-05,34min 21s,Smolder,Adc,4/9/5,264,10,43%,Flash,Heal,Rapid Firecannon,Muramana,Ionian Boots of Lucidity,Spear of Shojin,Pickaxe,B. F. Sword,Farsight Alteration
+Victory,Normal (Draft Pick),2024-06-04,35min 25s,Corki,Adc,15/9/7,266,19,52%,Flash,Heal,Lord Dominik's Regards,Opportunity,The Collector,Gunmetal Greaves,Infinity Edge,Rapid Firecannon,Stealth Ward
+Victory,Soloqueue,2024-06-04,34min 4s,Vex,Mid,8/11/14,193,17,63%,Flash,Teleport,Luden's Companion,Zhonya's Hourglass,Sorcerer's Shoes,Shadowflame,Needlessly Large Rod,Needlessly Large Rod,Farsight Alteration
+Defeat,Soloqueue,2024-06-04,33min 12s,Kai'Sa,Adc,7/8/5,235,17,43%,Flash,Heal,Guinsoo's Rageblade,Berserker's Greaves,Kraken Slayer,Nashor's Tooth,Zeal,Dagger,Stealth Ward
+Victory,Normal (Draft Pick),2024-06-04,28min 59s,Miss Fortune,Adc,9/3/8,209,13,52%,Flash,Heal,Pickaxe,The Collector,Berserker's Greaves,Infinity Edge,Lord Dominik's Regards,B. F. Sword,Farsight Alteration
+Defeat,Normal (Draft Pick),2024-06-04,23min 41s,Miss Fortune,Adc,8/9/3,147,12,50%,Flash,Heal,Doran's Blade,The Collector,Berserker's Greaves,Infinity Edge,Cloak of Agility,Long Sword,Stealth Ward
+Defeat,Soloqueue,2024-06-04,36min 12s,Corki,Mid,20/14/3,215,15,68%,Flash,Teleport,Bloodthirster,Opportunity,Edge of Night,The Collector,Infinity Edge,Rapid Firecannon,Farsight Alteration
+Defeat,Soloqueue,2024-06-04,28min 8s,Hwei,Mid,7/4/3,194,19,48%,Flash,Teleport,Blackfire Torch,Sorcerer's Shoes,Liandry's Torment,Doran's Ring,Cryptbloom,Needlessly Large Rod,Stealth Ward
+Victory,Soloqueue,2024-06-03,24min 11s,Corki,Mid,13/3/1,181,18,45%,Flash,Teleport,Doran's Blade,Opportunity,The Collector,Berserker's Greaves,Infinity Edge,Long Sword,Stealth Ward
+Victory,Soloqueue,2024-06-03,28min 23s,Hwei,Mid,7/4/4,208,17,48%,Flash,Teleport,Doran's Ring,Seeker's Armguard,Sorcerer's Shoes,Blackfire Torch,Cryptbloom,Liandry's Torment,Stealth Ward
+Defeat,Soloqueue,2024-06-03,28min 35s,Hwei,Mid,5/5/5,236,13,63%,Flash,Teleport,Doran's Ring,Blackfire Torch,Liandry's Torment,Sorcerer's Shoes,Cryptbloom,Needlessly Large Rod,Stealth Ward
+Remake,Soloqueue,2024-06-03,1min 51s,Hwei,Mid,0/0/0,1,0,None,Flash,Teleport,Doran's Ring,Health Potion,None,None,None,None,Stealth Ward
+Defeat,Normal (Quickplay),2024-06-01,26min 31s,Fiora,Top,6/9/2,181,9,38%,Flash,Teleport,Doran's Blade,Ravenous Hydra,Mercury's Treads,Trinity Force,Caulfield's Warhammer,Long Sword,Stealth Ward
+Defeat,Normal (Quickplay),2024-06-01,27min 13s,Azir,Mid,2/8/4,183,15,22%,Flash,Teleport,Doran's Ring,Nashor's Tooth,Sorcerer's Shoes,Liandry's Torment,Needlessly Large Rod,None,Stealth Ward
+Defeat,Normal (Quickplay),2024-06-01,40min 23s,Akali,Mid,15/10/15,191,24,53%,Flash,Ignite,Void Staff,Zhonya's Hourglass,Shadowflame,Sorcerer's Shoes,Rabadon's Deathcap,Lich Bane,Stealth Ward
+Defeat,Normal (Quickplay),2024-06-01,19min 1s,Katarina,Mid,3/7/1,107,7,40%,Flash,Ignite,Doran's Blade,Blade of The Ruined King,Hearthbound Axe,Mercury's Treads,None,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-05-31,27min 2s,Vladimir,Mid,6/6/6,195,16,34%,Flash,Teleport,Doran's Ring,Liandry's Torment,Riftmaker,Rabadon's Deathcap,Ionian Boots of Lucidity,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-05-31,16min 38s,Kai'Sa,Adc,1/6/0,106,6,14%,Flash,Ghost,Doran's Blade,Kraken Slayer,Amplifying Tome,Slightly Magical Footwear,Recurve Bow,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-05-31,15min 47s,Pyke,Support,3/4/2,26,27,63%,Flash,Ignite,Bloodsong,Umbral Glaive,Long Sword,Symbiotic Soles,Long Sword,None,Oracle Lens
+Defeat,Normal (Draft Pick),2024-05-31,18min 14s,Corki,Adc,2/9/4,125,9,60%,Flash,Ignite,Opportunity,Serrated Dirk,Berserker's Greaves,Cloak of Agility,None,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-05-31,30min 26s,Corki,Adc,5/7/6,219,19,48%,Flash,Ignite,Infinity Edge,Opportunity,Berserker's Greaves,The Collector,Vampiric Scepter,None,Farsight Alteration
+Defeat,Normal (Draft Pick),2024-05-31,15min 40s,Ezreal,Adc,0/2/3,121,0,38%,Flash,Exhaust,Doran's Blade,Ionian Boots of Lucidity,Tear of the Goddess,Phage,Long Sword,Sheen,Stealth Ward
+Defeat,Normal (Draft Pick),2024-05-31,25min 31s,Jhin,Adc,3/6/2,167,12,50%,Flash,Ghost,Doran's Blade,The Collector,Boots of Swiftness,Infinity Edge,Zeal,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-05-31,27min 7s,Corki,Adc,9/5/9,177,12,55%,Flash,Ignite,Doran's Blade,Opportunity,Berserker's Greaves,The Collector,Infinity Edge,Last Whisper,Stealth Ward
+Victory,Normal (Draft Pick),2024-05-31,25min 13s,Corki,Adc,12/4/4,155,15,67%,Flash,Ignite,Infinity Edge,Opportunity,The Collector,Berserker's Greaves,None,None,Stealth Ward
+Defeat,Soloqueue,2024-05-31,33min 23s,Hwei,Mid,5/7/6,256,21,38%,Flash,Teleport,Cryptbloom,Zhonya's Hourglass,Sorcerer's Shoes,Liandry's Torment,Blackfire Torch,None,Stealth Ward
+Defeat,Soloqueue,2024-05-31,31min 49s,Hwei,Mid,8/6/4,280,23,46%,Flash,Teleport,Zhonya's Hourglass,Needlessly Large Rod,Sorcerer's Shoes,Liandry's Torment,Cryptbloom,Blackfire Torch,Stealth Ward
+Defeat,ARAM,2024-05-31,15min 41s,Xayah,Adc,7/16/13,40,0,71%,Flash,Ghost,Kraken Slayer,Berserker's Greaves,Navori Flickerblade,Infinity Edge,Vampiric Scepter,None,Poro-Snax
+Defeat,Normal (Draft Pick),2024-05-31,33min 32s,Kai'Sa,Adc,24/15/8,209,12,73%,Flash,Heal,Kraken Slayer,Gunmetal Greaves,Guinsoo's Rageblade,Nashor's Tooth,Bloodthirster,Navori Flickerblade,Farsight Alteration
+Defeat,Normal (Draft Pick),2024-05-31,25min 9s,Sylas,Mid,6/8/3,154,12,47%,Flash,Teleport,Doran's Ring,Lich Bane,Sorcerer's Shoes,Shadowflame,Amplifying Tome,Amplifying Tome,Stealth Ward
+Victory,Normal (Draft Pick),2024-05-31,17min 6s,Pyke,Support,10/1/6,23,29,76%,Flash,Ignite,Bloodsong,Umbral Glaive,Serrated Dirk,Rectrix,Synchronized Souls,Your Cut,Oracle Lens
+2nd place,Arena,2024-05-30,22min 35s,Pantheon,Mid,9/7/8,0,0,94%,None,None,Hellfire Hatchet,Mercury's Treads,Fulmination,Eclipse,Blade of The Ruined King,Black Cleaver,Arcane Sweeper
+Victory,Soloqueue,2024-05-30,37min 7s,Hwei,Mid,13/6/13,236,21,52%,Flash,Teleport,Rabadon's Deathcap,Zhonya's Hourglass,Liandry's Torment,Sorcerer's Shoes,Blackfire Torch,Cryptbloom,Farsight Alteration
+Victory,Soloqueue,2024-05-30,26min 57s,Hwei,Mid,8/8/10,186,15,55%,Flash,Teleport,Liandry's Torment,Zhonya's Hourglass,Sorcerer's Shoes,Blackfire Torch,None,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-05-30,26min 40s,Kai'Sa,Adc,10/10/6,168,15,73%,Flash,Heal,Guinsoo's Rageblade,Kraken Slayer,Berserker's Greaves,Nashor's Tooth,Dagger,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-05-30,34min 35s,Yone,Mid,15/8/9,250,24,45%,Flash,Teleport,Death's Dance,Berserker's Greaves,Blade of The Ruined King,Immortal Shieldbow,Infinity Edge,B. F. Sword,Stealth Ward
+Victory,Normal (Draft Pick),2024-05-30,28min 51s,Corki,Adc,8/3/14,203,19,58%,Flash,Heal,Cloak of Agility,Opportunity,The Collector,Berserker's Greaves,Infinity Edge,Last Whisper,Stealth Ward
+Defeat,Normal (Draft Pick),2024-05-23,35min 16s,Hwei,Mid,10/9/3,246,26,37%,Flash,Teleport,Rabadon's Deathcap,Blackfire Torch,Liandry's Torment,Sorcerer's Shoes,Void Staff,Needlessly Large Rod,Stealth Ward
+Defeat,Normal (Draft Pick),2024-05-23,32min 42s,Taliyah,Mid,11/10/1,246,14,32%,Flash,Teleport,Rabadon's Deathcap,Seraph's Embrace,Blackfire Torch,Sorcerer's Shoes,Liandry's Torment,Blighting Jewel,Stealth Ward
+Defeat,Arena,2024-05-22,22min 24s,Kai'Sa,Support,7/7/11,0,0,95%,None,None,Nashor's Tooth,Blade of The Ruined King,Duskblade of Draktharr,Kraken Slayer,Guinsoo's Rageblade,Flesheater,Arcane Sweeper
+6th place,Arena,2024-05-22,22min 38s,Ezreal,Adc,5/7/3,0,0,100%,None,None,Trinity Force,Ionian Boots of Lucidity,Hamstringer,Lord Dominik's Regards,Navori Quickblades,Essence Reaver,Arcane Sweeper
+6th place,Arena,2024-05-22,21min 41s,Evelynn,Jungle,8/6/3,0,0,92%,None,None,Guardian's Orb,Sorcerer's Shoes,Night Harvester,Rabadon's Deathcap,Lich Bane,Runecarver,Arcane Sweeper
+4th place,Arena,2024-05-22,21min 35s,Elise,Jungle,7/6/6,0,0,93%,None,None,Sorcerer's Shoes,Zhonya's Hourglass,Runecarver,Lich Bane,Rabadon's Deathcap,Night Harvester,Arcane Sweeper
+6th place,Arena,2024-05-22,20min 52s,Ekko,Mid,6/5/2,0,0,100%,None,None,Guardian's Orb,Sorcerer's Shoes,Dragonheart,Lich Bane,Rabadon's Deathcap,None,Arcane Sweeper
+5th place,Arena,2024-05-22,21min 27s,Draven,Mid,8/6/5,0,0,93%,None,None,Guardian's Hammer,Berserker's Greaves,Duskblade of Draktharr,The Collector,Infinity Edge,Hamstringer,Arcane Sweeper
+Victory,Normal (Draft Pick),2024-05-21,36min 44s,Caitlyn,Adc,14/11/7,253,19,55%,Flash,Heal,B. F. Sword,The Collector,Infinity Edge,Lord Dominik's Regards,Berserker's Greaves,Yun Tal Wildarrows,Stealth Ward
+Victory,Normal (Draft Pick),2024-05-21,34min 17s,Corki,Adc,12/6/14,242,21,49%,Flash,Heal,Bloodthirster,Trinity Force,Berserker's Greaves,Infinity Edge,Navori Flickerblade,Cloak of Agility,Stealth Ward
+Defeat,Normal (Draft Pick),2024-05-21,16min 13s,Aurelion Sol,Mid,1/5/0,109,6,25%,Flash,Teleport,Doran's Ring,Blackfire Torch,Sorcerer's Shoes,Amplifying Tome,Ruby Crystal,None,Stealth Ward
+2nd place,Arena,2024-05-21,21min 20s,Dr. Mundo,Adc,4/6/16,0,0,100%,None,None,Mercury's Treads,Empyrean Promise,Overlord's Bloodmail,Heartsteel,Sunfire Aegis,Spirit Visage,Arcane Sweeper
+Victory,Normal (Draft Pick),2024-05-21,29min 39s,Kai'Sa,Adc,11/9/7,215,20,45%,Flash,Heal,Bloodthirster,Kraken Slayer,Berserker's Greaves,Guinsoo's Rageblade,Navori Flickerblade,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-05-20,37min 36s,Morgana,Mid,6/7/13,261,25,45%,Flash,Teleport,Blackfire Torch,Zhonya's Hourglass,Liandry's Torment,Sorcerer's Shoes,Rabadon's Deathcap,Blasting Wand,Stealth Ward
+Defeat,Normal (Draft Pick),2024-05-20,24min 25s,Hwei,Mid,2/5/3,184,17,26%,Flash,Teleport,Doran's Ring,Liandry's Torment,Blackfire Torch,Sorcerer's Shoes,Needlessly Large Rod,Needlessly Large Rod,Stealth Ward
+Defeat,Normal (Draft Pick),2024-05-20,22min 23s,Karthus,Jungle,3/10/2,156,10,63%,Flash,Smite,Liandry's Torment,Health Potion,Blackfire Torch,Sorcerer's Shoes,None,None,Oracle Lens
+Victory,Normal (Draft Pick),2024-05-19,29min 54s,Hwei,Mid,9/6/4,226,21,41%,Flash,Teleport,Doran's Ring,Blackfire Torch,Liandry's Torment,Sorcerer's Shoes,Cryptbloom,Needlessly Large Rod,Stealth Ward
+Defeat,Normal (Draft Pick),2024-05-19,34min 51s,Jhin,Adc,4/11/8,223,11,34%,Flash,Heal,Doran's Blade,Boots of Swiftness,The Collector,Infinity Edge,Rapid Firecannon,Long Sword,Stealth Ward
+Victory,Normal (Draft Pick),2024-05-19,18min 55s,Jhin,Adc,0/4/5,127,8,33%,Flash,Heal,Doran's Blade,Boots of Swiftness,The Collector,Pickaxe,None,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-05-18,34min 59s,Caitlyn,Adc,9/10/9,234,20,46%,Flash,Heal,Bloodthirster,Berserker's Greaves,The Collector,Infinity Edge,Yun Tal Wildarrows,Cloak of Agility,Stealth Ward
+Victory,Normal (Draft Pick),2024-05-18,37min 4s,Caitlyn,Adc,9/14/5,179,17,23%,Flash,Heal,Cloak of Agility,The Collector,Berserker's Greaves,Infinity Edge,Yun Tal Wildarrows,Last Whisper,Stealth Ward
+3rd place,Arena,2024-05-17,23min 13s,Fiora,Adc,6/8/9,0,0,94%,None,None,Blade of The Ruined King,Ravenous Hydra,Divine Sunderer,Black Cleaver,Mirage Blade,Mercury's Treads,Arcane Sweeper
+Victory,Normal (Draft Pick),2024-05-17,33min 13s,Brand,Mid,7/7/6,191,16,33%,Flash,Teleport,Rylai's Crystal Scepter,Blackfire Torch,Liandry's Torment,Sorcerer's Shoes,Amplifying Tome,Amplifying Tome,Farsight Alteration
+Victory,Normal (Draft Pick),2024-05-17,27min 18s,Hwei,Mid,9/3/8,188,12,40%,Flash,Teleport,Blackfire Torch,Sorcerer's Shoes,Doran's Ring,Liandry's Torment,Shadowflame,Fiendish Codex,Stealth Ward
+3rd place,Arena,2024-05-16,19min 29s,Lucian,Support,9/7/5,0,0,100%,None,None,The Collector,Berserker's Greaves,Flesheater,Kraken Slayer,Mortal Reminder,Blade of The Ruined King,Arcane Sweeper
+Victory,Normal (Draft Pick),2024-05-16,27min 9s,Yone,Mid,2/8/8,175,12,33%,Flash,Teleport,Doran's Blade,Berserker's Greaves,Blade of The Ruined King,Immortal Shieldbow,B. F. Sword,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-05-16,40min 45s,Hwei,Mid,9/10/10,311,23,61%,Flash,Teleport,Rabadon's Deathcap,Zhonya's Hourglass,Blackfire Torch,Sorcerer's Shoes,Cryptbloom,Liandry's Torment,Farsight Alteration
+3rd place,Arena,2024-05-16,21min 33s,Shaco,None,16/11/2,0,0,100%,None,None,Rabadon's Deathcap,Rite Of Ruin,Reality Fracture,Blackfire Torch,Liandry's Anguish,Void Staff,Arcane Sweeper
+2nd place,Arena,2024-05-16,25min 45s,Jhin,Mid,13/5/5,0,0,95%,None,None,Talisman Of Ascension,Galeforce,Mortal Reminder,The Collector,Infinity Edge,Hamstringer,Arcane Sweeper
+Victory,Normal (Draft Pick),2024-05-16,27min 45s,Hwei,Mid,4/5/6,219,15,33%,Flash,Teleport,Doran's Ring,Seeker's Armguard,Liandry's Torment,Sorcerer's Shoes,Blackfire Torch,Needlessly Large Rod,Stealth Ward
+Victory,Normal (Draft Pick),2024-05-16,30min 36s,Hwei,Mid,12/4/6,223,20,55%,Flash,Teleport,Liandry's Torment,Shattered Armguard,Blackfire Torch,Sorcerer's Shoes,Needlessly Large Rod,Rabadon's Deathcap,Stealth Ward
+Defeat,Normal (Draft Pick),2024-05-14,24min 58s,Naafiri,Mid,10/8/4,170,12,64%,Flash,Ignite,Opportunity,Profane Hydra,Eclipse,Ionian Boots of Lucidity,Serylda's Grudge,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-05-14,15min 20s,Vex,Mid,0/1/1,123,6,6%,Flash,Teleport,Doran's Ring,Luden's Companion,Sorcerer's Shoes,None,None,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-05-14,29min 38s,Hwei,Mid,8/6/4,192,13,67%,Flash,Teleport,Horizon Focus,Seraph's Embrace,Cryptbloom,Needlessly Large Rod,Sorcerer's Shoes,Doran's Ring,Stealth Ward
+3rd place,Arena,2024-05-12,20min 10s,Diana,None,5/6/5,0,0,91%,None,None,Moonflair Spellblade,Sorcerer's Shoes,Night Harvester,Nashor's Tooth,Lich Bane,None,Arcane Sweeper
+Victory,Normal (Draft Pick),2024-05-09,45min 22s,Xayah,Adc,9/8/7,364,18,52%,Flash,Heal,Guardian Angel,Berserker's Greaves,Kraken Slayer,Navori Flickerblade,Bloodthirster,Phantom Dancer,Farsight Alteration
+3rd place,Arena,2024-05-09,22min 43s,Darius,Top,15/4/1,0,0,100%,None,None,Sundered Sky,Force Of Entropy,Overlord's Bloodmail,Sterak's Gage,Black Cleaver,Trinity Force,Arcane Sweeper
+7th place,Arena,2024-05-09,24min 44s,Corki,None,9/8/2,0,0,92%,None,None,Guardian's Hammer,Sorcerer's Shoes,Detonation Orb,Muramana,Malignance,Rite Of Ruin,Arcane Sweeper
+7th place,Arena,2024-05-09,26min 14s,Cho'Gath,None,2/6/4,0,0,120%,None,None,Titanic Hydra,Mercury's Treads,Shield of Molten Stone,Heartsteel,Sunfire Aegis,None,Arcane Sweeper
+7th place,Arena,2024-05-09,21min 33s,Cassiopeia,Jungle,7/6/2,1,0,100%,None,None,Guardian's Orb,Crown of the Shattered Queen,Seraph's Embrace,Rod of Ages,None,None,Arcane Sweeper
+3rd place,Arena,2024-05-09,23min 33s,Camille,Top,5/6/9,0,0,100%,None,None,Gargoyle Stoneplate,Ravenous Hydra,Mercury's Treads,Sundered Sky,Sterak's Gage,Death's Dance,Arcane Sweeper
+Victory,Soloqueue,2024-05-08,35min 59s,Hwei,Mid,10/3/12,217,17,54%,Flash,Teleport,Doran's Ring,Sorcerer's Shoes,Horizon Focus,Seraph's Embrace,Cryptbloom,Needlessly Large Rod,Stealth Ward
+5th place,Arena,2024-05-08,24min 10s,Caitlyn,Jungle,8/6/3,1,0,100%,None,None,Bloodthirster,Berserker's Greaves,Sword of the Divine,Infinity Edge,Lord Dominik's Regards,Kraken Slayer,Arcane Sweeper
+7th place,Arena,2024-05-08,18min 31s,Briar,Top,1/8/3,0,0,80%,None,None,Guardian's Dirk,Plated Steelcaps,Hemomancer's Helm,Hellfire Hatchet,Blade of The Ruined King,None,Arcane Sweeper
+Defeat,Normal (Draft Pick),2024-05-08,29min 5s,Diana,Mid,2/8/3,210,10,63%,Flash,Teleport,Doran's Ring,Seeker's Armguard,Shadowflame,Sorcerer's Shoes,Lich Bane,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-05-08,21min 4s,Samira,Adc,3/6/1,166,9,33%,Flash,Heal,Doran's Blade,The Collector,Plated Steelcaps,Infinity Edge,Long Sword,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-05-08,31min 13s,Akali,Mid,15/7/5,179,18,43%,Flash,Teleport,Doran's Shield,Zhonya's Hourglass,Sorcerer's Shoes,Shadowflame,Lich Bane,Needlessly Large Rod,Stealth Ward
+Victory,Normal (Draft Pick),2024-05-08,33min 47s,Swain,Mid,9/1/10,277,15,73%,Flash,Teleport,Liandry's Torment,Zhonya's Hourglass,Malignance,Sorcerer's Shoes,Spectre's Cowl,Rylai's Crystal Scepter,Stealth Ward
+Victory,Normal (Draft Pick),2024-05-08,18min 5s,Sylas,Mid,7/0/5,113,9,80%,Flash,Teleport,Doran's Ring,Lich Bane,Sorcerer's Shoes,Needlessly Large Rod,Hextech Alternator,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-05-08,44min 43s,Vex,Mid,13/11/17,261,32,51%,Flash,Teleport,Rabadon's Deathcap,Zhonya's Hourglass,Sorcerer's Shoes,Stormsurge,Luden's Companion,Shadowflame,Stealth Ward
+Victory,Soloqueue,2024-05-07,30min 13s,Hwei,Mid,10/3/9,170,17,40%,Flash,Teleport,Doran's Ring,Health Potion,Seraph's Embrace,Horizon Focus,Sorcerer's Shoes,Cryptbloom,Stealth Ward
+Victory,Normal (Draft Pick),2024-05-07,33min 57s,Ezreal,Adc,10/6/11,241,13,51%,Flash,Heal,Essence Reaver,Tiamat,Muramana,Ionian Boots of Lucidity,Spear of Shojin,Serylda's Grudge,Stealth Ward
+5th place,Arena,2024-05-07,25min 59s,Braum,Mid,6/6/3,0,0,100%,None,None,Moonflair Spellblade,Talisman Of Ascension,Mercury's Treads,"Jak'Sho, The Protean",None,None,Arcane Sweeper
+Victory,Normal (Draft Pick),2024-05-07,35min 31s,Hwei,Mid,4/7/12,262,15,32%,Flash,Teleport,Seraph's Embrace,Zhonya's Hourglass,Sorcerer's Shoes,Horizon Focus,Fiendish Codex,None,Farsight Alteration
+Defeat,Soloqueue,2024-05-06,24min 10s,Hwei,Mid,3/5/5,155,15,53%,Flash,Teleport,Seraph's Embrace,Sorcerer's Shoes,Horizon Focus,Doran's Ring,Blighting Jewel,Glowing Mote,Stealth Ward
+Victory,Soloqueue,2024-05-06,40min 24s,Lux,Mid,6/7/10,272,22,41%,Flash,Teleport,Blasting Wand,Zhonya's Hourglass,Malignance,Rabadon's Deathcap,Horizon Focus,Sorcerer's Shoes,Stealth Ward
+Defeat,Normal (Draft Pick),2024-05-05,39min 31s,Katarina,Mid,14/12/9,186,25,55%,Flash,Ignite,Mejai's Soulstealer,Zhonya's Hourglass,Shadowflame,Sorcerer's Shoes,Nashor's Tooth,Rabadon's Deathcap,Stealth Ward
+Defeat,Normal (Draft Pick),2024-05-05,25min 15s,Qiyana,Mid,7/5/1,156,10,42%,Flash,Ignite,Youmuu's Ghostblade,Profane Hydra,Ionian Boots of Lucidity,Last Whisper,The Brutalizer,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-05-05,23min 22s,Qiyana,Mid,8/7/8,114,15,67%,Flash,Ignite,Youmuu's Ghostblade,Profane Hydra,Ionian Boots of Lucidity,Doran's Blade,Pickaxe,Glowing Mote,Stealth Ward
+Victory,Normal (Draft Pick),2024-05-05,34min 14s,Camille,Top,8/5/10,210,20,50%,Flash,Teleport,Sterak's Gage,Ravenous Hydra,Trinity Force,Plated Steelcaps,Caulfield's Warhammer,Glowing Mote,Stealth Ward
+Victory,Soloqueue,2024-05-05,25min 5s,Hwei,Mid,7/2/11,155,11,50%,Flash,Teleport,Seraph's Embrace,Sorcerer's Shoes,Cryptbloom,Horizon Focus,None,None,Stealth Ward
+Defeat,Soloqueue,2024-05-05,39min 12s,Akshan,Mid,7/16/4,184,24,37%,Flash,Ignite,Terminus,Kraken Slayer,Blade of The Ruined King,Berserker's Greaves,Wit's End,Recurve Bow,Stealth Ward
+Defeat,Soloqueue,2024-05-05,27min 17s,Hwei,Mid,8/5/3,194,12,65%,Flash,Teleport,Doran's Ring,Horizon Focus,Sorcerer's Shoes,Seraph's Embrace,Liandry's Torment,Fiendish Codex,Stealth Ward
+Victory,Soloqueue,2024-05-05,36min 59s,Hwei,Mid,12/6/11,220,26,58%,Flash,Teleport,Rabadon's Deathcap,Needlessly Large Rod,Sorcerer's Shoes,Seraph's Embrace,Cryptbloom,Horizon Focus,Stealth Ward
+4th place,Arena,2024-05-02,26min 19s,Brand,None,5/6/8,0,0,93%,None,None,Guardian's Orb,Demonic Embrace,Cruelty,Liandry's Anguish,Rylai's Crystal Scepter,Sorcerer's Shoes,Arcane Sweeper
+8th place,Arena,2024-05-02,23min 36s,Blitzcrank,Mid,1/5/4,0,0,100%,None,None,Guardian's Orb,Randuin's Omen,Radiant Virtue,Heartsteel,Sorcerer's Shoes,None,Arcane Sweeper
+4th place,Arena,2024-05-02,22min 36s,Bel'Veth,None,8/7/1,0,0,100%,None,None,Guardian's Hammer,Berserker's Greaves,Hemomancer's Helm,Hellfire Hatchet,Blade of The Ruined King,Hamstringer,Arcane Sweeper
+3rd place,Arena,2024-05-02,21min 37s,Ashe,Top,8/10/1,0,2,100%,None,None,Darksteel Talons,Berserker's Greaves,Hamstringer,Kraken Slayer,Hellfire Hatchet,None,Arcane Sweeper
+4th place,Arena,2024-05-02,20min 1s,Aphelios,None,8/7/4,0,0,92%,None,None,Bloodthirster,Berserker's Greaves,Sword of the Divine,Kraken Slayer,Infinity Edge,Darksteel Talons,Arcane Sweeper
+2nd place,Arena,2024-05-02,22min 55s,Anivia,None,10/5/5,2,0,88%,None,None,Rabadon's Deathcap,Zhonya's Hourglass,Detonation Orb,Liandry's Anguish,Rod of Ages,Crown of the Shattered Queen,Arcane Sweeper
+3rd place,Arena,2024-05-02,22min 37s,Ahri,Mid,16/3/1,0,0,100%,None,None,Crown of the Shattered Queen,Everfrost,Sorcerer's Shoes,Malignance,Shadowflame,Runecarver,Arcane Sweeper
+4th place,Arena,2024-05-02,21min 42s,Aatrox,None,9/5/7,0,0,100%,None,None,Atma's Reckoning,Profane Hydra,Divine Sunderer,Mercury's Treads,The Collector,Death's Dance,Arcane Sweeper
+5th place,Arena,2024-05-02,22min 17s,Bel'Veth,Support,9/4/3,3,0,100%,None,None,Wit's End,Berserker's Greaves,Hemomancer's Helm,Hellfire Hatchet,Zephyr,Navori Quickblades,Arcane Sweeper
+2nd place,Arena,2024-05-02,24min 1s,Bard,Jungle,6/7/9,0,0,94%,None,None,Rabadon's Deathcap,Empyrean Promise,Night Harvester,Morellonomicon,Lich Bane,Luden's Companion,Arcane Sweeper
+3rd place,Arena,2024-05-02,25min 26s,Azir,None,9/14/3,3,0,100%,None,None,Innervating Locket,Zhonya's Hourglass,Runecarver,Nashor's Tooth,Liandry's Anguish,Banshee's Veil,Arcane Sweeper
+4th place,Arena,2024-05-02,20min 58s,Aurelion Sol,Support,5/9/4,2,0,113%,None,None,Bloodletter's Curse,Zhonya's Hourglass,Runecarver,Liandry's Anguish,Rabadon's Deathcap,Sorcerer's Shoes,Arcane Sweeper
+5th place,Arena,2024-05-02,21min 4s,Ashe,Jungle,3/7/8,0,1,92%,None,None,Flesheater,Berserker's Greaves,Dragonheart,Zephyr,Hellfire Hatchet,None,Arcane Sweeper
+7th place,Arena,2024-05-02,18min 28s,Aphelios,Jungle,3/9/4,0,0,100%,None,None,Guardian's Hammer,Berserker's Greaves,Gambler's Blade,Kraken Slayer,Zephyr,Rapid Firecannon,Arcane Sweeper
+1st place,Arena,2024-05-02,23min 6s,Annie,Mid,10/9/13,0,0,105%,None,None,Zhonya's Hourglass,Everfrost,Cruelty,Night Harvester,Liandry's Anguish,Void Staff,Arcane Sweeper
+8th place,Arena,2024-05-02,20min 49s,Anivia,Support,2/8/2,0,0,100%,None,None,Guardian's Orb,Sorcerer's Shoes,Dragonheart,Rod of Ages,Liandry's Anguish,None,Arcane Sweeper
+1st place,Arena,2024-05-02,21min 29s,Amumu,Mid,11/10/7,0,0,82%,None,None,Reality Fracture,Thornmail,Cruelty,Heartsteel,Force Of Entropy,Atma's Reckoning,Arcane Sweeper
+2nd place,Arena,2024-05-02,25min 10s,Alistar,Top,2/5/20,0,0,105%,None,None,Knight's Vow,Frozen Heart,Shield of Molten Stone,Sunfire Aegis,Thornmail,Darksteel Talons,Arcane Sweeper
+3rd place,Arena,2024-05-02,22min 4s,Akshan,Adc,6/5/5,0,0,92%,None,None,Dragonheart,Berserker's Greaves,Duskblade of Draktharr,Guinsoo's Rageblade,Kraken Slayer,None,Arcane Sweeper
+1st place,Arena,2024-05-02,18min 28s,Akali,None,11/4/10,1,0,95%,None,None,Rabadon's Deathcap,Zhonya's Hourglass,Decapitator,Heartsteel,Riftmaker,Moonflair Spellblade,Arcane Sweeper
+8th place,Arena,2024-05-02,22min 17s,Ahri,Top,1/6/1,1,0,100%,None,None,Guardian's Orb,Zhonya's Hourglass,Detonation Orb,Luden's Companion,Sorcerer's Shoes,None,Arcane Sweeper
+8th place,Arena,2024-05-02,23min 37s,Aatrox,Jungle,1/5/5,0,0,100%,None,None,Guardian's Blade,Mercury's Treads,Dragonheart,Guardian Angel,Black Cleaver,Hellfire Hatchet,Arcane Sweeper
+Defeat,Normal (Draft Pick),2024-05-01,27min 22s,Jhin,Adc,5/7/5,181,9,48%,Flash,Heal,Doran's Blade,Boots of Swiftness,Stormrazor,Infinity Edge,Kircheis Shard,Dagger,Stealth Ward
+Victory,Normal (Draft Pick),2024-05-01,33min 30s,Kai'Sa,Adc,11/7/12,232,20,55%,Flash,Ghost,Rabadon's Deathcap,Statikk Shiv,Berserker's Greaves,Guinsoo's Rageblade,Nashor's Tooth,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-05-01,16min 41s,Zoe,Mid,0/4/0,111,3,None,Flash,Ignite,Doran's Ring,Luden's Companion,Amplifying Tome,Boots,None,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-05-01,15min 42s,Diana,Mid,1/3/0,103,3,25%,Flash,Ignite,Doran's Ring,Lich Bane,Boots,None,None,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-05-01,30min 12s,Diana,Mid,5/12/3,191,11,50%,Flash,Ignite,Doran's Ring,Zhonya's Hourglass,Sorcerer's Shoes,Shadowflame,Lich Bane,None,Farsight Alteration
+Defeat,ARAM,2024-04-23,20min 49s,Jhin,Support,13/13/23,91,0,62%,Flash,Ghost,The Collector,Boots of Swiftness,Axiom Arc,Serylda's Grudge,Rapid Firecannon,B. F. Sword,None
+Defeat,ARAM,2024-04-23,21min 38s,Ashe,Support,3/19/13,70,4,40%,Flash,Ghost,Kraken Slayer,Blade of The Ruined King,Berserker's Greaves,Runaan's Hurricane,Negatron Cloak,None,None
+Defeat,Soloqueue,2024-04-17,38min 0s,Hwei,Mid,4/6/6,250,19,53%,Flash,Teleport,Needlessly Large Rod,Sorcerer's Shoes,Horizon Focus,Seraph's Embrace,Cryptbloom,Hextech Alternator,Stealth Ward
+Victory,Soloqueue,2024-04-17,40min 28s,Hwei,Mid,10/4/13,284,23,66%,Flash,Teleport,Needlessly Large Rod,Horizon Focus,Seraph's Embrace,Cryptbloom,Sorcerer's Shoes,Liandry's Torment,Farsight Alteration
+Victory,Normal (Draft Pick),2024-04-10,28min 40s,Ezreal,Adc,15/4/12,215,10,54%,Flash,Cleanse,Cloth Armor,Muramana,Essence Reaver,Spear of Shojin,Ionian Boots of Lucidity,Serylda's Grudge,Farsight Alteration
+Victory,Normal (Draft Pick),2024-04-10,28min 20s,Smolder,Adc,11/2/7,290,22,55%,Flash,Ghost,Essence Reaver,Spear of Shojin,Ionian Boots of Lucidity,Rapid Firecannon,Doran's Blade,Cloak of Agility,Stealth Ward
+Defeat,Normal (Draft Pick),2024-04-10,19min 0s,Kai'Sa,Adc,3/3/1,137,10,44%,Flash,Cleanse,Doran's Blade,Recurve Bow,Statikk Shiv,Berserker's Greaves,Amplifying Tome,Pickaxe,Stealth Ward
+Victory,Normal (Draft Pick),2024-04-10,37min 44s,Xayah,Adc,14/3/8,316,30,71%,Flash,Cleanse,Bloodthirster,Berserker's Greaves,Navori Flickerblade,Kraken Slayer,Lord Dominik's Regards,Steel Sigil,Stealth Ward
+Victory,One For All,2024-04-05,10min 14s,Skarner,Mid,3/0/10,51,6,52%,Flash,Ghost,Tear of the Goddess,Health Potion,Doran's Shield,Iceborn Gauntlet,Plated Steelcaps,Cloth Armor,Stealth Ward
+Defeat,One For All,2024-04-05,10min 55s,Skarner,Top,2/0/3,50,5,36%,Flash,Ghost,Iceborn Gauntlet,Plated Steelcaps,Tear of the Goddess,Bramble Vest,Ruby Crystal,None,Stealth Ward
+Defeat,One For All,2024-04-04,21min 50s,Kayle,Jungle,7/10/8,117,13,60%,Flash,Ghost,Kraken Slayer,Berserker's Greaves,Guinsoo's Rageblade,Blade of The Ruined King,Terminus,None,Stealth Ward
+Victory,One For All,2024-04-04,31min 44s,Volibear,Support,5/10/6,215,24,28%,Flash,Ghost,Nashor's Tooth,Mercury's Treads,Kaenic Rookern,Spirit Visage,Unending Despair,Riftmaker,Oracle Lens
+Defeat,Normal (Draft Pick),2024-04-03,37min 12s,Sylas,Mid,9/8/8,249,22,50%,Flash,Teleport,Lich Bane,Zhonya's Hourglass,Sorcerer's Shoes,Shadowflame,Stormsurge,Blighting Jewel,Stealth Ward
+Victory,Normal (Draft Pick),2024-04-03,17min 55s,Smolder,Adc,8/2/4,133,6,50%,Flash,Heal,Doran's Blade,Essence Reaver,Ionian Boots of Lucidity,Ruby Crystal,Pickaxe,Caulfield's Warhammer,Stealth Ward
+Defeat,ARAM,2024-04-03,13min 14s,Cho'Gath,Mid,10/8/18,30,0,78%,Flash,Mark,Heartsteel,Refillable Potion,Mercury's Treads,Warmog's Armor,Sunfire Aegis,None,Poro-Snax
+Defeat,Normal (Quickplay),2024-04-02,33min 18s,Fiora,Top,2/13/1,216,19,14%,Flash,Teleport,Trinity Force,Ravenous Hydra,Plated Steelcaps,Death's Dance,Ruby Crystal,None,Stealth Ward
+Defeat,Normal (Quickplay),2024-04-02,46min 9s,Volibear,Jungle,3/10/7,258,18,22%,Flash,Smite,Sundered Sky,Dead Man's Plate,Spirit Visage,Ionian Boots of Lucidity,Thornmail,Warden's Mail,Oracle Lens
+Victory,One For All,2024-04-02,24min 17s,Rakan,Mid,9/4/14,118,10,61%,Flash,Ghost,Malignance,Ionian Boots of Lucidity,Stormsurge,Shadowflame,Rabadon's Deathcap,None,Stealth Ward
+Victory,ARAM,2024-04-02,14min 33s,Ekko,Adc,1/11/20,19,0,53%,Flash,Mark,Luden's Companion,Refillable Potion,Lich Bane,Sorcerer's Shoes,Aether Wisp,Amplifying Tome,Poro-Snax
+Victory,Normal (Quickplay),2024-04-02,34min 32s,Kai'Sa,Adc,9/6/14,234,13,50%,Flash,Heal,Nashor's Tooth,Statikk Shiv,Berserker's Greaves,Guinsoo's Rageblade,Rabadon's Deathcap,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-04-01,26min 17s,Vex,Mid,11/1/9,243,13,57%,Flash,Teleport,Doran's Ring,Health Potion,Luden's Companion,Sorcerer's Shoes,Stormsurge,Shadowflame,Stealth Ward
+Defeat,Normal (Draft Pick),2024-04-01,36min 24s,Hwei,Mid,6/5/9,294,16,43%,Flash,Teleport,Horizon Focus,Shadowflame,Seraph's Embrace,Sorcerer's Shoes,Cryptbloom,Amplifying Tome,Stealth Ward
+Remake,Normal (Draft Pick),2024-04-01,1min 47s,Hwei,Mid,0/0/0,2,0,None,Flash,Teleport,Doran's Ring,Health Potion,None,None,None,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-04-01,32min 55s,Sylas,Mid,13/3/12,190,22,68%,Flash,Teleport,Doran's Ring,Zhonya's Hourglass,Stormsurge,Shadowflame,Sorcerer's Shoes,Needlessly Large Rod,Stealth Ward
+Victory,ARAM,2024-04-01,24min 25s,Annie,Top,14/11/39,75,0,71%,Flash,Mark,Seraph's Embrace,Shadowflame,Malignance,Sorcerer's Shoes,Stormsurge,Void Staff,Poro-Snax
+Remake,Normal (Draft Pick),2024-04-01,1min 43s,Hwei,Mid,0/0/0,1,0,None,Flash,Teleport,Doran's Ring,Health Potion,None,None,None,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-04-01,17min 6s,Lux,Mid,2/4/2,118,7,33%,Flash,Teleport,Doran's Ring,Malignance,Sorcerer's Shoes,Fiendish Codex,Amplifying Tome,Amplifying Tome,Stealth Ward
+Defeat,Normal (Draft Pick),2024-04-01,24min 53s,Kai'Sa,Adc,13/9/7,191,10,77%,Flash,Heal,Nashor's Tooth,Statikk Shiv,Berserker's Greaves,Guinsoo's Rageblade,Shadowflame,None,Stealth Ward
+Victory,ARAM,2024-03-30,12min 13s,Briar,Top,8/7/28,26,0,75%,Flash,Mark,Sundered Sky,Mercury's Treads,Sterak's Gage,Spectre's Cowl,Kindlegem,None,Poro-Snax
+Defeat,ARAM,2024-03-28,26min 37s,Pyke,Support,25/16/21,22,0,59%,Flash,Mark,Axiom Arc,The Collector,Ionian Boots of Lucidity,Edge of Night,Serylda's Grudge,Opportunity,Poro-Snax
+Defeat,Normal (Draft Pick),2024-03-28,33min 36s,Caitlyn,Adc,11/7/13,241,23,75%,Flash,Heal,Bloodthirster,Berserker's Greaves,Stormrazor,Infinity Edge,Rapid Firecannon,Last Whisper,Stealth Ward
+Victory,Normal (Draft Pick),2024-03-28,30min 17s,Kai'Sa,Adc,11/4/10,270,13,51%,Flash,Heal,Rabadon's Deathcap,Statikk Shiv,Berserker's Greaves,Guinsoo's Rageblade,Nashor's Tooth,Shadowflame,Stealth Ward
+Defeat,Normal (Draft Pick),2024-03-28,24min 25s,Ahri,Mid,1/8/1,153,14,25%,Flash,Teleport,Doran's Ring,Malignance,Stormsurge,Sorcerer's Shoes,None,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-03-28,20min 34s,Xayah,Adc,6/2/3,153,6,38%,Flash,Cleanse,Doran's Blade,Kraken Slayer,Berserker's Greaves,B. F. Sword,Caulfield's Warhammer,Cloak of Agility,Stealth Ward
+Defeat,Normal (Draft Pick),2024-03-28,15min 47s,Hwei,Mid,0/4/2,118,5,17%,Flash,Teleport,Doran's Ring,Liandry's Torment,Boots,Tear of the Goddess,None,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-03-27,30min 46s,Kai'Sa,Mid,5/10/6,247,23,55%,Flash,Teleport,Statikk Shiv,Zhonya's Hourglass,Berserker's Greaves,Guinsoo's Rageblade,Nashor's Tooth,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-03-27,28min 25s,Nilah,Adc,2/7/3,186,12,19%,Flash,Heal,Doran's Blade,The Collector,Navori Flickerblade,Berserker's Greaves,Cloak of Agility,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-03-27,34min 24s,Smolder,Adc,3/13/9,212,12,52%,Flash,Heal,Rapid Firecannon,Essence Reaver,Spear of Shojin,Ionian Boots of Lucidity,Vampiric Scepter,Cloak of Agility,Farsight Alteration
+Defeat,ARAM,2024-03-27,19min 35s,Vayne,Mid,10/12/16,63,0,65%,Flash,Ghost,Guardian's Hammer,Guinsoo's Rageblade,Berserker's Greaves,Blade of The Ruined King,Terminus,Vampiric Scepter,None
+Victory,Normal (Draft Pick),2024-03-27,27min 6s,Hwei,Mid,7/3/4,197,15,46%,Flash,Teleport,Cryptbloom,Seraph's Embrace,Ionian Boots of Lucidity,Horizon Focus,Needlessly Large Rod,None,Stealth Ward
+Defeat,ARAM,2024-03-25,19min 4s,Samira,Mid,14/14/14,98,0,76%,Flash,Mark,Guardian's Hammer,Immortal Shieldbow,Mercury's Treads,The Collector,Infinity Edge,Death's Dance,None
+Defeat,ARAM,2024-03-25,14min 0s,Urgot,Top,8/10/14,59,0,73%,Flash,Mark,Plated Steelcaps,Titanic Hydra,Heartsteel,Phage,Ruby Crystal,Caulfield's Warhammer,None
+Defeat,ARAM,2024-03-25,12min 44s,Jayce,Top,6/9/16,29,0,76%,Flash,Mark,Hubris,Ionian Boots of Lucidity,Muramana,Last Whisper,Glowing Mote,None,Poro-Snax
+Defeat,Normal (Draft Pick),2024-03-25,36min 9s,Kai'Sa,Adc,12/10/1,257,26,42%,Flash,Heal,Wit's End,Kaenic Rookern,Berserker's Greaves,Guinsoo's Rageblade,Nashor's Tooth,Statikk Shiv,Stealth Ward
+Victory,Normal (Draft Pick),2024-03-25,29min 39s,Kai'Sa,Adc,4/9/9,231,25,28%,Flash,Heal,Doran's Blade,Statikk Shiv,Berserker's Greaves,Guinsoo's Rageblade,Nashor's Tooth,Needlessly Large Rod,Stealth Ward
+Defeat,Normal (Draft Pick),2024-03-25,31min 26s,Smolder,Adc,1/10/7,230,22,38%,Flash,Heal,Rapid Firecannon,Essence Reaver,Ionian Boots of Lucidity,Spear of Shojin,Haunting Guise,None,Stealth Ward
+Victory,ARAM,2024-03-24,26min 53s,Akali,Mid,15/20/16,28,0,41%,Flash,Mark,Lich Bane,Zhonya's Hourglass,Shadowflame,Rabadon's Deathcap,Sorcerer's Shoes,Verdant Barrier,None
+Defeat,ARAM,2024-03-24,23min 54s,Zeri,Jungle,17/17/36,115,0,77%,Flash,Ghost,Statikk Shiv,Berserker's Greaves,Navori Flickerblade,Runaan's Hurricane,Immortal Shieldbow,Bloodthirster,None
+Defeat,Normal (Draft Pick),2024-03-24,21min 13s,Yone,Mid,2/4/1,150,8,38%,Flash,Ignite,Doran's Blade,Kraken Slayer,Berserker's Greaves,Vampiric Scepter,Pickaxe,Recurve Bow,Stealth Ward
+Defeat,Normal (Draft Pick),2024-03-24,44min 10s,Twitch,Adc,9/9/11,258,29,48%,Flash,Heal,Blade of The Ruined King,Zhonya's Hourglass,Ionian Boots of Lucidity,Rabadon's Deathcap,Needlessly Large Rod,Nashor's Tooth,Stealth Ward
+Victory,Normal (Draft Pick),2024-03-24,35min 17s,Senna,Adc,3/7/13,185,21,37%,Flash,Heal,Pickaxe,Youmuu's Ghostblade,Boots of Swiftness,Opportunity,Rapid Firecannon,B. F. Sword,Stealth Ward
+Victory,One For All,2024-03-23,17min 6s,Malzahar,Top,5/5/10,66,7,47%,Flash,Teleport,Seraph's Embrace,Liandry's Torment,Sorcerer's Shoes,Rylai's Crystal Scepter,None,None,Stealth Ward
+Defeat,One For All,2024-03-23,23min 4s,Yasuo,Top,2/7/6,158,12,47%,Flash,Ghost,Immortal Shieldbow,Blade of The Ruined King,Berserker's Greaves,Kraken Slayer,Steel Sigil,Long Sword,Stealth Ward
+Victory,One For All,2024-03-23,11min 50s,Annie,Jungle,10/1/8,59,2,50%,Flash,Ignite,Malignance,Fiendish Codex,Sorcerer's Shoes,Liandry's Torment,Lost Chapter,Tear of the Goddess,Stealth Ward
+Defeat,One For All,2024-03-22,32min 39s,Heimerdinger,Top,5/5/9,152,20,45%,Flash,Teleport,Liandry's Torment,Zhonya's Hourglass,Sorcerer's Shoes,Rylai's Crystal Scepter,Rabadon's Deathcap,Shadowflame,Stealth Ward
+Defeat,One For All,2024-03-22,15min 7s,Yorick,Top,11/4/2,126,2,38%,Flash,Ghost,Plated Steelcaps,Profane Hydra,Eclipse,Thornmail,Trinity Force,Caulfield's Warhammer,Stealth Ward
+Victory,One For All,2024-03-22,27min 18s,Illaoi,Jungle,11/9/6,126,13,43%,Flash,Ghost,Iceborn Gauntlet,"Jak'Sho, The Protean",Plated Steelcaps,Sundered Sky,Black Cleaver,Sterak's Gage,Stealth Ward
+Defeat,One For All,2024-03-22,18min 48s,Aurelion Sol,Support,11/6/5,94,10,70%,Flash,Teleport,Sorcerer's Shoes,Rylai's Crystal Scepter,Shadowflame,Seraph's Embrace,Liandry's Torment,Needlessly Large Rod,Stealth Ward
+Victory,One For All,2024-03-22,32min 6s,Kai'Sa,Jungle,7/11/18,204,14,48%,Flash,Ghost,Muramana,Cryptbloom,Luden's Companion,Force of Nature,Rabadon's Deathcap,Kaenic Rookern,Oracle Lens
+Victory,One For All,2024-03-21,23min 28s,Graves,Mid,8/2/8,154,3,44%,Flash,Ghost,The Collector,Lord Dominik's Regards,Mercury's Treads,Immortal Shieldbow,Kaenic Rookern,B. F. Sword,Oracle Lens
+Victory,One For All,2024-03-21,19min 3s,Mordekaiser,Top,5/3/3,106,6,32%,Flash,Ghost,Rylai's Crystal Scepter,Mercury's Treads,Riftmaker,Kaenic Rookern,Null-Magic Mantle,None,Stealth Ward
+Defeat,One For All,2024-03-21,13min 29s,Garen,Top,3/4/0,52,5,75%,Flash,Ghost,Doran's Shield,Stridebreaker,Mercury's Treads,Spectre's Cowl,Null-Magic Mantle,None,Stealth Ward
+Defeat,One For All,2024-03-21,27min 43s,Lissandra,Top,4/9/18,122,11,48%,Flash,Teleport,Malignance,Zhonya's Hourglass,Sorcerer's Shoes,Shadowflame,Cryptbloom,Needlessly Large Rod,Stealth Ward
+Defeat,Normal (Draft Pick),2024-03-20,31min 57s,Ezreal,Adc,2/11/7,196,18,25%,Flash,Heal,Muramana,Essence Reaver,Ionian Boots of Lucidity,Navori Flickerblade,Long Sword,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-03-20,16min 2s,Smolder,Adc,0/4/4,95,5,29%,Flash,Heal,Doran's Ring,Essence Reaver,Ionian Boots of Lucidity,None,None,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-03-20,15min 19s,Karma,Mid,2/4/0,99,5,25%,Flash,Teleport,Doran's Ring,Malignance,Ionian Boots of Lucidity,Glowing Mote,Glowing Mote,None,Stealth Ward
+Victory,ARAM,2024-03-19,21min 51s,Smolder,Jungle,13/16/28,122,0,69%,Flash,Barrier,Essence Reaver,,Ionian Boots of Lucidity,Liandry's Torment,Rapid Firecannon,Vampiric Scepter,Poro-Snax
+Victory,ARAM,2024-03-19,17min 23s,Lux,Mid,5/8/30,38,0,69%,Flash,Barrier,Guardian's Orb,Seraph's Embrace,Malignance,Sorcerer's Shoes,Stormsurge,None,Poro-Snax
+Defeat,ARAM,2024-03-17,27min 58s,Xayah,Adc,27/23/30,114,0,68%,Flash,Ghost,Kraken Slayer,Immortal Shieldbow,Navori Flickerblade,Bloodthirster,Lord Dominik's Regards,Phantom Dancer,Poro-Snax
+Victory,ARAM,2024-03-17,21min 25s,Sivir,Support,12/12/36,138,0,75%,Flash,Ghost,Statikk Shiv,Berserker's Greaves,Navori Flickerblade,Bloodthirster,Phantom Dancer,Blade of The Ruined King,Poro-Snax
+Victory,Normal (Draft Pick),2024-03-17,35min 22s,Karma,Mid,0/11/9,215,17,24%,Flash,Teleport,Malignance,Zhonya's Hourglass,Ionian Boots of Lucidity,Cosmic Drive,Fiendish Codex,Amplifying Tome,Stealth Ward
+Victory,Normal (Draft Pick),2024-03-17,31min 58s,Smolder,Adc,5/6/5,238,15,30%,Flash,Cleanse,Doran's Ring,Essence Reaver,Ionian Boots of Lucidity,Spear of Shojin,Rapid Firecannon,Cloak of Agility,Stealth Ward
+Victory,Normal (Draft Pick),2024-03-17,32min 1s,Karma,Mid,6/6/17,222,17,52%,Flash,Teleport,Horizon Focus,Ionian Boots of Lucidity,Malignance,Cosmic Drive,Cryptbloom,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-03-17,27min 32s,Hwei,Mid,8/2/10,180,10,56%,Flash,Teleport,Doran's Ring,Seraph's Embrace,Sorcerer's Shoes,Liandry's Torment,Blighting Jewel,Fiendish Codex,Stealth Ward
+Victory,Normal (Draft Pick),2024-03-17,21min 25s,Hwei,Mid,0/4/6,157,10,35%,Flash,Teleport,Doran's Ring,Seraph's Embrace,Sorcerer's Shoes,Fiendish Codex,Hextech Alternator,None,Stealth Ward
+Victory,Normal (Draft Pick),2024-03-16,27min 46s,Hwei,Mid,9/2/9,200,11,50%,Flash,Teleport,Seraph's Embrace,Sorcerer's Shoes,Horizon Focus,Cryptbloom,Haunting Guise,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-03-16,34min 10s,Smolder,Adc,3/8/6,262,21,50%,Flash,Heal,Bloodthirster,Essence Reaver,Ionian Boots of Lucidity,Spear of Shojin,Zeal,Kircheis Shard,Stealth Ward
+Defeat,Normal (Draft Pick),2024-03-16,35min 17s,Ezreal,Adc,6/4/5,285,21,48%,Flash,Heal,Spear of Shojin,Essence Reaver,Muramana,Ionian Boots of Lucidity,Navori Flickerblade,Long Sword,Stealth Ward
+Defeat,ARAM,2024-03-15,20min 29s,Twisted Fate,Jungle,2/13/25,57,0,61%,Flash,Barrier,Luden's Companion,Lich Bane,Rapid Firecannon,Sorcerer's Shoes,Blighting Jewel,Blasting Wand,Poro-Snax
+Defeat,ARAM,2024-03-15,19min 5s,Hwei,Top,27/9/23,80,0,78%,Flash,Barrier,Luden's Companion,Zhonya's Hourglass,Sorcerer's Shoes,Shadowflame,Liandry's Torment,Rabadon's Deathcap,Poro-Snax
+Victory,ARAM,2024-03-15,16min 35s,Bel'Veth,Mid,16/9/16,57,0,63%,Flash,Ghost,Guardian's Hammer,Death's Dance,Mercury's Treads,Kraken Slayer,Blade of The Ruined King,Phage,Poro-Snax
+Defeat,Normal (Draft Pick),2024-03-15,11min 5s,Smolder,Adc,1/1/0,75,4,50%,Flash,Cleanse,Doran's Blade,Cloak of Agility,Sheen,Long Sword,Glowing Mote,None,Stealth Ward
+Defeat,Normal (Draft Pick),2024-03-15,28min 16s,Smolder,Adc,6/8/5,197,14,50%,Flash,Cleanse,Cloak of Agility,Essence Reaver,Ionian Boots of Lucidity,Spear of Shojin,B. F. Sword,Vampiric Scepter,Farsight Alteration
+Defeat,Normal (Draft Pick),2024-03-15,34min 40s,Senna,Adc,8/10/10,204,15,50%,Flash,Exhaust,Rapid Firecannon,Youmuu's Ghostblade,Opportunity,Boots of Swiftness,Edge of Night,Long Sword,Stealth Ward
+Victory,Normal (Draft Pick),2024-03-14,44min 46s,Kai'Sa,Adc,10/11/11,294,26,58%,Flash,Cleanse,Cryptbloom,Zhonya's Hourglass,Luden's Companion,Rabadon's Deathcap,Sorcerer's Shoes,Muramana,Farsight Alteration
+Defeat,Normal (Draft Pick),2024-03-14,38min 28s,Smolder,Adc,12/8/3,281,23,65%,Flash,Heal,Bloodthirster,Essence Reaver,Ionian Boots of Lucidity,Spear of Shojin,Rapid Firecannon,Mortal Reminder,Stealth Ward
+Victory,Normal (Draft Pick),2024-03-14,29min 8s,Smolder,Adc,10/3/12,219,16,76%,Flash,Heal,Vampiric Scepter,Essence Reaver,Ionian Boots of Lucidity,Spear of Shojin,Rapid Firecannon,B. F. Sword,Stealth Ward
+Defeat,Normal (Draft Pick),2024-03-14,31min 45s,Kai'Sa,Adc,9/10/5,206,18,56%,Flash,Heal,Cryptbloom,Muramana,Rabadon's Deathcap,Luden's Companion,Amplifying Tome,Sorcerer's Shoes,Farsight Alteration
