@@ -1,5 +1,6 @@
+import re
 import time
-from datetime import datetime
+from datetime import datetime, timedelta
 import dateparser
 import pandas as pd
 import selenium.common.exceptions
@@ -58,23 +59,30 @@ class LogScraper:
                                                                   "div[contains(@class,'gameDate')]")]
         print(f"game date done after {time.time() - self.start_time} seconds", len(game_date))
 
-        game_duration = [gd.text for gd in
+        def parse_duration(s):
+            match = re.match(r"(\d+)min (\d+)s", s)
+            if match:
+                minutes, seconds = map(int, match.groups())
+                return timedelta(minutes=minutes, seconds=seconds)
+            else:
+                return timedelta(seconds=0)
+        game_duration = [parse_duration(gd.text) for gd in
                      self.driver.find_elements(by=By.XPATH, value="//table[contains(@class,'recentGamesTable')]//"
                                                                   "td[contains(@class,'resultCellLight')]//"
                                                                   "div[contains(@class,'gameDuration')]")]
         print(f"game duration done after {time.time() - self.start_time} seconds", len(game_duration))
-        kills = [k.text for k in
+        kills = [int(k.text) for k in
                  self.driver.find_elements(by=By.XPATH, value="//table[contains(@class,'recentGamesTable')]//"
                                                               "div[@class='kda']/span[@class = 'kills']")]
-        deaths = [d.text for d in
+        deaths = [int(d.text) for d in
                  self.driver.find_elements(by=By.XPATH, value="//table[contains(@class,'recentGamesTable')]//"
                                                               "div[@class='kda']/span[@class = 'deaths']")]
-        assists = [a.text for a in
+        assists = [int(a.text) for a in
                  self.driver.find_elements(by=By.XPATH, value="//table[contains(@class,'recentGamesTable')]//"
                                                               "div[@class='kda']/span[@class = 'assists']")]
         #KDA is kills, deaths, and assists
-        kdas = [f"{k}/{d}/{a}" for k, d, a in zip(kills, deaths, assists)]
-        print(f"kda done after {time.time() - self.start_time} seconds", len(kdas))
+        # kdas = [f"{k}/{d}/{a}" for k, d, a in zip(kills, deaths, assists)]
+        print(f"kda done after {time.time() - self.start_time} seconds", len(kills))
         champs_per_game = [c.get_attribute("alt") for c in
                  self.driver.find_elements(by=By.XPATH, value="//table[contains(@class,'recentGamesTable')]//"
                                                               "td[@class='championCellLight']//"
@@ -152,10 +160,10 @@ class LogScraper:
             grouped_items.append(items)
         print(f"item groups done after {time.time() - self.start_time} seconds", len(grouped_items))
         self.df = pd.DataFrame(
-            list(zip(win_lose, game_mode, game_date, game_duration, champs_per_game, roles, kdas, cs,
-                     vision_score, kp)),
-            columns=["win/lose", "game_mode", "game_date", "game_duration", "champion", "role", "KDA", "CS",
-                     "Vision Score", "KP"])
+            list(zip(win_lose, game_mode, game_date, game_duration, champs_per_game, roles, cs,
+                     kills, deaths, assists, vision_score, kp)),
+            columns=["win/lose", "game_mode", "game_date", "game_duration", "champion", "role", "CS",
+                     "kills", "deaths", "assists", "Vision Score", "KP"])
         if len(grouped_summs) == len(self.df):
             self.df[['Summoner Spell 1', 'Summoner Spell 2']] = grouped_summs
         else:
@@ -164,7 +172,15 @@ class LogScraper:
             self.df[['Item 1', 'Item 2', 'Item 3', 'Item 4', 'Item 5', 'Item 6', 'Ward']] = grouped_items
         else:
             self.df[['Item 1', 'Item 2', 'Item 3', 'Item 4', 'Item 5', 'Item 6', 'Ward']] = grouped_items[:len(self.df)]
-        print(self.df.tail(10))
+        self.df['KDA'] = ((self.df['kills'] + self.df['assists']) / self.df['deaths']).round(2)
+        self.df['CS/min'] = (self.df['CS'] / (self.df['game_duration'].dt.total_seconds() / 60)).round(2)
+        # Replace any errors with 0.0
+        self.df['KDA'] = self.df['KDA'].replace([float('inf'), float('nan')], 0.0)
+        self.df['CS/min'] = self.df['CS/min'].where(self.df['game_duration'].dt.total_seconds() > 0, 0.0)
+        # Remove '0 days'
+        self.df['game_duration'] = self.df['game_duration'].astype(str).str.replace("0 days ", "", regex=False)
+        print(self.df.head(5))
+        print(self.df.tail(5))
         print(self.df.info())
         self.df.to_csv("data_to_analyze.csv", index=False)
 
